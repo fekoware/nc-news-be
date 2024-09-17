@@ -1,0 +1,147 @@
+{
+  "GET /api": {
+    "description": "serves up a json representation of all the available endpoints of the api"
+  },
+  "GET /api/topics": {
+    "description": "serves an array of all topics",
+    "queries": [],
+    "exampleResponse": {
+      "topics": [
+        {
+          "slug": "football",
+          "description": "Footie!"
+        }
+      ]
+    }
+  },
+  "GET /api/articles": {
+    "description": "serves an array of all articles",
+    "queries": [
+      "author",
+      "topic",
+      "sort_by",
+      "order"
+    ],
+    "exampleResponse": {
+      "articles": [
+        {
+          "title": "Seafood substitutions are increasing",
+          "topic": "cooking",
+          "author": "weegembump",
+          "body": "Text from the article..",
+          "created_at": "2018-05-30T15:59:13.341Z",
+          "votes": 0,
+          "comment_count": 6
+        }
+      ]
+    }
+  },
+  "GET /api/articles/:article_id": {
+    "description": "serves an object article by given id",
+    "queries": [],
+    "exampleResponse": {
+      "article": [
+        {
+          "article_id": 1,
+          "title": "Living in the shadow of a great man",
+          "topic": "mitch",
+          "author": "butter_bridge",
+          "body": "I find this existence challenging",
+          "created_at": "2020-07-09T20:11:00.000Z",
+          "votes": 100,
+          "article_img_url": "https://images.pexels.com/photos/158651/news-newsletter-newspaper-information-158651.jpeg?w=700&h=700",
+          "comment_count": 11
+        }
+      ]
+    }
+  },
+  "GET /api/articles/:article_id/comments": {
+    "description": "serves an array of all comments with the same article_id key/value pair",
+    "queries": [
+      "order"
+    ],
+    "exampleResponse": {
+      "comments": [
+        {
+          "comment_id": 11,
+          "body": "Ambidextrous marsupial",
+          "article_id": 3,
+          "author": "icellusedkars",
+          "votes": 0,
+          "created_at": "2020-09-19T23:10:00.000Z"
+        },
+        {
+          "comment_id": 10,
+          "body": "git push origin master",
+          "article_id": 3,
+          "author": "icellusedkars",
+          "votes": 0,
+          "created_at": "2020-06-20T07:24:00.000Z"
+        }
+      ]
+    }
+  },
+  "GET /api/users": {
+    "description": "serves an array of all users",
+    "queries": [],
+    "exampleResponse": {
+      "users": [
+        {
+          "username": "butter_bridge",
+          "name": "jonny",
+          "avatar_url": "https://www.healthytherapies.com/wp-content/uploads/2016/06/Lime3.jpg"
+        },
+        {
+          "username": "icellusedkars",
+          "name": "sam",
+          "avatar_url": "https://avatars2.githubusercontent.com/u/24604688?s=460&v=4"
+        },
+        {
+          "username": "rogersop",
+          "name": "paul",
+          "avatar_url": "https://avatars2.githubusercontent.com/u/24394918?s=400&v=4"
+        },
+        {
+          "username": "lurker",
+          "name": "do_nothing",
+          "avatar_url": "https://www.golenbock.com/wp-content/uploads/2015/01/placeholder-user.png"
+        }
+      ]
+    }
+  },
+  "POST /api/articles/:article_id/comments": {
+    "description": "inserts new comment into database relative to article_id and serves comment to client",
+    "queries": [],
+    "exampleResponse": {
+      "comment": {
+        "comment_id": 19,
+        "body": "testing api posting",
+        "article_id": 3,
+        "author": "icellusedkars",
+        "votes": 0,
+        "created_at": "2024-07-19T11:08:47.325Z"
+      }
+    }
+  },
+  "PATCH /api/articles/:article_id": {
+    "description": "updates valid article vote property",
+    "queries": [],
+    "exampleResponse": {
+      "article": {
+        "article_id": 2,
+        "title": "Sony Vaio; or, The Laptop",
+        "topic": "mitch",
+        "author": "icellusedkars",
+        "body": "Call me Mitchell. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would buy a laptop about a little and see the codey part of the world. It is a way I have of driving off the spleen and regulating the circulation. Whenever I find myself growing grim about the mouth; whenever it is a damp, drizzly November in my soul; whenever I find myself involuntarily pausing before coffin warehouses, and bringing up the rear of every funeral I meet; and especially whenever my hypos get such an upper hand of me, that it requires a strong moral principle to prevent me from deliberately stepping into the street, and methodically knocking people’s hats off—then, I account it high time to get to coding as soon as I can. This is my substitute for pistol and ball. With a philosophical flourish Cato throws himself upon his sword; I quietly take to the laptop. There is nothing surprising in this. If they but knew it, almost all men in their degree, some time or other, cherish very nearly the same feelings towards the the Vaio with me.",
+        "created_at": "2020-10-16T05:03:00.000Z",
+        "votes": 3,
+        "article_img_url": "https://images.pexels.com/photos/158651/news-newsletter-newspaper-information-158651.jpeg?w=700&h=700"
+      }
+    }
+  },
+  "DELETE /api/comments/:comment_id": {
+    "description": "deletes a comment by comment id",
+    "queries": []
+  }
+  
+}
