@@ -3,14 +3,17 @@ const { topicData } = require("../db/data/test-data");
 
 const fetchArticleById = (id) => {
   return db
-    .query(`SELECT articles.*, COUNT(comments.article_id) AS comment_count 
+    .query(
+      `SELECT articles.*, COUNT(comments.article_id) AS comment_count 
       FROM articles
       LEFT JOIN comments ON articles.article_id = comments.article_id
       WHERE articles.article_id = $1
       GROUP BY articles.article_id;
 
       
-      ;`, [id])
+      ;`,
+      [id]
+    )
     .then((result) => {
       if (result.rows.length === 0) {
         return Promise.reject({ message: "Not Found", status: 404 });
@@ -28,7 +31,6 @@ const checkTopics = (topic) => {
       [topic]
     )
     .then((result) => {
-
       if (result.rows.length > 0 || topic === undefined) {
         return result.rows.slug;
       } else if (result.rows.length === 0) {
@@ -47,9 +49,7 @@ const fetchArticles = (sort_by = "created_at", order = "desc", topic) => {
     "body",
     "created_at",
     "article_img_url",
-
   ];
-
 
   if (!allowedOrders.includes(order) || !allowedSortBy.includes(sort_by)) {
     return Promise.reject({ status: 400, message: "Bad Request" });
@@ -131,6 +131,28 @@ const updateArticle = (article_id, voteAmount) => {
     });
 };
 
+const insertArticle = (author, title, body, topic, article_img_url = null) => {
+
+
+  return db
+    .query(
+      `INSERT INTO articles (author,
+title,
+body,
+topic,
+article_img_url)
+VALUES ($1, $2, $3, $4, $5)
+ RETURNING *`,
+      [author, title, body, topic, article_img_url]
+    )
+    .then((result) => {
+
+      return result.rows[0]
+
+
+    });
+};
+
 module.exports = {
   fetchCommentsByArticleId,
   fetchArticles,
@@ -138,4 +160,5 @@ module.exports = {
   insertComment,
   updateArticle,
   checkTopics,
+  insertArticle,
 };

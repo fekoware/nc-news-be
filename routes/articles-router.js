@@ -4,14 +4,14 @@ const {
   getArticleById,
   getCommentsByArticleId,
   postComment,
-  patchArticle
+  patchArticle, postArticle
 } = require("../controllers/articles.controller");
 
 const articlesRouter = express.Router();
 
 
 articlesRouter.route("/")
-  .get(getArticles);  
+  .get(getArticles).post(postArticle);  
 
 articlesRouter.route("/:article_id")
   .get(getArticleById)  
