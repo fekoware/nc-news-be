@@ -4,7 +4,8 @@ const {
   fetchCommentsByArticleId,
   insertComment,
   updateArticle,
-  checkTopics
+  checkTopics,
+  insertArticle,
 } = require("../models/articles.models");
 
 const getArticleById = (req, res, next) => {
@@ -24,17 +25,16 @@ const getArticles = (req, res, next) => {
   const sort_by = req.query.sort_by;
   const topic = req.query.topic;
 
-  checkTopics(topic).then(() => {
-    return fetchArticles(sort_by, order, topic)
-  }).then((articles) => {
-    res.status(200).send({ articles });
-  })
-  .catch((err) => {
-    next(err);
-  });
-
-  
-    
+  checkTopics(topic)
+    .then(() => {
+      return fetchArticles(sort_by, order, topic);
+    })
+    .then((articles) => {
+      res.status(200).send({ articles });
+    })
+    .catch((err) => {
+      next(err);
+    });
 };
 
 const getCommentsByArticleId = (req, res, next) => {
@@ -49,6 +49,30 @@ const getCommentsByArticleId = (req, res, next) => {
     });
 };
 
+const postArticle = (req, res, next) => {
+
+
+  const author = req.body.author;
+  const title = req.body.title;
+  const body = req.body.body;
+  const topic = req.body.topic;
+  const article_img_url = req.body.article_img_url;
+
+  insertArticle(author, title, body, topic, article_img_url).then((result) => {
+    fetchArticleById(result.article_id)
+    .then((article) => {
+      res.status(200).send({ article });
+    })
+    .catch((err) => {
+      next(err);
+    });
+
+  }).catch((err) => {
+    next(err)
+  });
+
+};
+
 //post
 
 const postComment = (req, res, next) => {
@@ -58,7 +82,7 @@ const postComment = (req, res, next) => {
   const { article_id } = req.params;
   insertComment(username, body, article_id)
     .then((comment) => {
-      res.status(201).send({comment});
+      res.status(201).send({ comment });
     })
     .catch((err) => {
       next(err);
@@ -73,7 +97,7 @@ const patchArticle = (req, res, next) => {
 
   updateArticle(article_id, voteAmount)
     .then((article) => {
-      res.status(200).send({article});
+      res.status(200).send({ article });
     })
     .catch((err) => {
       next(err);
@@ -86,4 +110,5 @@ module.exports = {
   getArticleById,
   postComment,
   patchArticle,
+  postArticle,
 };

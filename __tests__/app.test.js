@@ -258,7 +258,7 @@ describe("GET", () => {
         .get("/api/users/butter_bridge")
         .expect(200)
         .then((result) => {
-          console.log(result.body.user, "hello");
+
 
           expect(result.body.user.username).toBe("butter_bridge");
           expect(result.body.user.avatar_url).toBe(
@@ -316,6 +316,36 @@ describe("POST", () => {
         });
     });
   });
+
+  describe("POST /api/articles", () => {
+    it("200 respondes with posted article object from databse with article object containing posted object properties", () => {
+      const newArticle = {
+        title: "Sony Vaio; or, The Laptop",
+        topic: "mitch",
+        author: "icellusedkars",
+        body: "Call  me.",
+        created_at: 1602828180000,
+        article_img_url:
+          "https://images.pexels.com/photos/158651/news-newsletter-newspaper-information-158651.jpeg?w=700&h=700",
+      };
+
+      return request(app)
+        .post("/api/articles")
+        .send(newArticle)
+        .expect(200)
+        .then((response) => {
+          expect(response.body.article.title).toBe("Sony Vaio; or, The Laptop")
+          expect(response.body.article.topic).toBe("mitch")
+          expect(response.body.article.body).toBe("Call  me.")
+        
+          expect(response.body.article.article_img_url).toBe("https://images.pexels.com/photos/158651/news-newsletter-newspaper-information-158651.jpeg?w=700&h=700")
+          
+        });
+    });
+  });
+
+    // no need to test for additional keys as test for articles alreadyd one
+    //error for when article is unable to be posted. 
 });
 
 describe("PATCH", () => {
@@ -374,7 +404,7 @@ describe("PATCH", () => {
   });
 
   describe("/api/comments/:comment_id", () => {
-    it.only("200: should respond with comment with increment vote count by 1", () => {
+    it("200: should respond with comment with increment vote count by 1", () => {
       const newVote = 1;
       const vote = {
         inc_votes: newVote,
