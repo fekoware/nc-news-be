@@ -254,26 +254,22 @@ describe("GET", () => {
 
   describe("api/users/:username", () => {
     it("200: responds with a user object with 3 properties: username, avatar_url, and name", () => {
-      return request(app).get("/api/users/butter_bridge").expect(200).then((result) => {
+      return request(app)
+        .get("/api/users/butter_bridge")
+        .expect(200)
+        .then((result) => {
+          console.log(result.body.user, "hello");
 
-        console.log(result.body.user, "hello")
-
-        expect(result.body.user.username).toBe("butter_bridge")
-        expect(result.body.user.avatar_url).toBe("https://www.healthytherapies.com/wp-content/uploads/2016/06/Lime3.jpg")
-        expect(result.body.user.name).toBe("jonny")
-
-    
-      })
-    })
-    it("400: responds with an error message when invalid username is given", () => {
-
-    })
-    it("400: responds with an error message when invalid username data type given", () => {
-
-    })
-
-
-  })
+          expect(result.body.user.username).toBe("butter_bridge");
+          expect(result.body.user.avatar_url).toBe(
+            "https://www.healthytherapies.com/wp-content/uploads/2016/06/Lime3.jpg"
+          );
+          expect(result.body.user.name).toBe("jonny");
+        });
+    });
+    it("400: responds with an error message when invalid username is given", () => {});
+    it("400: responds with an error message when invalid username data type given", () => {});
+  });
 });
 
 describe("POST", () => {
@@ -319,7 +315,6 @@ describe("POST", () => {
           expect(response.body.message).toBe("Bad Request");
         });
     });
-   
   });
 });
 
@@ -377,6 +372,25 @@ describe("PATCH", () => {
         });
     });
   });
+
+  describe("/api/comments/:comment_id", () => {
+    it.only("200: should respond with comment with increment vote count by 1", () => {
+      const newVote = 1;
+      const vote = {
+        inc_votes: newVote,
+      };
+
+      return request(app)
+        .patch("/api/comments/2")
+        .send(vote)
+        .expect(200)
+        .then((result) => {
+          expect(result.body.votes).toBe(1);
+        });
+    });
+    // error test for when invalid comment number is given
+    // error test for when invalid comment data type is given
+  });
 });
 
 describe("DELETE", () => {
@@ -404,4 +418,3 @@ describe("DELETE", () => {
     });
   });
 });
-

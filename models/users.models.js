@@ -12,15 +12,12 @@ const fetchUsers = () => {
 };
 
 const fetchUser = (username) => {
-
   return db
     .query(`SELECT * FROM users WHERE username = $1`, [username])
     .then((result) => {
-
       if (result.rows.length === 0) {
         return Promise.reject({ message: "Username Not Found", status: 404 });
       }
-
       return result.rows[0];
     });
 };
