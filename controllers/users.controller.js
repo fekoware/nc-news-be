@@ -10,9 +10,8 @@ const getUsers = (req, res, next) => {
 const getUser = (req, res, next) => {
 
   const {username} = req.params
-  console.log(username)
 
-  fetchUser().then((user) => {
+  fetchUser(username).then((user) => {
     res.status(200).send({user});
   })
 }
