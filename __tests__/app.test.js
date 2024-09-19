@@ -253,21 +253,26 @@ describe("GET", () => {
   });
 
   describe("api/users/:username", () => {
-    it.only("200: responds with a user object with 3 properties: username, avatar_url, and name", () => {
-      return request(app).get("/api/users/tickle122").expect(200).then((result) => {
+    it("200: responds with a user object with 3 properties: username, avatar_url, and name", () => {
+      return request(app).get("/api/users/butter_bridge").expect(200).then((result) => {
 
-        console.log(result, "hello")
+        console.log(result.body.user, "hello")
 
-        // result.body.users.forEach((user) => {
-        //   expect(user).toEqual({
-        //     username: expect.any(String),
-        //     name: expect.any(String),
-        //     avatar_url: expect.any(String),
-        //   });
-        // })
+        expect(result.body.user.username).toBe("butter_bridge")
+        expect(result.body.user.avatar_url).toBe("https://www.healthytherapies.com/wp-content/uploads/2016/06/Lime3.jpg")
+        expect(result.body.user.name).toBe("jonny")
 
+    
       })
     })
+    it("400: responds with an error message when invalid username is given", () => {
+
+    })
+    it("400: responds with an error message when invalid username data type given", () => {
+
+    })
+
+
   })
 });
 
