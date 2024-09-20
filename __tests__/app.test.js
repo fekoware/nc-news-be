@@ -154,6 +154,18 @@ describe("GET", () => {
         });
     });
 
+    //pagination
+    it.only("200: should respond with array of 5 articles from the second page", () => {
+
+      return request(app).get('/api/articles?limit=5&p=2').expect(200).then((result) => {
+
+        console.log(result.body.articles)
+        console.log(result.body.total_count)
+        expect(Object.keys(result.body.articles).length).toBe(5)
+        expect(result.body.total_count).toBe(5)
+      })
+    })
+
     it("400: should respond with error when given invalid sort by query, valid order", () => {
       return request(app)
         .get("/api/articles?sort_by=baloney&order=desc")

@@ -39,7 +39,7 @@ const checkTopics = (topic) => {
     });
 };
 
-const fetchArticles = (sort_by = "created_at", order = "desc", topic) => {
+const fetchArticles = (sort_by = "created_at", order = "desc", topic, limit = 10, p) => {
   const allowedOrders = ["asc", "desc"];
 
   const allowedSortBy = [
@@ -58,20 +58,28 @@ const fetchArticles = (sort_by = "created_at", order = "desc", topic) => {
       AS comment_count from articles
         LEFT JOIN comments ON articles.article_id = comments.article_id`;
 
-  const queryParams = [];
+        const queryParams = [];
 
-  if (topic) {
-    queryParams.push(topic);
-    queryStr += ` WHERE articles.topic = $1`;
-  }
-
-  queryStr += ` GROUP BY articles.article_id
-        ORDER BY articles.${sort_by} ${order};`;
+        if (topic) {
+          queryParams.push(topic);
+          queryStr += ` WHERE articles.topic = $${queryParams.length}`;
+        }
+      
+        queryStr += ` GROUP BY articles.article_id
+          ORDER BY articles.${sort_by} ${order}
+          LIMIT $${queryParams.length + 1} OFFSET $${queryParams.length + 2};`;
+      
+        const offset = (p - 1) * limit;
+        queryParams.push(limit, offset);
 
   return db
     .query(queryStr, queryParams)
     .then((result) => {
-      return result.rows;
+      resultArray = []
+      const total_count = result.rows.length
+      resultArray.push(total_count)
+      resultArray.push(result.rows)
+      return resultArray
     })
     .catch((err) => {
       next(err);
