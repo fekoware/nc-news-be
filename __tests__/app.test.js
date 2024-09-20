@@ -155,7 +155,7 @@ describe("GET", () => {
     });
 
     //pagination
-    it.only("200: should respond with array of 5 articles from the second page", () => {
+    it("200: should respond with array of 5 articles from the second page", () => {
 
       return request(app).get('/api/articles?limit=5&p=2').expect(200).then((result) => {
 
