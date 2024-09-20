@@ -25,12 +25,20 @@ const getArticles = (req, res, next) => {
   const sort_by = req.query.sort_by;
   const topic = req.query.topic;
 
+  const limit = req.query.limit || 10;
+  const p = req.query.p || 1;
+
   checkTopics(topic)
     .then(() => {
-      return fetchArticles(sort_by, order, topic);
+
+      return fetchArticles(sort_by, order, topic, limit, p);
     })
-    .then((articles) => {
-      res.status(200).send({ articles });
+    .then((result) => {
+      console.log("inside controller second promise")
+      res.status(200).send( {articles: result[1], total_count: result[0]} );
+      console.log("inside controller second promise")
+      
+      return result
     })
     .catch((err) => {
       next(err);
