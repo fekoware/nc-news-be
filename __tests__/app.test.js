@@ -218,6 +218,15 @@ describe("GET", () => {
         });
     });
 
+    it("200: should respond with the first 10 comments for a given article sorted by created date ordered by newest to oldeest", () => {
+      return request(app).get('/api/articles/1/comments?limit=10&p=1').expect(200).then((result) => {
+
+        expect(result.body.comments.length).toBe(10)
+
+        expect (result.body.comments[0].created_at > result.body.comments[1].created_at).toBe(true)
+      })
+    })
+
     it("404: should respond with error when given out of range id ", () => {
       return request(app)
         .get("/api/articles/999999/comments")

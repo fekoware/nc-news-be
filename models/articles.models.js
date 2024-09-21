@@ -39,7 +39,13 @@ const checkTopics = (topic) => {
     });
 };
 
-const fetchArticles = (sort_by = "created_at", order = "desc", topic, limit = 10, p) => {
+const fetchArticles = (
+  sort_by = "created_at",
+  order = "desc",
+  topic,
+  limit = 10,
+  p
+) => {
   const allowedOrders = ["asc", "desc"];
 
   const allowedSortBy = [
@@ -58,52 +64,60 @@ const fetchArticles = (sort_by = "created_at", order = "desc", topic, limit = 10
       AS comment_count from articles
         LEFT JOIN comments ON articles.article_id = comments.article_id`;
 
-        const queryParams = [];
+  const queryParams = [];
 
-        if (topic) {
-          queryParams.push(topic);
-          queryStr += ` WHERE articles.topic = $${queryParams.length}`;
-        }
-      
-        queryStr += ` GROUP BY articles.article_id
+  if (topic) {
+    queryParams.push(topic);
+    queryStr += ` WHERE articles.topic = $${queryParams.length}`;
+  }
+
+  queryStr += ` GROUP BY articles.article_id
           ORDER BY articles.${sort_by} ${order}
           LIMIT $${queryParams.length + 1} OFFSET $${queryParams.length + 2};`;
-      
-        const offset = (p - 1) * limit;
-        queryParams.push(limit, offset);
+
+  const offset = (p - 1) * limit;
+  queryParams.push(limit, offset);
 
   return db
     .query(queryStr, queryParams)
     .then((result) => {
-      resultArray = []
-      const total_count = result.rows.length
-      resultArray.push(total_count)
-      resultArray.push(result.rows)
-      return resultArray
+      resultArray = [];
+      const total_count = result.rows.length;
+      resultArray.push(total_count);
+      resultArray.push(result.rows);
+      return resultArray;
     })
     .catch((err) => {
       next(err);
     });
 };
 
-const fetchCommentsByArticleId = (articleId, order = "desc") => {
+const fetchCommentsByArticleId = (articleId, order = "desc", limit = 10, p) => {
   const allowedOrders = ["asc", "desc"];
 
   if (!allowedOrders.includes(order)) {
     return Promise.reject({ status: 400, message: "BNad Request" });
   }
 
-  return db
-    .query(
-      `SELECT * from comments WHERE article_id = $1 ORDER BY created_at ${order}`,
-      [articleId]
-    )
-    .then((result) => {
-      if (result.rows.length === 0) {
-        return Promise.reject({ message: "Not Found", status: 404 });
-      }
-      return result.rows;
-    });
+  let queryStr = `SELECT * from comments WHERE article_id = $1 ORDER BY created_at ${order} `;
+
+  let queryParams = [articleId];
+
+  const offset = (p - 1) * limit;
+
+  queryStr += `LIMIT $${queryParams.length + 1} OFFSET $${
+    queryParams.length + 2
+  };`;
+
+  queryParams.push(limit, offset);
+
+  return db.query(queryStr, queryParams).then((result) => {
+    if (result.rows.length === 0) {
+      return Promise.reject({ message: "Not Found", status: 404 });
+    }
+    console.log(result, "inside model");
+    return result.rows;
+  });
 };
 
 const insertComment = (username, body, article_id) => {
@@ -140,8 +154,6 @@ const updateArticle = (article_id, voteAmount) => {
 };
 
 const insertArticle = (author, title, body, topic, article_img_url = null) => {
-
-
   return db
     .query(
       `INSERT INTO articles (author,
@@ -154,10 +166,7 @@ VALUES ($1, $2, $3, $4, $5)
       [author, title, body, topic, article_img_url]
     )
     .then((result) => {
-
-      return result.rows[0]
-
-
+      return result.rows[0];
     });
 };
 
