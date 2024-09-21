@@ -156,15 +156,16 @@ describe("GET", () => {
 
     //pagination
     it("200: should respond with array of 5 articles from the second page", () => {
-
-      return request(app).get('/api/articles?limit=5&p=2').expect(200).then((result) => {
-
-        console.log(result.body.articles)
-        console.log(result.body.total_count)
-        expect(Object.keys(result.body.articles).length).toBe(5)
-        expect(result.body.total_count).toBe(5)
-      })
-    })
+      return request(app)
+        .get("/api/articles?limit=5&p=2")
+        .expect(200)
+        .then((result) => {
+          console.log(result.body.articles);
+          console.log(result.body.total_count);
+          expect(Object.keys(result.body.articles).length).toBe(5);
+          expect(result.body.total_count).toBe(5);
+        });
+    });
 
     it("400: should respond with error when given invalid sort by query, valid order", () => {
       return request(app)
@@ -219,13 +220,18 @@ describe("GET", () => {
     });
 
     it("200: should respond with the first 10 comments for a given article sorted by created date ordered by newest to oldeest", () => {
-      return request(app).get('/api/articles/1/comments?limit=10&p=1').expect(200).then((result) => {
+      return request(app)
+        .get("/api/articles/1/comments?limit=10&p=1")
+        .expect(200)
+        .then((result) => {
+          expect(result.body.comments.length).toBe(10);
 
-        expect(result.body.comments.length).toBe(10)
-
-        expect (result.body.comments[0].created_at > result.body.comments[1].created_at).toBe(true)
-      })
-    })
+          expect(
+            result.body.comments[0].created_at >
+              result.body.comments[1].created_at
+          ).toBe(true);
+        });
+    });
 
     it("404: should respond with error when given out of range id ", () => {
       return request(app)
@@ -279,8 +285,6 @@ describe("GET", () => {
         .get("/api/users/butter_bridge")
         .expect(200)
         .then((result) => {
-
-
           expect(result.body.user.username).toBe("butter_bridge");
           expect(result.body.user.avatar_url).toBe(
             "https://www.healthytherapies.com/wp-content/uploads/2016/06/Lime3.jpg"
@@ -355,18 +359,38 @@ describe("POST", () => {
         .send(newArticle)
         .expect(200)
         .then((response) => {
-          expect(response.body.article.title).toBe("Sony Vaio; or, The Laptop")
-          expect(response.body.article.topic).toBe("mitch")
-          expect(response.body.article.body).toBe("Call  me.")
-        
-          expect(response.body.article.article_img_url).toBe("https://images.pexels.com/photos/158651/news-newsletter-newspaper-information-158651.jpeg?w=700&h=700")
-          
+          expect(response.body.article.title).toBe("Sony Vaio; or, The Laptop");
+          expect(response.body.article.topic).toBe("mitch");
+          expect(response.body.article.body).toBe("Call  me.");
+
+          expect(response.body.article.article_img_url).toBe(
+            "https://images.pexels.com/photos/158651/news-newsletter-newspaper-information-158651.jpeg?w=700&h=700"
+          );
         });
     });
   });
 
-    // no need to test for additional keys as test for articles alreadyd one
-    //error for when article is unable to be posted. 
+  // no need to test for additional keys as test for articles alreadyd one
+  //error for when article is unable to be posted.
+
+  describe("POST /api/topics", () => {
+    it.only("should add a new topic and respond with a topic object of the new topic only", () => {
+      const newTopic = {
+        slug: "altruism",
+        description: "giving back to humans",
+      };
+      return request(app)
+        .post("/api/topics")
+        .send(newTopic)
+        .expect(200)
+        .then((result) => {
+          expect(result.body.slug).toBe("altruism");
+          expect(result.body.description).toBe("giving back to humans");
+        });
+    });
+
+    //error handling of too long of slig ordescription, and offensive eowrds
+  });
 });
 
 describe("PATCH", () => {
