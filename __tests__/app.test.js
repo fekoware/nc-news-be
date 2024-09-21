@@ -491,5 +491,14 @@ describe("DELETE", () => {
           expect(response.body.message).toBe("Bad Request");
         });
     });
+    
   });
+  describe("/api/articles/:article_id", () => {
+    it.only("deletes an article along with its comments", () => {
+      return request(app).delete('/api/articles/4').expect(204)
+      
+    })
+
+    //error handling for invalid article id and invalid ata type for article id
+  })
 });

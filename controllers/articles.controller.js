@@ -6,6 +6,7 @@ const {
   updateArticle,
   checkTopics,
   insertArticle,
+  removeArticle,
 } = require("../models/articles.models");
 
 const getArticleById = (req, res, next) => {
@@ -53,7 +54,7 @@ const getCommentsByArticleId = (req, res, next) => {
 
   fetchCommentsByArticleId(article_id, order, limit, p)
     .then((comments) => {
-      console.log(comments)
+      console.log(comments);
       res.status(200).send({ comments });
     })
     .catch((err) => {
@@ -114,6 +115,19 @@ const patchArticle = (req, res, next) => {
     });
 };
 
+const deleteArticleById = (req, res, next) => {
+  article_id = req.params.article_id;
+
+  removeArticle(article_id)
+    .then(() => {
+      res.status(204).send();
+    })
+    .catch((err) => {
+      console.log(err);
+      next(err);
+    });
+};
+
 module.exports = {
   getCommentsByArticleId,
   getArticles,
@@ -121,4 +135,5 @@ module.exports = {
   postComment,
   patchArticle,
   postArticle,
+  deleteArticleById,
 };
