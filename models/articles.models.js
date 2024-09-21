@@ -100,7 +100,7 @@ const fetchCommentsByArticleId = (articleId, order = "desc", limit = 10, p) => {
   }
 
   let queryStr = `SELECT * from comments WHERE article_id = $1 ORDER BY created_at ${order} `;
-
+43
   let queryParams = [articleId];
 
   const offset = (p - 1) * limit;
