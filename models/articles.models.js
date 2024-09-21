@@ -100,7 +100,7 @@ const fetchCommentsByArticleId = (articleId, order = "desc", limit = 10, p) => {
   }
 
   let queryStr = `SELECT * from comments WHERE article_id = $1 ORDER BY created_at ${order} `;
-43
+  43;
   let queryParams = [articleId];
 
   const offset = (p - 1) * limit;
@@ -170,6 +170,16 @@ VALUES ($1, $2, $3, $4, $5)
     });
 };
 
+const removeArticle = (article_id) => {
+  return db
+    .query(
+      `DELETE FROM articles
+    WHERE article_id = $1 RETURNING *`,
+      [article_id]
+    )
+    .then((result) => {});
+};
+
 module.exports = {
   fetchCommentsByArticleId,
   fetchArticles,
@@ -178,4 +188,5 @@ module.exports = {
   updateArticle,
   checkTopics,
   insertArticle,
+  removeArticle,
 };
