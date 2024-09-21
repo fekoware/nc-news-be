@@ -30,15 +30,14 @@ const getArticles = (req, res, next) => {
 
   checkTopics(topic)
     .then(() => {
-
       return fetchArticles(sort_by, order, topic, limit, p);
     })
     .then((result) => {
-      console.log("inside controller second promise")
-      res.status(200).send( {articles: result[1], total_count: result[0]} );
-      console.log("inside controller second promise")
-      
-      return result
+      console.log("inside controller second promise");
+      res.status(200).send({ articles: result[1], total_count: result[0] });
+      console.log("inside controller second promise");
+
+      return result;
     })
     .catch((err) => {
       next(err);
@@ -48,8 +47,13 @@ const getArticles = (req, res, next) => {
 const getCommentsByArticleId = (req, res, next) => {
   const article_id = req.params.article_id;
 
-  fetchCommentsByArticleId(article_id)
+  const limit = req.query.limit || 10;
+  const p = req.query.p || 1;
+  const order = req.query.order || "desc";
+
+  fetchCommentsByArticleId(article_id, order, limit, p)
     .then((comments) => {
+      console.log(comments)
       res.status(200).send({ comments });
     })
     .catch((err) => {
@@ -58,27 +62,25 @@ const getCommentsByArticleId = (req, res, next) => {
 };
 
 const postArticle = (req, res, next) => {
-
-
   const author = req.body.author;
   const title = req.body.title;
   const body = req.body.body;
   const topic = req.body.topic;
   const article_img_url = req.body.article_img_url;
 
-  insertArticle(author, title, body, topic, article_img_url).then((result) => {
-    fetchArticleById(result.article_id)
-    .then((article) => {
-      res.status(200).send({ article });
+  insertArticle(author, title, body, topic, article_img_url)
+    .then((result) => {
+      fetchArticleById(result.article_id)
+        .then((article) => {
+          res.status(200).send({ article });
+        })
+        .catch((err) => {
+          next(err);
+        });
     })
     .catch((err) => {
       next(err);
     });
-
-  }).catch((err) => {
-    next(err)
-  });
-
 };
 
 //post
