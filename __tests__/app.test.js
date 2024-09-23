@@ -94,6 +94,7 @@ describe("GET", () => {
         .get("/api/articles")
         .expect(200)
         .then((result) => {
+          console.log(result.body)
           expect(result.body.articles.length).toBeGreaterThan(0);
           result.body.articles.forEach((article) => {
             expect(article).toEqual({
@@ -104,7 +105,7 @@ describe("GET", () => {
               created_at: expect.any(String),
               votes: expect.any(Number),
               article_img_url: expect.any(String),
-              comment_count: expect.any(String),
+              comment_count: expect.any(Number),
             });
           });
         });
@@ -160,8 +161,6 @@ describe("GET", () => {
         .get("/api/articles?limit=5&p=2")
         .expect(200)
         .then((result) => {
-          console.log(result.body.articles);
-          console.log(result.body.total_count);
           expect(Object.keys(result.body.articles).length).toBe(5);
           expect(result.body.total_count).toBe(5);
         });
@@ -374,7 +373,7 @@ describe("POST", () => {
   //error for when article is unable to be posted.
 
   describe("POST /api/topics", () => {
-    it.only("should add a new topic and respond with a topic object of the new topic only", () => {
+    it("should add a new topic and respond with a topic object of the new topic only", () => {
       const newTopic = {
         slug: "altruism",
         description: "giving back to humans",
@@ -494,7 +493,7 @@ describe("DELETE", () => {
     
   });
   describe("/api/articles/:article_id", () => {
-    it.only("deletes an article along with its comments", () => {
+    it("deletes an article along with its comments", () => {
       return request(app).delete('/api/articles/4').expect(204)
       
     })
