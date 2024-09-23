@@ -24,18 +24,18 @@ const fetchArticleById = (id) => {
 };
 
 const checkTopics = (topic) => {
+  if (!topic) return Promise.resolve(); 
   return db
     .query(
-      `SELECT * FROM topics
+      `SELECT slug FROM topics
       WHERE slug = $1`,
       [topic]
     )
     .then((result) => {
-      if (result.rows.length > 0 || topic === undefined) {
-        return result.rows.slug;
-      } else if (result.rows.length === 0) {
+      if (result.rows.length === 0) {
         return Promise.reject({ status: 400, message: "Bad Request" });
       }
+      return topic;
     });
 };
 
@@ -44,10 +44,9 @@ const fetchArticles = (
   order = "desc",
   topic,
   limit = 10,
-  p
+  p = 1 // Default to page 1 if not provided
 ) => {
   const allowedOrders = ["asc", "desc"];
-
   const allowedSortBy = [
     "comment_count",
     "votes",
@@ -57,46 +56,53 @@ const fetchArticles = (
     "article_img_url",
   ];
 
+
   if (!allowedOrders.includes(order) || !allowedSortBy.includes(sort_by)) {
     return Promise.reject({ status: 400, message: "Bad Request" });
   }
-  let queryStr = `SELECT articles.author, title, articles.article_id, topic, articles.created_at, articles.votes, article_img_url, COUNT(comments.article_id) 
-      AS comment_count from articles
+
+  return checkTopics(topic)
+    .then(() => {
+      let queryStr = `SELECT articles.author, title, articles.article_id, topic, articles.created_at, articles.votes, article_img_url, 
+        CAST(COUNT(comments.article_id) AS INT) AS comment_count
+        FROM articles
         LEFT JOIN comments ON articles.article_id = comments.article_id`;
 
-  const queryParams = [];
+      const queryParams = [];
 
-  if (topic) {
-    queryParams.push(topic);
-    queryStr += ` WHERE articles.topic = $${queryParams.length}`;
-  }
 
-  queryStr += ` GROUP BY articles.article_id
-          ORDER BY articles.${sort_by} ${order}
-          LIMIT $${queryParams.length + 1} OFFSET $${queryParams.length + 2};`;
+      if (topic) {
+        queryParams.push(topic);
+        queryStr += ` WHERE articles.topic = $${queryParams.length}`;
+      }
 
-  const offset = (p - 1) * limit;
-  queryParams.push(limit, offset);
 
-  return db
-    .query(queryStr, queryParams)
-    .then((result) => {
-      resultArray = [];
-      const total_count = result.rows.length;
-      resultArray.push(total_count);
-      resultArray.push(result.rows);
-      return resultArray;
+      queryStr += ` GROUP BY articles.article_id
+                    ORDER BY articles.${sort_by} ${order}
+                    LIMIT $${queryParams.length + 1} OFFSET $${queryParams.length + 2};`;
+
+
+      const offset = (p - 1) * limit;
+      queryParams.push(limit, offset);
+
+
+      return db.query(queryStr, queryParams);
     })
-    .catch((err) => {
-      next(err);
-    });
+    .then((result) => {
+      let resultsArray = []
+      total_count = result.rows.length
+      resultsArray.push(total_count)
+      resultsArray.push(result.rows)
+      return  resultsArray
+      
+    })
 };
 
 const fetchCommentsByArticleId = (articleId, order = "desc", limit = 10, p) => {
   const allowedOrders = ["asc", "desc"];
 
   if (!allowedOrders.includes(order)) {
-    return Promise.reject({ status: 400, message: "BNad Request" });
+    return Promise.reject({ status: 400, message: "Bad Request" });
   }
 
   let queryStr = `SELECT * from comments WHERE article_id = $1 ORDER BY created_at ${order} `;
