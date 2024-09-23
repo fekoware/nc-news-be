@@ -122,7 +122,7 @@ npm test
 
 ## Author
 
-This project is developed and maintained by **FekoWare**.
+This project is developed and maintained by me.
 
 ## License
 
