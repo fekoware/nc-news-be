@@ -29,20 +29,16 @@ const getArticles = (req, res, next) => {
   const limit = req.query.limit || 10;
   const p = req.query.p || 1;
 
-  checkTopics(topic)
-    .then(() => {
-      return fetchArticles(sort_by, order, topic, limit, p);
-    })
-    .then((result) => {
-      console.log("inside controller second promise");
-      res.status(200).send({ articles: result[1], total_count: result[0] });
-      console.log("inside controller second promise");
+  fetchArticles(sort_by, order, topic, limit, p).then((result) => {
 
-      return result;
-    })
-    .catch((err) => {
-      next(err);
-    });
+    res.status(200).send({ articles: result[1], total_count: result[0] });
+    return result;
+  })
+  .catch((err) => {
+    next(err);
+
+  });
+ 
 };
 
 const getCommentsByArticleId = (req, res, next) => {
@@ -59,6 +55,7 @@ const getCommentsByArticleId = (req, res, next) => {
     })
     .catch((err) => {
       next(err);
+      
     });
 };
 
