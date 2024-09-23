@@ -1,47 +1,129 @@
-# Northcoders News API
+# NC News Backend
 
-# About
-The Northcoders News API is a RESTful API that provides endpoints for news articles, topics, and user interactions, including functionality to retrieve, add, update, and delete articles, comments, and users.
+Welcome to the **NC News Backend**, an API for a news aggregation website. This project provides a backend server to handle requests related to articles, users, comments, topics, and more.
 
-# View Project Online
-[Click here.
-](https://nc-news-bxej.onrender.com/api)
+## Project Overview
 
-# Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+This API is built using **Node.js** with **Express** and interacts with a PostgreSQL database to provide various endpoints that allow users to:
 
-# Prerequisites
-Node.js v21.7.3 or later.
-Postgres v14 or later.
+- View articles.
+- Filter articles by topic, author, or date.
+- Sort articles by various criteria (e.g., date, comment count).
+- Post comments on articles.
+- Upvote or downvote articles.
+- Manage users and topics.
 
-# Installation
+## Prerequisites
 
-Clone the repository: git clone https://github.com/fekoware/be-nc-news.git
+Before you begin, ensure you have the following installed:
 
-Install dependencies:
-This API relies on dotenv, express and pg. There are several extra developer dependencies for testing.
+- Node.js (version 16.x or above)
+- PostgreSQL (version 12.x or above)
+- npm (version 7.x or above)
 
-# Running the Application
+## Setup
 
-This API uses private .env files that contain the environment variables for the databases. 
+1. **Clone the repository:**
 
-To connect to the databases locally you will need to create two .env files called .env.test and .env.development, each for the test and development databases. 
+   ```bash
+   git clone https://github.com/fekoware/nc-news-be.git
+   cd nc-news-be
+   ```
 
-In the testing .env file, declare PGDATABASE=nc_news_test
-In the development .env file, declare PGDATABASE=nc_news
+2. **Install dependencies:**
 
-Setup the local database: npm run setup-dbs
+   ```bash
+   npm install
+   ```
 
-Seed the development database: npm run seed
+3. **Create environment variables:**
 
-Start the server: npm start
+   Create a `.env` file in the root directory of the project and include the following environment variables:
 
-Running the Tests:
-To run the tests, use: npm test
+   ```bash
+   PGDATABASE=nc_news
+   PGHOST=localhost
+   PGUSER=your_postgres_user
+   PGPASSWORD=your_postgres_password
+   PGPORT=5432
+   ```
 
-Endpoints:
-For detailed information about the available endpoints, refer to the endpoints.json file in the repository.
+4. **Setup the database:**
 
-# Acknowledgements
+   To create the necessary databases and tables, run:
 
-This portfolio project was created as part of a Digital Skills Bootcamp in Software Engineering provided by [Northcoders](https://northcoders.com/)
+   ```bash
+   npm run setup-dbs
+   ```
+
+   Populate the database with seed data:
+
+   ```bash
+   npm run seed
+   ```
+
+5. **Start the server:**
+
+   To start the server in development mode, run:
+
+   ```bash
+   npm run dev
+   ```
+
+   The API will now be running at `http://localhost:9090`.
+
+## Endpoints
+
+### Available Routes
+
+- **GET** `/api/articles` - Retrieve a list of all articles.
+- **GET** `/api/articles/:article_id` - Retrieve a specific article by ID.
+- **GET** `/api/users` - Retrieve a list of all users.
+- **POST** `/api/articles/:article_id/comments` - Post a comment on an article.
+- **PATCH** `/api/articles/:article_id` - Vote on an article.
+
+### Example Request
+
+To get all articles:
+
+```bash
+GET /api/articles
+```
+
+Response:
+
+```json
+{
+  "articles": [
+    {
+      "article_id": 1,
+      "title": "The Rise of Node.js",
+      "topic": "coding",
+      "author": "johndoe",
+      "body": "Lorem ipsum...",
+      "created_at": "2024-09-21T10:00:00Z",
+      "votes": 100,
+      "comment_count": 5
+    },
+    ...
+  ]
+}
+```
+
+## Testing
+
+This project uses **Jest** for unit testing.
+
+To run tests:
+
+```bash
+npm test
+```
+
+## Author
+
+This project is developed and maintained by **FekoWare**.
+
+## License
+
+This project is licensed under the MIT License.
