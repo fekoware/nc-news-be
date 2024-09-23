@@ -110,7 +110,6 @@ describe("GET", () => {
           });
         });
     });
-
     it("200: should respond with array of articles in descending order", () => {
       return request(app)
         .get("/api/articles?order=desc")
