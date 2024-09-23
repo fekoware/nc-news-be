@@ -44,9 +44,10 @@ const fetchArticles = (
   order = "desc",
   topic,
   limit = 10,
-  p = 1 // Default to page 1 if not provided
+  p = 1
 ) => {
   const allowedOrders = ["asc", "desc"];
+  
   const allowedSortBy = [
     "comment_count",
     "votes",
@@ -56,7 +57,6 @@ const fetchArticles = (
     "article_img_url",
   ];
 
-
   if (!allowedOrders.includes(order) || !allowedSortBy.includes(sort_by)) {
     return Promise.reject({ status: 400, message: "Bad Request" });
   }
@@ -64,23 +64,20 @@ const fetchArticles = (
   return checkTopics(topic)
     .then(() => {
       let queryStr = `SELECT articles.author, title, articles.article_id, topic, articles.created_at, articles.votes, article_img_url, 
-        CAST(COUNT(comments.article_id) AS INT) AS comment_count
+        CAST(COUNT(comments.comment_id) AS INT) AS comment_count
         FROM articles
         LEFT JOIN comments ON articles.article_id = comments.article_id`;
 
       const queryParams = [];
-
 
       if (topic) {
         queryParams.push(topic);
         queryStr += ` WHERE articles.topic = $${queryParams.length}`;
       }
 
-
       queryStr += ` GROUP BY articles.article_id
                     ORDER BY articles.${sort_by} ${order}
                     LIMIT $${queryParams.length + 1} OFFSET $${queryParams.length + 2};`;
-
 
       const offset = (p - 1) * limit;
       queryParams.push(limit, offset);
