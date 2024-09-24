@@ -29,7 +29,9 @@ const getArticles = (req, res, next) => {
   const limit = req.query.limit || 10;
   const p = req.query.p || 1;
 
+
   fetchArticles(sort_by, order, topic, limit, p).then((result) => {
+    console.log("inside controller after model")
 
     res.status(200).send({ articles: result[1], total_count: result[0] });
     return result;

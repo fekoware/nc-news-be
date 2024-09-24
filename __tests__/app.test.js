@@ -89,7 +89,7 @@ describe("GET", () => {
   });
 
   describe("/api/articles", () => {
-    it("200: should respond with array of article objects each with a property of number of comments per article", () => {
+    it.only("200: should respond with array of article objects each with a property of number of comments per article", () => {
       return request(app)
         .get("/api/articles")
         .expect(200)

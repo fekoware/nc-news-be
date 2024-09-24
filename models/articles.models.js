@@ -64,9 +64,9 @@ const fetchArticles = (
   return checkTopics(topic)
     .then(() => {
       let queryStr = `SELECT articles.author, title, articles.article_id, topic, articles.created_at, articles.votes, article_img_url, 
-        COUNT(comments.article_id) AS INT) AS comment_count
+        CAST(COUNT(comments.article_id) AS INT) AS comment_count
         FROM articles
-        LEFT JOIN comments ON articles.article_id = comments.article_id`;
+        LEFT JOIN comments ON comments.comment_id = comments.article_id`;
 
       const queryParams = [];
 
