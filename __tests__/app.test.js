@@ -100,6 +100,7 @@ describe("GET", () => {
             expect(article).toEqual({
               article_id: expect.any(Number),
               title: expect.any(String),
+              body: expect.any(String),
               author: expect.any(String),
               topic: expect.any(String),
               created_at: expect.any(String),

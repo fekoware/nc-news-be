@@ -24,7 +24,7 @@ const fetchArticleById = (id) => {
 };
 
 const checkTopics = (topic) => {
-  if (!topic) return Promise.resolve(); 
+  if (!topic) return Promise.resolve();
   return db
     .query(
       `SELECT slug FROM topics
@@ -47,7 +47,7 @@ const fetchArticles = (
   p = 1
 ) => {
   const allowedOrders = ["asc", "desc"];
-  
+
   const allowedSortBy = [
     "comment_count",
     "votes",
@@ -63,7 +63,7 @@ const fetchArticles = (
 
   return checkTopics(topic)
     .then(() => {
-      let queryStr = `SELECT articles.author, title, articles.article_id, topic, articles.created_at, articles.votes, article_img_url, 
+      let queryStr = `SELECT articles.author, title, articles.body, articles.article_id, topic, articles.created_at, articles.votes, article_img_url, 
         CAST(COUNT(comments.article_id) AS INT) AS comment_count
         FROM articles
         LEFT JOIN comments ON articles.article_id = comments.article_id`;
@@ -77,22 +77,22 @@ const fetchArticles = (
 
       queryStr += ` GROUP BY articles.article_id
                     ORDER BY articles.${sort_by} ${order}
-                    LIMIT $${queryParams.length + 1} OFFSET $${queryParams.length + 2};`;
+                    LIMIT $${queryParams.length + 1} OFFSET $${
+        queryParams.length + 2
+      };`;
 
       const offset = (p - 1) * limit;
       queryParams.push(limit, offset);
 
-
       return db.query(queryStr, queryParams);
     })
     .then((result) => {
-      let resultsArray = []
-      total_count = result.rows.length
-      resultsArray.push(total_count)
-      resultsArray.push(result.rows)
-      return  resultsArray
-      
-    })
+      let resultsArray = [];
+      total_count = result.rows.length;
+      resultsArray.push(total_count);
+      resultsArray.push(result.rows);
+      return resultsArray;
+    });
 };
 
 const fetchCommentsByArticleId = (articleId, order = "desc", limit = 10, p) => {
@@ -103,7 +103,7 @@ const fetchCommentsByArticleId = (articleId, order = "desc", limit = 10, p) => {
   }
 
   let queryStr = `SELECT * from comments WHERE article_id = $1 ORDER BY created_at ${order} `;
-  43;
+  
   let queryParams = [articleId];
 
   const offset = (p - 1) * limit;
