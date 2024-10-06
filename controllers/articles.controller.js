@@ -90,6 +90,8 @@ const postComment = (req, res, next) => {
   const body = req.body.body;
 
   const { article_id } = req.params;
+
+
   insertComment(username, body, article_id)
     .then((comment) => {
       res.status(201).send({ comment });

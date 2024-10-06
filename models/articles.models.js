@@ -157,6 +157,7 @@ const updateArticle = (article_id, voteAmount) => {
 };
 
 const insertArticle = (author, title, body, topic, article_img_url = null) => {
+
   return db
     .query(
       `INSERT INTO articles (author,
@@ -167,10 +168,16 @@ article_img_url)
 VALUES ($1, $2, $3, $4, $5)
  RETURNING *`,
       [author, title, body, topic, article_img_url]
-    )
-    .then((result) => {
+    ).then((result) => {
+      console.log(result.rows[0])
+      if (result.rows.length === 0) {
+
+        return Promise.reject({ message: "Bad Request", status: 404 });
+      }
+
       return result.rows[0];
-    });
+    })
+   
 };
 
 const removeArticle = (article_id) => {

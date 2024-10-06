@@ -298,7 +298,7 @@ describe("GET", () => {
 
 describe("POST", () => {
   describe("/api/articles/:article_id/comments", () => {
-    it("201: inserts new comment into db and returns comment to client", () => {
+    it.only("201: inserts new comment into db and returns comment to client", () => {
       const newComment = {
         username: "icellusedkars",
         body: "testing api posting",

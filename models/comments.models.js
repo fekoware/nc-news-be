@@ -13,7 +13,7 @@ const incVotes = (vote, comment_id) => {
     .query(
       `
         UPDATE comments
-        SET votes = $1
+        SET votes = votes + $1
         WHERE comment_id = $2 RETURNING *`,
       [vote, comment_id]
     )
