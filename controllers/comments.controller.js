@@ -20,6 +20,8 @@ const updateVotes = (req, res, next) => {
     incVotes(inc_votes, comment_id).then((comment) => {
         console.log(comment)
         res.status(200).send(comment)
+    }).catch((err) => {
+        next(err)
     })
     
     
