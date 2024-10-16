@@ -1,2102 +1,2560 @@
 module.exports = [
+ 
   {
-    body: "Itaque quisquam est similique et est perspiciatis reprehenderit voluptatem autem. Voluptatem accusantium eius error adipisci quibusdam doloribus.",
-    votes: -1,
-    author: "tickle122",
-    article_id: 18,
-    created_at: 1590103140000,
-  },
-  {
-    body: "Nobis consequatur animi. Ullam nobis quaerat voluptates veniam.",
-    votes: 7,
-    author: "grumpy19",
-    article_id: 4,
-    created_at: 1577890920000,
-  },
-  {
-    body: "Qui sunt sit voluptas repellendus sed. Voluptatem et repellat fugiat. Rerum doloribus eveniet quidem vero aut sint officiis. Dolor facere et et architecto vero qui et perferendis dolorem. Magni quis ratione adipisci error assumenda ut. Id rerum eos facere sit nihil ipsam officia aspernatur odio.",
-    votes: 3,
-    author: "grumpy19",
-    article_id: 3,
-    created_at: 1600820280000,
-  },
-  {
-    body: "Rerum voluptatem quam odio facilis quis illo unde. Ex blanditiis optio tenetur sunt. Cumque dolor ducimus et qui officia quasi non illum reiciendis.",
-    votes: 4,
-    author: "happyamy2016",
-    article_id: 18,
-    created_at: 1602370980000,
-  },
-  {
-    body: "Quod qui quia dignissimos sit tempore vel reprehenderit. Ipsa ipsa veritatis architecto corporis et et non. Sed alias occaecati eum dignissimos sint eius. Ad ea iste quas quia velit libero voluptatem voluptatem. Animi illo nisi nulla quia sapiente omnis dolorem nulla. Sunt dolor similique.",
-    votes: -5,
-    author: "weegembump",
-    article_id: 17,
-    created_at: 1585948620000,
-  },
-  {
-    body: "Veritatis animi et voluptates nesciunt officia facere eaque. Eligendi earum explicabo necessitatibus aut dolorem nisi esse nesciunt. Non iusto rem ut consequuntur quam ut rem sed. Velit laboriosam consectetur enim delectus eos sit veritatis eveniet perspiciatis.",
-    votes: -5,
-    author: "grumpy19",
-    article_id: 35,
-    created_at: 1594890960000,
-  },
-  {
-    body: "Facilis corporis animi et non non minus nisi. Magnam et sequi dolorum fugiat ab assumenda.",
-    votes: 12,
-    author: "tickle122",
-    article_id: 17,
-    created_at: 1586387400000,
-  },
-  {
-    body: "Est debitis iusto sed consectetur. Eum eum rerum qui est nihil maxime quae. Ut autem velit sint iste consequatur culpa voluptatibus. Quo qui nobis cupiditate adipisci nostrum et. Est et qui at sit atque et fuga voluptatibus impedit.",
-    votes: 6,
-    author: "tickle122",
-    article_id: 26,
-    created_at: 1605986160000,
-  },
-  {
-    body: "Ea iure voluptas. Esse vero et dignissimos blanditiis commodi rerum dicta omnis modi.",
-    votes: -1,
-    author: "cooljmessy",
-    article_id: 19,
-    created_at: 1578114840000,
-  },
-  {
-    body: "Incidunt quidem ut. Voluptatem blanditiis ipsa commodi suscipit quae et. Magni assumenda veritatis voluptatem dolor qui.",
-    votes: 7,
-    author: "weegembump",
-    article_id: 27,
-    created_at: 1606206360000,
-  },
-  {
-    body: "Iure cum non veritatis dolore corrupti deserunt perferendis molestiae. Voluptatem ullam qui aut voluptatem. Magnam quo ut rem nobis quibusdam. Assumenda ex laboriosam ut ea explicabo.",
-    votes: 2,
-    author: "happyamy2016",
-    article_id: 23,
-    created_at: 1605118560000,
-  },
-  {
-    body: "Maiores sed dolor. Consequatur quasi itaque culpa. Tempora ut autem est ad est voluptatem officiis. Ut sequi quaerat qui nam sunt.",
-    votes: 15,
-    author: "happyamy2016",
-    article_id: 11,
-    created_at: 1592546400000,
-  },
-  {
-    body: "Dolorem ex dolorem blanditiis id. Error dolorem aut est. Facere nostrum et dolor repellendus neque amet deleniti. Aut debitis ut nam dolores.",
-    votes: 4,
-    author: "happyamy2016",
-    article_id: 16,
-    created_at: 1599704280000,
-  },
-  {
-    body: "Iure quas est omnis porro. Est in est distinctio sequi consectetur rerum deserunt. Et et reiciendis. Consequatur distinctio sint porro neque molestiae.",
-    votes: -4,
-    author: "weegembump",
-    article_id: 4,
-    created_at: 1597414140000,
-  },
-  {
-    body: "Voluptas enim dolores minima repellendus corporis mollitia omnis. Consectetur vitae quaerat possimus repellendus. Cumque maxime nisi itaque aliquid vel non non.",
-    votes: 12,
-    author: "jessjelly",
-    article_id: 13,
-    created_at: 1578057720000,
-  },
-  {
-    body: "Saepe iure voluptas aut cum occaecati illo. Unde neque et qui facilis cupiditate animi distinctio.",
-    votes: 1,
-    author: "happyamy2016",
-    article_id: 30,
-    created_at: 1585954860000,
-  },
-  {
-    body: "Aut rerum culpa consequuntur quos ut pariatur beatae et. Est reprehenderit commodi quia molestiae laboriosam tenetur maxime voluptate et. Sapiente alias illum eaque libero.",
-    votes: 2,
-    author: "weegembump",
-    article_id: 17,
-    created_at: 1594371600000,
-  },
-  {
-    body: "Dicta aut quo unde cupiditate dolorum. Voluptas mollitia exercitationem vel porro dolor. Ea autem est pariatur.",
-    votes: 6,
-    author: "jessjelly",
-    article_id: 5,
-    created_at: 1597515060000,
-  },
-  {
-    body: "Id adipisci saepe dolorum et veritatis qui et voluptatibus. Error consequuntur architecto consequatur assumenda rerum similique quo. Quas omnis quam labore exercitationem pariatur veniam assumenda. Tempore maiores rerum. Eum voluptates non repudiandae magnam illo voluptatum. Qui praesentium asperiores rerum vel.",
-    votes: -3,
-    author: "tickle122",
-    article_id: 28,
-    created_at: 1592582580000,
-  },
-  {
-    body: "Libero explicabo aperiam esse quae. Dolores in ipsum vitae incidunt. Magnam ullam nihil voluptas enim veritatis et nobis architecto.",
-    votes: 0,
-    author: "happyamy2016",
-    article_id: 13,
-    created_at: 1586236740000,
-  },
-  {
-    body: "Exercitationem voluptas inventore corrupti in tenetur cumque. Ut officiis aliquam et quis. Ipsum nostrum sequi voluptatem ex.",
-    votes: 3,
-    author: "tickle122",
-    article_id: 6,
-    created_at: 1580904900000,
-  },
-  {
-    body: "Voluptatibus tempora ab quam pariatur placeat ullam voluptatem aut. Sequi voluptatem vitae quibusdam et qui est quia. Explicabo delectus ullam quis. Officiis eum ipsam non voluptate quam dolores consequatur. Odio aliquam ut eum tempore enim nesciunt.",
-    votes: 2,
-    author: "cooljmessy",
-    article_id: 27,
-    created_at: 1591729320000,
-  },
-  {
-    body: "Necessitatibus ea eum error ratione sint cumque occaecati non. Dolor rem accusantium sed debitis. Dolor tempora molestias cupiditate veritatis sit sit ipsam. Aut neque et dolore laboriosam.",
-    votes: 2,
-    author: "cooljmessy",
-    article_id: 10,
-    created_at: 1581138720000,
-  },
-  {
-    body: "Quisquam perferendis est doloribus quidem a a. Quam quia ratione rerum facilis rerum est quo aut. Doloribus odio non aut tenetur et qui. Maiores vitae qui illo nisi illum. Accusamus consequatur ducimus vero non nobis alias ratione et aut.",
-    votes: 16,
-    author: "weegembump",
-    article_id: 31,
-    created_at: 1578482040000,
-  },
-  {
-    body: "Ea et molestiae error. Esse harum facilis vitae numquam. Minus id eaque. Dolores nulla ipsam animi sapiente perspiciatis qui possimus.",
-    votes: 20,
-    author: "grumpy19",
-    article_id: 20,
-    created_at: 1597907940000,
-  },
-  {
-    body: "Aut iste eum et modi unde. Sunt et adipisci et ut dolorem facilis voluptas. Deleniti sed nemo facilis. Ex ut et. Et pariatur sed necessitatibus et. Accusamus accusantium ipsam ea sunt facilis et.",
-    votes: 3,
-    author: "grumpy19",
-    article_id: 16,
-    created_at: 1597371660000,
-  },
-  {
-    body: "Dolorem aspernatur labore reiciendis. Similique consequuntur voluptatem illum voluptate illo voluptas et nihil rem. Deserunt et totam tenetur quod. Maxime atque dolorem velit ut sit assumenda. Suscipit tenetur nemo ut ea eos et molestiae quisquam. Architecto asperiores esse.",
-    votes: 12,
-    author: "happyamy2016",
-    article_id: 31,
-    created_at: 1589850840000,
-  },
-  {
-    body: "Dolorem excepturi quaerat. Earum dolor sapiente aut.",
-    votes: 2,
-    author: "grumpy19",
-    article_id: 3,
-    created_at: 1583327100000,
-  },
-  {
-    body: "Perferendis quia et nihil. Quasi ut voluptates sapiente et accusantium vel qui reprehenderit ratione. Autem alias voluptatem accusamus nesciunt beatae vero. Itaque repellat omnis et velit cum corporis aut id voluptas. Nostrum unde fuga ea. Perferendis quas maiores.",
-    votes: -2,
-    author: "jessjelly",
-    article_id: 36,
-    created_at: 1599981780000,
-  },
-  {
-    body: "Et et esse magni qui minus quia adipisci dignissimos. Rerum ab sit voluptatum sequi aspernatur et.",
-    votes: 14,
-    author: "jessjelly",
-    article_id: 15,
-    created_at: 1598397000000,
-  },
-  {
-    body: "Sit sequi odio suscipit. Iure quisquam qui alias distinctio eos officia enim aut sit. Corrupti ut praesentium ut iste earum itaque qui. Dolores in ab rerum consequuntur. Id ab aliquid autem dolore.",
-    votes: 11,
-    author: "weegembump",
-    article_id: 1,
-    created_at: 1601140560000,
-  },
-  {
-    body: "Occaecati distinctio et maiores atque. Rerum aut vel iste beatae mollitia commodi. Cumque quia illum. Hic rerum sed.",
-    votes: 16,
-    author: "happyamy2016",
-    article_id: 26,
-    created_at: 1577974680000,
-  },
-  {
-    body: "Explicabo perspiciatis voluptatem sunt tenetur maxime aut. Optio totam modi. Perspiciatis et quia.",
-    votes: 4,
-    author: "cooljmessy",
-    article_id: 1,
-    created_at: 1577827260000,
-  },
-  {
-    body: "Omnis dolores sit. Suscipit dolore quia quia quia qui sunt error. Velit dolores eum cupiditate officiis minima quaerat. Fugiat occaecati magnam distinctio. Ut quia maxime adipisci dolorem qui nesciunt et voluptas.",
-    votes: 13,
-    author: "jessjelly",
-    article_id: 27,
-    created_at: 1604870040000,
-  },
-  {
-    body: "Accusamus error recusandae iure. Omnis ab aut id. Nihil perspiciatis aut unde recusandae voluptatum placeat.",
-    votes: -2,
-    author: "happyamy2016",
-    article_id: 19,
-    created_at: 1591517400000,
-  },
-  {
-    body: "Debitis exercitationem numquam unde quo illo. Iste rerum rerum non accusantium voluptatibus adipisci expedita expedita adipisci. Minima quae velit et ea eveniet. Vero quis itaque. Aliquid facilis dolores consequatur ea amet magni aliquid.",
-    votes: 17,
-    author: "jessjelly",
-    article_id: 28,
-    created_at: 1590519960000,
-  },
-  {
-    body: "Ut odit ad repudiandae laudantium facilis pariatur aliquid. Pariatur quidem voluptatibus recusandae in consequatur beatae sint. Aut error ratione culpa ipsam autem saepe vel sit enim. Adipisci voluptas sit sed perferendis ipsum molestiae. Sit perferendis veritatis illo et facilis eos libero error. Repellendus ea dolores deserunt inventore.",
-    votes: 12,
-    author: "tickle122",
-    article_id: 23,
-    created_at: 1600441980000,
-  },
-  {
-    body: "Ipsam quod dolor harum alias porro dignissimos vero et. Quia accusantium qui ratione eius qui.",
-    votes: 7,
-    author: "jessjelly",
-    article_id: 8,
-    created_at: 1592291220000,
-  },
-  {
-    body: "Et veniam blanditiis fuga rem rem officiis debitis rerum. Est repudiandae tempora autem harum omnis et. Et consectetur sed assumenda asperiores amet quo eaque.",
-    votes: 16,
-    author: "grumpy19",
-    article_id: 31,
-    created_at: 1595293440000,
-  },
-  {
-    body: "Et optio voluptatem sed reprehenderit quibusdam. Reprehenderit doloremque laboriosam. Vel est amet quia dolor rerum consequatur. Distinctio tenetur dolores. Voluptates laboriosam repudiandae et quisquam ex. Dolorem quidem et.",
-    votes: 5,
-    author: "tickle122",
-    article_id: 7,
-    created_at: 1582089300000,
-  },
-  {
-    body: "Incidunt temporibus ipsam fuga voluptatem occaecati vel corporis. Consectetur laudantium tenetur ratione cumque. Molestiae esse non minima beatae id consequuntur voluptas optio. Pariatur nesciunt sed eum architecto a nemo dignissimos dignissimos. Dolores dicta eum voluptatem ea quas soluta sunt mollitia optio.",
-    votes: 1,
-    author: "happyamy2016",
-    article_id: 29,
-    created_at: 1603077300000,
-  },
-  {
-    body: "Harum odit sed doloremque eos voluptates vero ipsa odio eos. Velit et voluptatum accusantium. Eligendi deserunt sunt optio est hic nisi reprehenderit. Quasi et delectus facere modi.",
-    votes: 16,
-    author: "jessjelly",
-    article_id: 31,
-    created_at: 1581495960000,
-  },
-  {
-    body: "Ipsam quis ad consequatur iure voluptas accusantium voluptatem unde. Cumque omnis mollitia natus nemo deleniti rerum enim cumque aut. Quod quis est fuga.",
-    votes: -2,
-    author: "grumpy19",
-    article_id: 8,
-    created_at: 1579335420000,
-  },
-  {
-    body: "Error est qui id corrupti et quod enim accusantium minus. Deleniti quae ea magni officiis et qui suscipit non.",
-    votes: 4,
-    author: "grumpy19",
-    article_id: 1,
-    created_at: 1592237580000,
-  },
-  {
-    body: "Sint doloribus expedita non sed fuga aliquid vero. Amet consectetur eos eum. Tempora error velit rerum vitae voluptatem voluptatibus consequuntur voluptatibus ea. Et vitae et pariatur est molestias. Nobis est harum debitis rem accusantium est ipsa sed. Voluptatem beatae at beatae.",
+    body: "Great article! Systemd really makes managing Node apps in production much easier. I've been using it for a while now, and it helps with auto-restarting on crashes.",
     votes: 10,
-    author: "cooljmessy",
-    article_id: 9,
-    created_at: 1599675060000,
-  },
-  {
-    body: "Non sunt quos aut facere. Corporis molestiae aut soluta aut rerum animi voluptatibus.",
-    votes: -3,
-    author: "weegembump",
-    article_id: 26,
-    created_at: 1601881500000,
-  },
-  {
-    body: "Ea quod sunt nihil mollitia qui laboriosam eaque quas accusantium. Eveniet exercitationem esse dolor autem repellat laborum voluptatibus alias repellendus. Magni nostrum ut ea molestiae. Et ut at quasi aut.",
-    votes: 0,
-    author: "happyamy2016",
-    article_id: 10,
-    created_at: 1578906060000,
-  },
-  {
-    body: "Eaque fugiat est veniam ex praesentium et saepe molestias non. Est dolore et sint consequuntur.",
-    votes: 12,
-    author: "jessjelly",
-    article_id: 34,
-    created_at: 1583697720000,
-  },
-  {
-    body: "Omnis dolor rerum culpa est ducimus totam voluptatibus id. Consequuntur vel cupiditate asperiores. Eos non molestiae accusamus esse excepturi animi vel animi.",
-    votes: 13,
-    author: "cooljmessy",
-    article_id: 31,
-    created_at: 1604600760000,
-  },
-  {
-    body: "Et sed quia repudiandae aut error ut. Sequi voluptas error ut quibusdam officia quis. Sapiente est rem. Culpa molestiae omnis vel. Explicabo ea velit ipsa quasi autem error culpa quasi. Nulla ab omnis optio non voluptatem cumque.",
-    votes: 0,
-    author: "cooljmessy",
-    article_id: 34,
-    created_at: 1584875700000,
-  },
-  {
-    body: "Eius dolor ipsa eaque qui sed accusantium est tenetur omnis. Eligendi necessitatibus sunt voluptate occaecati et quis consequuntur aut. Maxime nihil ut quia culpa.",
-    votes: -3,
-    author: "grumpy19",
-    article_id: 3,
-    created_at: 1578971520000,
-  },
-  {
-    body: "Consectetur deleniti sed. Omnis et dolore omnis aspernatur. Et porro accusantium. Tempora ullam voluptatum et rerum.",
-    votes: 10,
-    author: "jessjelly",
+    author: "tickle122",
     article_id: 1,
-    created_at: 1594113240000,
+    created_at: 1694700000000
   },
   {
-    body: "Tempore itaque aperiam nostrum molestiae et veniam. Dolores dignissimos beatae quia quam impedit modi recusandae. Modi quaerat rerum itaque sint modi. Aperiam blanditiis officia qui odio veniam et. Sit accusantium ut.",
-    votes: 10,
-    author: "happyamy2016",
-    article_id: 29,
-    created_at: 1580915580000,
-  },
-  {
-    body: "Possimus exercitationem unde temporibus id eos officiis. Qui veniam blanditiis porro omnis rerum. Vel iste nisi voluptatem autem illum aperiam velit.",
+    body: "I struggled for a while with setting up my service files correctly, but this guide clarified a lot of things for me. Thanks for the detailed walkthrough!",
     votes: 8,
     author: "grumpy19",
-    article_id: 34,
-    created_at: 1600297920000,
+    article_id: 1,
+    created_at: 1694850000000
   },
   {
-    body: "Ut et libero reiciendis. Tenetur quibusdam veniam in atque corrupti excepturi tenetur qui et. Qui ut autem minus aut explicabo in cumque dolorum. Voluptatem est perferendis velit. Eaque doloremque asperiores error.",
-    votes: -3,
-    author: "jessjelly",
-    article_id: 6,
-    created_at: 1579216800000,
-  },
-  {
-    body: "Ullam ad aliquam labore sint quia quo autem. Earum accusamus mollitia eum consectetur est doloremque corrupti aliquam. Soluta maxime rerum ipsum molestiae id temporibus tempore.",
-    votes: 4,
-    author: "weegembump",
-    article_id: 10,
-    created_at: 1596813600000,
-  },
-  {
-    body: "Et aliquam consequatur ea sunt et. Maxime aut nobis voluptatem eos facilis vero incidunt delectus. Atque quaerat id aut tempore non hic hic sed. Nemo natus culpa nesciunt. Beatae quod est omnis hic aliquam accusantium dolorum natus. Totam voluptatem incidunt a repudiandae ut.",
+    body: "Question: How do you handle environment variables when using Systemd? Should I be setting them in the service file or somewhere else?",
     votes: 5,
     author: "happyamy2016",
-    article_id: 34,
-    created_at: 1587578700000,
+    article_id: 1,
+    created_at: 1694900000000
   },
   {
-    body: "Dicta et doloremque rerum quod dolorem mollitia exercitationem quia. Quas quis quam recusandae occaecati sit voluptas. Et ut voluptatibus est eos. Placeat consectetur non nisi dolores ea non unde sit aperiam.",
+    body: "This was super helpful! I've had issues with Node processes crashing in production, and I think Systemd is the solution I need. Thanks for the tips!",
     votes: 12,
-    author: "jessjelly",
-    article_id: 16,
-    created_at: 1585739220000,
-  },
-  {
-    body: "Incidunt maiores exercitationem. Non illo non recusandae omnis praesentium architecto. Molestiae vero quia occaecati. Et sed magni blanditiis quis quia consequatur dolores nulla nisi. A omnis velit voluptatem.",
-    votes: 6,
     author: "cooljmessy",
-    article_id: 32,
-    created_at: 1605316020000,
+    article_id: 1,
+    created_at: 1694950000000
   },
   {
-    body: "Aut optio perferendis praesentium fugiat. Vel similique non eveniet. Repellat molestiae ipsum voluptates.",
-    votes: 19,
-    author: "tickle122",
-    article_id: 7,
-    created_at: 1602044340000,
-  },
-  {
-    body: "Quos deserunt ut doloremque animi. Error ipsum assumenda aliquam tempore est et suscipit eveniet necessitatibus. Sequi illo dolor quia incidunt voluptates sint dolore. Aut impedit dolores.",
-    votes: 13,
-    author: "cooljmessy",
-    article_id: 31,
-    created_at: 1583597040000,
-  },
-  {
-    body: "Nesciunt pariatur autem dolor. Quas et nostrum occaecati qui dolores. Et cumque nostrum aut. Aut doloribus aut modi repellendus maiores quia laudantium doloremque. Qui vitae laudantium sunt ut iusto. Et aut ipsam iste.",
-    votes: 1,
-    author: "grumpy19",
-    article_id: 19,
-    created_at: 1578276900000,
-  },
-  {
-    body: "Est pariatur quis ipsa culpa unde temporibus et accusantium rerum. Consequatur in occaecati aut non similique aut quibusdam. Qui sunt magnam iure blanditiis. Et est non enim. Est ab vero dolor.",
-    votes: -1,
-    author: "jessjelly",
-    article_id: 2,
-    created_at: 1597273800000,
-  },
-  {
-    body: "Ad qui ut enim qui numquam quis. Reprehenderit rem non nulla dolor aut totam corporis illo. Et ea maxime consequuntur nihil delectus dolores qui in aliquam. Ut et eius id nesciunt necessitatibus beatae quo. Est qui provident officia in dolor. Assumenda voluptas dolor.",
-    votes: -5,
-    author: "grumpy19",
-    article_id: 6,
-    created_at: 1600852500000,
-  },
-  {
-    body: "Officia nihil harum saepe occaecati dolores inventore. Eos cum illo aut blanditiis eum.",
-    votes: 4,
-    author: "weegembump",
-    article_id: 6,
-    created_at: 1603065900000,
-  },
-  {
-    body: "Aperiam similique recusandae et rerum aut unde sed. Fuga voluptatem illum aut impedit excepturi. Et quaerat minima in veniam in maxime nam quia. Fugit nostrum ipsa ipsa est sunt quidem nostrum sit pariatur. Voluptas aspernatur ex.",
-    votes: 15,
-    author: "weegembump",
-    article_id: 27,
-    created_at: 1578330180000,
-  },
-  {
-    body: "Sapiente ut debitis qui sit autem dolores. Quis et consequatur eligendi dolorum quia quam odit qui. Quaerat ut sit fugit ut sint et sequi est.",
+    body: "One thing I'd recommend adding to this guide is how to set up log rotation with journald. It's important for preventing huge log files when running a Node app with Systemd.",
     votes: 9,
-    author: "jessjelly",
-    article_id: 27,
-    created_at: 1593509040000,
-  },
-  {
-    body: "Voluptatibus harum illo occaecati itaque inventore. Alias dolores consequatur fugit id rerum repellat. Qui molestiae dolore quia.",
-    votes: 8,
-    author: "cooljmessy",
-    article_id: 20,
-    created_at: 1600689780000,
-  },
-  {
-    body: "Totam et dolor magnam et voluptatum. A in adipisci.",
-    votes: -1,
-    author: "tickle122",
-    article_id: 23,
-    created_at: 1597410480000,
-  },
-  {
-    body: "Et ullam nihil repudiandae facere sunt cupiditate cum. Doloremque voluptatem rerum qui error omnis. Dolorum numquam dolorum voluptas ad.",
-    votes: 2,
-    author: "grumpy19",
-    article_id: 4,
-    created_at: 1583388240000,
-  },
-  {
-    body: "Recusandae dolorem consequatur non a accusantium ea. Ut repudiandae doloremque expedita perspiciatis voluptas. Optio adipisci consequuntur. Reprehenderit veritatis eos voluptatem sed alias voluptatem atque. Eos repudiandae enim quos tenetur eos deserunt perspiciatis aut velit.",
-    votes: 7,
-    author: "cooljmessy",
-    article_id: 30,
-    created_at: 1591783440000,
-  },
-  {
-    body: "Cumque qui eius consequatur pariatur reprehenderit at rem nobis. Consequatur id qui iste voluptatem iste esse eligendi. Et sint porro alias architecto dolores.",
-    votes: 5,
-    author: "jessjelly",
-    article_id: 31,
-    created_at: 1586913660000,
-  },
-  {
-    body: "Fugiat molestiae iure et qui consequatur expedita quia. Est sed repellat nesciunt nulla sit in dolor laudantium. Totam vero et quam. In numquam magnam voluptas itaque. Quisquam vel vitae doloribus vel id laboriosam quibusdam.",
-    votes: 16,
-    author: "grumpy19",
-    article_id: 4,
-    created_at: 1579849260000,
-  },
-  {
-    body: "Eius dolor qui ut eligendi. Vero et animi consequatur placeat repudiandae ex dolores qui magni. Omnis magnam rerum molestiae. Nihil rerum ipsa error quibusdam. Qui temporibus quia quia. Natus necessitatibus numquam deserunt quisquam distinctio soluta consequatur.",
-    votes: 3,
-    author: "cooljmessy",
-    article_id: 6,
-    created_at: 1604524860000,
-  },
-  {
-    body: "Quis iure rerum adipisci a porro ratione. Consequatur sequi ipsam esse ut ratione laudantium odio blanditiis fuga. Reprehenderit excepturi nihil beatae aut voluptate aliquid culpa animi.",
-    votes: 2,
-    author: "jessjelly",
-    article_id: 35,
-    created_at: 1591478160000,
-  },
-  {
-    body: "Expedita praesentium porro doloremque doloribus consequuntur dolorum. Consequatur asperiores veritatis et debitis autem et vel fugit. Earum placeat nemo sit.",
-    votes: 0,
-    author: "grumpy19",
-    article_id: 10,
-    created_at: 1589145060000,
-  },
-  {
-    body: "Hic qui omnis qui sit deserunt velit labore commodi repellat. Minus voluptatum dolore libero voluptatem praesentium aut iusto harum. Consequatur sit quasi. Est ad minus inventore ut reiciendis. Quos incidunt rerum. Ut omnis in voluptatum nesciunt.",
-    votes: -2,
-    author: "tickle122",
-    article_id: 8,
-    created_at: 1604690400000,
-  },
-  {
-    body: "Ab distinctio rerum enim ut illum. Vel deleniti placeat error eligendi. Sapiente provident hic rerum. Nihil nostrum corporis.",
-    votes: 7,
-    author: "happyamy2016",
-    article_id: 35,
-    created_at: 1599843720000,
-  },
-  {
-    body: "Possimus adipisci et cupiditate rerum dolores provident. Vero est autem. Voluptatum nemo officia dolorem et a ipsa. Laboriosam doloremque aperiam.",
-    votes: 7,
-    author: "grumpy19",
-    article_id: 20,
-    created_at: 1605780300000,
-  },
-  {
-    body: "Voluptatem voluptas unde. Quam tempore recusandae voluptatem similique iusto repudiandae et. Tenetur dolores possimus labore. Incidunt quae ipsa qui quas. Sunt suscipit aliquid vitae.",
-    votes: -5,
-    author: "cooljmessy",
-    article_id: 31,
-    created_at: 1594695720000,
-  },
-  {
-    body: "Incidunt perferendis et eum. Odit aut eaque. Repudiandae et quia impedit quisquam dolore fugit. Magnam non magni qui molestias dolore sed facere blanditiis. Qui doloribus autem dolorum dolor aliquam. Tempora cum officia tempore.",
-    votes: 12,
     author: "weegembump",
-    article_id: 7,
-    created_at: 1595722200000,
-  },
-  {
-    body: "Facilis ipsam illum aut voluptatibus. Repudiandae cupiditate quo fugiat earum est ut autem repudiandae excepturi. Fuga voluptatem iusto ut. Nulla sequi culpa qui eaque. Architecto non veniam distinctio.",
-    votes: -4,
-    author: "happyamy2016",
-    article_id: 11,
-    created_at: 1597824480000,
-  },
-  {
-    body: "Velit in assumenda quo repudiandae qui eaque. Qui dolor ad iusto optio magnam suscipit.",
-    votes: -2,
-    author: "weegembump",
-    article_id: 24,
-    created_at: 1586383260000,
-  },
-  {
-    body: "Modi cum quo maxime sunt quia doloribus consequatur recusandae. Quam temporibus est non dolorem. Rerum dolorem nulla sed nam repellendus doloribus non accusantium. Id beatae est et a.",
-    votes: 0,
-    author: "grumpy19",
-    article_id: 13,
-    created_at: 1602397140000,
-  },
-  {
-    body: "Assumenda sit est blanditiis asperiores est minima. Placeat sequi tenetur autem consequatur soluta molestiae. Incidunt neque labore et dolorem et vel possimus nemo quidem.",
-    votes: 0,
-    author: "happyamy2016",
     article_id: 1,
-    created_at: 1598148840000,
+    created_at: 1695050000000
   },
   {
-    body: "Et explicabo dignissimos officia dolore rerum aliquam corrupti. Culpa corporis earum et earum officia a est atque at. Quidem quo recusandae delectus autem possimus blanditiis optio. Sed culpa culpa. Exercitationem nemo aspernatur alias ut qui.",
-    votes: 14,
+    body: "Nice article! I never knew Systemd could be used for managing a Node app like this. I’ve only ever used PM2 before, but this seems like a more robust option.",
+    votes: 11,
+    author: "jessjelly",
+    article_id: 1,
+    created_at: 1695100000000
+  },
+  {
+    body: "I followed your steps but my app still isn’t auto-restarting when it crashes. Any advice on what might be going wrong with my Systemd configuration?",
+    votes: 4,
     author: "tickle122",
     article_id: 1,
-    created_at: 1601776980000,
+    created_at: 1695150000000
   },
   {
-    body: "Explicabo cumque sequi aut. Sed minus et aut consequatur. Iste qui temporibus non corporis non. Laudantium tenetur quaerat repellendus. Neque ut qui sunt. Eaque sit fugit est ad molestiae.",
+    body: "I appreciate the deep dive into Systemd. I was wondering how it compares to using Docker for managing Node apps in production environments.",
+    votes: 7,
+    author: "grumpy19",
+    article_id: 1,
+    created_at: 1695200000000
+  },
+  {
+    body: "Great tip on using Systemd to ensure the app runs smoothly in production! I always had issues with crashes when not supervised correctly.",
     votes: 6,
-    author: "grumpy19",
-    article_id: 26,
-    created_at: 1583777940000,
+    author: "happyamy2016",
+    article_id: 1,
+    created_at: 1695250000000
   },
   {
-    body: "Minus minus sit non fugiat sunt et nostrum aut et. Dignissimos qui nemo quos fuga qui temporibus occaecati aut. Explicabo dolor commodi officia nulla totam inventore.",
-    votes: -3,
-    author: "weegembump",
-    article_id: 5,
-    created_at: 1590509460000,
-  },
-  {
-    body: "Esse et expedita harum non. Voluptatibus commodi voluptatem. Minima velit suscipit numquam ea. Id vitae debitis aut incidunt odio quo quam possimus ipsum.",
-    votes: 2,
+    body: "Really liked this guide! Setting up a reliable production environment with Systemd for my Node.js apps has been a game changer.",
+    votes: 13,
     author: "cooljmessy",
     article_id: 1,
-    created_at: 1603523280000,
+    created_at: 1695300000000
   },
   {
-    body: "Maxime error necessitatibus voluptatibus labore aliquid. Animi a maiores quo aut quia libero repellendus aut delectus. Illo dolorem sit eos at molestias sed. Sint quibusdam harum eos quidem praesentium corporis. Ut dolor aut consectetur nisi deserunt.",
-    votes: 2,
-    author: "jessjelly",
-    article_id: 36,
-    created_at: 1579132800000,
+    body: "Fascinating read! Watson's transition from a game show winner to a real-world problem solver is truly impressive. IBM is really pushing AI to new limits.",
+    votes: 15,
+    author: "tickle122",
+    article_id: 2,
+    created_at: 1694800000000
   },
   {
-    body: "Quo aut ut quaerat quia laudantium nemo. Et est non sed dolor cupiditate voluptatem quia et officia.",
-    votes: 5,
+    body: "I had no idea Watson was being used in so many industries! The healthcare applications sound especially promising for early diagnosis and treatment plans.",
+    votes: 12,
+    author: "grumpy19",
+    article_id: 2,
+    created_at: 1694850000000
+  },
+  {
+    body: "Watson's ability to process vast amounts of data and provide insights is something more companies should be looking into. AI is the future of problem-solving.",
+    votes: 20,
     author: "happyamy2016",
-    article_id: 26,
-    created_at: 1589692680000,
+    article_id: 2,
+    created_at: 1694900000000
   },
   {
-    body: "Aut doloremque explicabo id. Deleniti libero in dolore sit ea voluptatem ipsa.",
-    votes: 0,
+    body: "It's crazy to think Watson won Jeopardy! but now it's tackling global issues like finance and healthcare. AI is really transforming industries.",
+    votes: 18,
     author: "cooljmessy",
-    article_id: 9,
-    created_at: 1591146120000,
+    article_id: 2,
+    created_at: 1694950000000
   },
   {
-    body: "Impedit impedit similique quaerat sit. Fugit et aliquid quae doloremque dolores amet velit. Quia cupiditate ipsa ad aliquid minus voluptatem eaque.",
-    votes: 0,
-    author: "cooljmessy",
-    article_id: 36,
-    created_at: 1587817500000,
-  },
-  {
-    body: "Voluptatum aut facilis odit sint. Iste ab ut mollitia aut odio. Similique aut a ut est impedit. Similique dolorum possimus ipsum voluptatem iste non commodi placeat quia. Vero aperiam eum voluptatem aut sed totam dicta suscipit.",
-    votes: -4,
+    body: "I wonder how Watson handles ethical challenges in AI, like bias in its algorithms? It’d be interesting to see IBM address those issues.",
+    votes: 9,
     author: "weegembump",
-    article_id: 29,
-    created_at: 1586935020000,
+    article_id: 2,
+    created_at: 1695000000000
   },
   {
-    body: "Praesentium pariatur a nisi. Minima eius est saepe aut.",
-    votes: 11,
-    author: "grumpy19",
-    article_id: 21,
-    created_at: 1579712640000,
-  },
-  {
-    body: "Eos exercitationem dolorem autem autem nesciunt voluptas molestiae quas. Ut id qui. Quis quia consequatur veritatis magnam autem. Corrupti corporis illo in in est aperiam.",
-    votes: 11,
-    author: "weegembump",
-    article_id: 23,
-    created_at: 1599470520000,
-  },
-  {
-    body: "Enim sunt nam rerum quidem. Quod quia aliquam numquam et laboriosam doloribus iusto et. Numquam quae quis hic maiores. Sed quos et dolore esse cumque consequatur blanditiis placeat omnis. Omnis qui magni explicabo.",
-    votes: 19,
-    author: "weegembump",
-    article_id: 35,
-    created_at: 1582182780000,
-  },
-  {
-    body: "Delectus nostrum autem. Dolore est id veniam maxime aliquid omnis nam cupiditate consequatur. Eveniet similique et voluptatem voluptatem illo. Quam officiis aut molestias hic est omnis. Dolor enim dolores. Quo explicabo reprehenderit reprehenderit nostrum magni in.",
-    votes: -3,
-    author: "grumpy19",
-    article_id: 17,
-    created_at: 1581042180000,
-  },
-  {
-    body: "Reiciendis enim soluta a sed cumque dolor quia quod sint. Laborum tempore est et quisquam dolore. Qui voluptas consequatur cumque neque et laborum unde sed. Impedit et consequatur tempore dignissimos earum distinctio cupiditate.",
-    votes: 17,
-    author: "happyamy2016",
-    article_id: 19,
-    created_at: 1600455900000,
-  },
-  {
-    body: "Corporis magnam placeat quia nulla illum nisi. Provident magni aut et earum illo labore aperiam. Dolorem ipsum dignissimos est ex. Minima voluptatibus nihil commodi veritatis. Magnam aut suscipit dignissimos nostrum ea.",
-    votes: 3,
-    author: "weegembump",
-    article_id: 29,
-    created_at: 1592485800000,
-  },
-  {
-    body: "Accusantium aliquid voluptatem cum rerum perspiciatis rem. Quia et rem nobis.",
-    votes: 0,
-    author: "grumpy19",
-    article_id: 35,
-    created_at: 1580519400000,
-  },
-  {
-    body: "Quia quos adipisci sint expedita voluptatem id ut at accusantium. Et ex itaque recusandae aut quo. Quia quam similique eum quidem iusto. Aspernatur ducimus vitae vel natus doloribus qui id. Excepturi voluptatem qui quia sit qui eveniet voluptatem. Fugit itaque libero quibusdam sunt.",
-    votes: 10,
+    body: "Watson in finance is intriguing. With the rise of AI in trading and financial predictions, I wonder how accurate its insights are in volatile markets.",
+    votes: 14,
     author: "jessjelly",
     article_id: 2,
-    created_at: 1600085580000,
+    created_at: 1695050000000
   },
   {
-    body: "Blanditiis alias consectetur nisi autem et in dicta inventore. Velit consectetur eos.",
+    body: "This article got me thinking about how far AI can go. Will machines like Watson ever be able to fully replace human decision-making?",
     votes: 10,
+    author: "tickle122",
+    article_id: 2,
+    created_at: 1695100000000
+  },
+  {
+    body: "I’m really curious about Watson’s APIs. Are they available for developers to use in smaller projects, or is this strictly for big enterprise solutions?",
+    votes: 11,
+    author: "grumpy19",
+    article_id: 2,
+    created_at: 1695150000000
+  },
+  {
+    body: "I’ve always admired Watson’s Jeopardy! win, but reading about its real-world applications is even more impressive. AI has so much potential beyond entertainment.",
+    votes: 13,
+    author: "happyamy2016",
+    article_id: 2,
+    created_at: 1695200000000
+  },
+  {
+    body: "Watson solving problems in healthcare sounds like a great initiative. I hope IBM continues to push for more AI-driven medical innovations.",
+    votes: 19,
+    author: "cooljmessy",
+    article_id: 2,
+    created_at: 1695250000000
+  },
+  {
+    body: "This list is pure gold! I've already bookmarked a few of these React projects for reference. Can't wait to dive into the code.",
+    votes: 17,
+    author: "tickle122",
+    article_id: 3,
+    created_at: 1694800000000
+  },
+  {
+    body: "React Native projects are always so useful to explore. Seeing how other developers structure their apps helps me improve my own projects.",
+    votes: 13,
+    author: "grumpy19",
+    article_id: 3,
+    created_at: 1694850000000
+  },
+  {
+    body: "It's great to see open-source projects being highlighted. I've learned so much from reviewing these repos, especially in React performance optimization.",
+    votes: 18,
+    author: "cooljmessy",
+    article_id: 3,
+    created_at: 1694900000000
+  },
+  {
+    body: "The Mybridge AI ranking seems legit. I’ve used a few of the React apps from this list, and they are truly high-quality resources for any developer.",
+    votes: 9,
+    author: "happyamy2016",
+    article_id: 3,
+    created_at: 1694950000000
+  },
+  {
+    body: "This collection is fantastic! I’ve been looking for open-source projects to contribute to, and this article just gave me a great starting point.",
+    votes: 21,
+    author: "weegembump",
+    article_id: 3,
+    created_at: 1695000000000
+  },
+  {
+    body: "Super helpful! I’ve been wanting to get more involved in the open-source React community, and now I have a great list of projects to follow.",
+    votes: 14,
+    author: "jessjelly",
+    article_id: 3,
+    created_at: 1695050000000
+  },
+  {
+    body: "I didn’t realize the average number of stars was that high! It really shows how the React community appreciates well-built projects.",
+    votes: 10,
+    author: "tickle122",
+    article_id: 3,
+    created_at: 1695100000000
+  },
+  {
+    body: "Does anyone know if these projects also include examples of best practices for testing in React? I'd love to see how they handle testing frameworks.",
+    votes: 8,
+    author: "grumpy19",
+    article_id: 3,
+    created_at: 1695150000000
+  },
+  {
+    body: "I've been following a few of these React Native projects already, but there are so many new gems here. Thanks for compiling this!",
+    votes: 12,
+    author: "happyamy2016",
+    article_id: 3,
+    created_at: 1695200000000
+  },
+  {
+    body: "The number of Github stars is a good indicator, but I also recommend looking at issue tracking to see how responsive the maintainers are. Great list overall!",
+    votes: 16,
+    author: "cooljmessy",
+    article_id: 3,
+    created_at: 1695250000000
+  },
+  {
+    body: "Totally agree! When I started with React, Redux felt overwhelming. It took time to understand why and when to use it, but now it's an essential tool in my projects.",
+    votes: 19,
+    author: "tickle122",
+    article_id: 4,
+    created_at: 1694800000000
+  },
+  {
+    body: "I appreciate this take on Redux. There's a lot of pressure to learn it right away, but your point about using it when appropriate really resonated with me.",
+    votes: 14,
+    author: "grumpy19",
+    article_id: 4,
+    created_at: 1694850000000
+  },
+  {
+    body: "I feel like a lot of developers get stuck thinking they need Redux from day one. This article breaks down why it’s not always necessary, especially for small apps.",
+    votes: 11,
+    author: "cooljmessy",
+    article_id: 4,
+    created_at: 1694900000000
+  },
+  {
+    body: "Great article! I remember feeling so lost with Redux at first, but once you get the hang of it, the way it handles state management makes React apps so much cleaner.",
+    votes: 17,
+    author: "happyamy2016",
+    article_id: 4,
+    created_at: 1694950000000
+  },
+  {
+    body: "The Flux architecture can be hard to wrap your head around. Articles like this that demystify Redux are super helpful for beginners.",
+    votes: 12,
+    author: "weegembump",
+    article_id: 4,
+    created_at: 1695000000000
+  },
+  {
+    body: "I’ve been using React for a while, but I still feel like I’m only scratching the surface with Redux. The way you explain when to use it makes so much sense.",
+    votes: 10,
+    author: "jessjelly",
+    article_id: 4,
+    created_at: 1695050000000
+  },
+  {
+    body: "This really resonates with me! There's always more to learn in React’s ecosystem. Redux felt like a must-learn at first, but now I realize it's all about project needs.",
+    votes: 13,
+    author: "tickle122",
+    article_id: 4,
+    created_at: 1695100000000
+  },
+  {
+    body: "One of the most confusing things for me was connecting Redux with React components, but once I learned it, my apps became so much easier to scale.",
+    votes: 15,
+    author: "grumpy19",
+    article_id: 4,
+    created_at: 1695150000000
+  },
+  {
+    body: "Great insights on Redux! I’ve been debating whether to integrate it into a project, and this article helped clarify when it's really necessary.",
+    votes: 9,
+    author: "happyamy2016",
+    article_id: 4,
+    created_at: 1695200000000
+  },
+  {
+    body: "I like how you emphasize the importance of learning Redux when it's appropriate rather than rushing into it. This is advice I wish I'd followed when starting out!",
+    votes: 20,
+    author: "cooljmessy",
+    article_id: 4,
+    created_at: 1695250000000
+  },
+  {
+    body: "I was so confused when I first heard about Angular 3, but this article cleared it up. No need to panic, just continue learning Angular 2!",
+    votes: 21,
+    author: "tickle122",
+    article_id: 5,
+    created_at: 1694800000000
+  },
+  {
+    body: "The versioning in Angular has always been a bit chaotic. Glad to hear there's no massive rewrite coming for Angular 3!",
+    votes: 15,
+    author: "grumpy19",
+    article_id: 5,
+    created_at: 1694850000000
+  },
+  {
+    body: "Thanks for clarifying what the future holds for Angular! It’s easy to get overwhelmed with all the version updates.",
+    votes: 13,
+    author: "cooljmessy",
+    article_id: 5,
+    created_at: 1694900000000
+  },
+  {
+    body: "I wish more people would realize that jumping from version 2 to 3 doesn’t mean we need to relearn everything. Angular's fundamentals remain the same.",
+    votes: 17,
+    author: "happyamy2016",
+    article_id: 5,
+    created_at: 1694950000000
+  },
+  {
+    body: "This article reassured me! I've been putting off learning Angular because of the constant updates, but now I feel confident to start with version 2.",
+    votes: 19,
+    author: "weegembump",
+    article_id: 5,
+    created_at: 1695000000000
+  },
+  {
+    body: "I was skeptical about the future of Angular, but your breakdown of Angular 3 and 4 makes it all seem a lot less daunting.",
+    votes: 12,
+    author: "jessjelly",
+    article_id: 5,
+    created_at: 1695050000000
+  },
+  {
+    body: "Angular 2 has been a big learning curve for me, so it’s good to know Angular 3 won’t be a massive shift. I’ll keep refining my skills!",
+    votes: 16,
+    author: "tickle122",
+    article_id: 5,
+    created_at: 1695100000000
+  },
+  {
+    body: "I was worried Angular 3 would require another major overhaul, but I’m glad you explained that it’s more of an incremental update. Thanks for the clarity!",
+    votes: 11,
+    author: "grumpy19",
+    article_id: 5,
+    created_at: 1695150000000
+  },
+  {
+    body: "The versioning of Angular is so confusing, but this article helped me understand the roadmap much better. Definitely not rushing to Angular 3!",
+    votes: 14,
+    author: "happyamy2016",
+    article_id: 5,
+    created_at: 1695200000000
+  },
+  {
+    body: "The key takeaway for me is not to stress out about Angular 3. Keeping up with the current version and learning steadily is the best approach.",
+    votes: 20,
+    author: "cooljmessy",
+    article_id: 5,
+    created_at: 1695250000000
+  },
+  {
+    body: "Apply, Call, and Bind were so confusing to me at first, but this article made them much clearer. Thanks!",
+    votes: 25,
+    author: "tickle122",
+    article_id: 6,
+    created_at: 1694800000000
+  },
+  {
+    body: "I love how this article breaks down the differences between Apply and Call. Now I know exactly when to use each!",
+    votes: 18,
+    author: "happyamy2016",
+    article_id: 6,
+    created_at: 1694850000000
+  },
+  {
+    body: "I always forget about the Bind method, but after reading this, I’m definitely going to start using it more in my projects.",
+    votes: 21,
+    author: "cooljmessy",
+    article_id: 6,
+    created_at: 1694900000000
+  },
+  {
+    body: "This was a great refresher on Apply, Call, and Bind! It's easy to overlook these methods when you’re deep into development.",
+    votes: 15,
+    author: "weegembump",
+    article_id: 6,
+    created_at: 1694950000000
+  },
+  {
+    body: "Thanks for explaining the use cases for Apply in variable-arity functions. I can see how powerful that method can be.",
+    votes: 19,
+    author: "jessjelly",
+    article_id: 6,
+    created_at: 1695000000000
+  },
+  {
+    body: "I’ve been using Call and Apply interchangeably without understanding the real differences. This article cleared that up!",
+    votes: 13,
     author: "grumpy19",
     article_id: 6,
-    created_at: 1583993340000,
+    created_at: 1695050000000
   },
   {
-    body: "Nihil laborum qui quidem quibusdam aut deserunt laboriosam. Enim ipsa corporis. Nobis ipsa deleniti natus nulla qui ut vero sequi. Perferendis eveniet eligendi est itaque repellat. Illum hic nesciunt omnis veniam recusandae architecto et. Cumque qui mollitia ipsam impedit nemo.",
-    votes: 1,
+    body: "The examples in this article really helped me understand how to explicitly set 'this' using Apply and Call. Super useful for JavaScript devs!",
+    votes: 22,
+    author: "tickle122",
+    article_id: 6,
+    created_at: 1695100000000
+  },
+  {
+    body: "I’ve always struggled with the concept of 'this' in JavaScript, but this article’s explanation of Bind was a game changer for me.",
+    votes: 17,
+    author: "cooljmessy",
+    article_id: 6,
+    created_at: 1695150000000
+  },
+  {
+    body: "Apply, Call, and Bind are such underrated methods. Thanks for highlighting their importance in a clear and practical way!",
+    votes: 20,
+    author: "happyamy2016",
+    article_id: 6,
+    created_at: 1695200000000
+  },
+  {
+    body: "This article perfectly illustrates how to borrow methods using Call and Apply. It’s a must-read for any JavaScript developer!",
+    votes: 24,
+    author: "weegembump",
+    article_id: 6,
+    created_at: 1695250000000
+  },
+  {
+    body: "I had the same skepticism about React Native, but after using it for a year, I’m convinced it’s the way to go for cross-platform apps.",
+    votes: 12,
+    author: "jessjelly",
+    article_id: 7,
+    created_at: 1694800000000
+  },
+  {
+    body: "It’s amazing how React Native simplifies the development process without sacrificing performance. Great insights in this article!",
+    votes: 15,
+    author: "grumpy19",
+    article_id: 7,
+    created_at: 1694850000000
+  },
+  {
+    body: "I was also skeptical about using web-based frameworks for mobile apps, but React Native has proven itself to be incredibly versatile.",
+    votes: 10,
+    author: "happyamy2016",
+    article_id: 7,
+    created_at: 1694900000000
+  },
+  {
+    body: "This article captures exactly how I felt transitioning from native iOS to React Native. It’s a learning curve, but worth it in the end!",
+    votes: 18,
+    author: "cooljmessy",
+    article_id: 7,
+    created_at: 1694950000000
+  },
+  {
+    body: "I appreciate the real-world perspective on React Native. It’s reassuring to see that developers with native experience are embracing it.",
+    votes: 20,
+    author: "weegembump",
+    article_id: 7,
+    created_at: 1695000000000
+  },
+  {
+    body: "I’ve been using React Native for a few months now, and I wish I’d switched over earlier. The performance is surprisingly good.",
+    votes: 13,
+    author: "jessjelly",
+    article_id: 7,
+    created_at: 1695050000000
+  },
+  {
+    body: "React Native has come a long way since its early days. I’m excited to see where it goes in the next few years!",
+    votes: 25,
+    author: "grumpy19",
+    article_id: 7,
+    created_at: 1695100000000
+  },
+  {
+    body: "After reading this, I’m more confident in recommending React Native for new mobile projects. Great write-up!",
+    votes: 17,
+    author: "tickle122",
+    article_id: 7,
+    created_at: 1695150000000
+  },
+  {
+    body: "As someone coming from a PhoneGap background, I had similar doubts, but React Native has really changed my mind about cross-platform development.",
+    votes: 22,
+    author: "cooljmessy",
+    article_id: 7,
+    created_at: 1695200000000
+  },
+  {
+    body: "I couldn’t agree more. The flexibility of React Native has made it my go-to for mobile development now.",
+    votes: 19,
+    author: "weegembump",
+    article_id: 7,
+    created_at: 1695250000000
+  },
+  {
+    body: "Express.js was a game changer for me when I first started working with server-side JavaScript. It simplifies so much of the backend work!",
+    votes: 10,
+    author: "jessjelly",
+    article_id: 8,
+    created_at: 1694800000000
+  },
+  {
+    body: "I love how lightweight Express is, but it still provides all the essential features needed to build web apps. Great article!",
+    votes: 8,
+    author: "tickle122",
+    article_id: 8,
+    created_at: 1694850000000
+  },
+  {
+    body: "Express and Node.js together make full-stack JavaScript development a breeze. This article breaks down the core benefits really well.",
+    votes: 12,
+    author: "happyamy2016",
+    article_id: 8,
+    created_at: 1694900000000
+  },
+  {
+    body: "When I transitioned from using PHP for back-end development to Express.js, I immediately noticed how streamlined my workflow became.",
+    votes: 15,
+    author: "grumpy19",
+    article_id: 8,
+    created_at: 1694950000000
+  },
+  {
+    body: "Express’s ability to extend Node.js functionality is what makes it one of my favorite frameworks to work with.",
+    votes: 9,
+    author: "weegembump",
+    article_id: 8,
+    created_at: 1695000000000
+  },
+  {
+    body: "I’ve been using Express for a while now, and I still appreciate how easy it is to integrate middleware for custom functionality.",
+    votes: 11,
+    author: "cooljmessy",
+    article_id: 8,
+    created_at: 1695050000000
+  },
+  {
+    body: "This article perfectly highlights how Node and Express work together to create a seamless development experience. Loved it!",
+    votes: 14,
+    author: "tickle122",
+    article_id: 8,
+    created_at: 1695100000000
+  },
+  {
+    body: "Express made learning back-end development with JavaScript a much less daunting task. Couldn’t agree more with the points here.",
+    votes: 7,
+    author: "jessjelly",
+    article_id: 8,
+    created_at: 1695150000000
+  },
+  {
+    body: "If you're building web apps in JavaScript, Express is essential. I appreciate how it doesn’t add unnecessary complexity.",
+    votes: 18,
+    author: "cooljmessy",
+    article_id: 8,
+    created_at: 1695200000000
+  },
+  {
+    body: "Express’s flexibility and Node.js’s power make them an unbeatable duo for building modern web applications. Great overview!",
+    votes: 16,
+    author: "grumpy19",
+    article_id: 8,
+    created_at: 1695250000000
+  },
+  {
+    body: "The transition from older versions of HTML and CSS to HTML5 and CSS3 has been a huge improvement. I appreciate how flexible the new features are.",
+    votes: 14,
+    author: "jessjelly",
+    article_id: 9,
+    created_at: 1694600000000
+  },
+  {
+    body: "Fully agree with this article. There’s really no reason not to use HTML5 and CSS3 today—especially with modern browser support.",
+    votes: 10,
+    author: "happyamy2016",
+    article_id: 9,
+    created_at: 1694650000000
+  },
+  {
+    body: "Responsive web design has changed the game. CSS3 media queries make it so easy to ensure a great experience across all devices.",
+    votes: 12,
+    author: "tickle122",
+    article_id: 9,
+    created_at: 1694700000000
+  },
+  {
+    body: "I remember struggling with outdated HTML/CSS in older browsers. Using HTML5 and CSS3 now feels like a breath of fresh air.",
+    votes: 8,
+    author: "cooljmessy",
+    article_id: 9,
+    created_at: 1694750000000
+  },
+  {
+    body: "The introduction of semantic HTML elements in HTML5 has made structuring websites so much clearer and more intuitive.",
+    votes: 11,
+    author: "weegembump",
+    article_id: 9,
+    created_at: 1694800000000
+  },
+  {
+    body: "CSS3 has made animations and transitions incredibly smooth without the need for heavy JavaScript. I love how lightweight it makes the frontend.",
+    votes: 9,
+    author: "grumpy19",
+    article_id: 9,
+    created_at: 1694850000000
+  },
+  {
+    body: "I’ve been learning HTML5 and CSS3 alongside JavaScript, and it’s amazing how much these new standards have streamlined web development.",
+    votes: 7,
+    author: "jessjelly",
+    article_id: 9,
+    created_at: 1694900000000
+  },
+  {
+    body: "The fact that older browsers can still be patched for HTML5/CSS3 support makes it a no-brainer to adopt these technologies now.",
+    votes: 15,
+    author: "tickle122",
+    article_id: 9,
+    created_at: 1694950000000
+  },
+  {
+    body: "I found the article's take on responsive design really helpful. Designing for different screen sizes is essential in today's web development.",
+    votes: 13,
+    author: "happyamy2016",
+    article_id: 9,
+    created_at: 1695000000000
+  },
+  {
+    body: "With HTML5 and CSS3, web development feels a lot less frustrating, and responsive design is a must-have for every website today.",
+    votes: 17,
+    author: "cooljmessy",
+    article_id: 9,
+    created_at: 1695050000000
+  },
+  {
+    body: "JSON has definitely become my go-to for data exchange in web applications, especially with how seamless it integrates with JavaScript.",
+    votes: 15,
+    author: "jessjelly",
+    article_id: 10,
+    created_at: 1694600000000
+  },
+  {
+    body: "Comparing JSON and XML, I think JSON's lightweight structure gives it a huge advantage when working with Ajax applications.",
+    votes: 12,
+    author: "happyamy2016",
+    article_id: 10,
+    created_at: 1694650000000
+  },
+  {
+    body: "The human-readable nature of JSON makes debugging much easier, especially in large web applications that rely heavily on Ajax.",
+    votes: 14,
+    author: "tickle122",
+    article_id: 10,
+    created_at: 1694700000000
+  },
+  {
+    body: "I found the section on Jayrock interesting. Using an open-source implementation for .NET shows how versatile JSON can be.",
+    votes: 10,
+    author: "cooljmessy",
+    article_id: 10,
+    created_at: 1694750000000
+  },
+  {
+    body: "I've used both JSON and XML in different projects, and JSON always wins in terms of speed and ease of use for asynchronous calls.",
+    votes: 16,
+    author: "weegembump",
+    article_id: 10,
+    created_at: 1694800000000
+  },
+  {
+    body: "The comparison with XML is spot on. JSON feels far less bloated, especially in Ajax-heavy applications.",
+    votes: 11,
+    author: "grumpy19",
+    article_id: 10,
+    created_at: 1694850000000
+  },
+  {
+    body: "JSON's platform independence makes it the best choice for cross-platform development, not just in JavaScript but across many languages.",
+    votes: 13,
+    author: "jessjelly",
+    article_id: 10,
+    created_at: 1694900000000
+  },
+  {
+    body: "JSON really shines when used with JavaScript. The native support in browsers makes handling data exchanges incredibly efficient.",
+    votes: 17,
+    author: "tickle122",
+    article_id: 10,
+    created_at: 1694950000000
+  },
+  {
+    body: "I appreciate how this article broke down the JSON parsing process in both JavaScript and C#. Very helpful for understanding its flexibility.",
+    votes: 9,
+    author: "happyamy2016",
+    article_id: 10,
+    created_at: 1695000000000
+  },
+  {
+    body: "While XML has its place, I find JSON much easier to work with when building real-time, interactive web applications with Ajax.",
+    votes: 18,
+    author: "cooljmessy",
+    article_id: 10,
+    created_at: 1695050000000
+  },
+  {
+    body: "Great insights on API design! I completely agree that understanding user needs is crucial for creating effective APIs.",
+    votes: 20,
+    author: "jessjelly",
+    article_id: 11,
+    created_at: 1694500000000
+  },
+  {
+    body: "I love the emphasis on different user expectations. It's vital to think about how diverse the user base can be.",
+    votes: 15,
+    author: "happyamy2016",
+    article_id: 11,
+    created_at: 1694550000000
+  },
+  {
+    body: "This article resonates with me. I've encountered many APIs that lack clarity in their documentation, making them frustrating to use.",
+    votes: 12,
+    author: "grumpy19",
+    article_id: 11,
+    created_at: 1694600000000
+  },
+  {
+    body: "The point about writing code that can handle various use cases is so important. Flexibility in API design can save a lot of headaches.",
+    votes: 18,
+    author: "tickle122",
+    article_id: 11,
+    created_at: 1694650000000
+  },
+  {
+    body: "I appreciate the focus on user experience in API design. It's often overlooked, yet it can make or break an API's adoption.",
+    votes: 17,
+    author: "cooljmessy",
+    article_id: 11,
+    created_at: 1694700000000
+  },
+  {
+    body: "API design is an art! Striking the right balance between simplicity and functionality is always a challenge.",
+    votes: 14,
+    author: "weegembump",
+    article_id: 11,
+    created_at: 1694750000000
+  },
+  {
+    body: "User feedback should be an integral part of the API development process. It helps in creating something truly useful.",
+    votes: 19,
+    author: "jessjelly",
+    article_id: 11,
+    created_at: 1694800000000
+  },
+  {
+    body: "The clarity of an API can significantly influence its adoption. Poorly designed APIs often lead to unnecessary complexity.",
+    votes: 16,
+    author: "happyamy2016",
+    article_id: 11,
+    created_at: 1694850000000
+  },
+  {
+    body: "Designing for the long term is key. APIs should be adaptable to change as user needs evolve over time.",
+    votes: 13,
+    author: "grumpy19",
+    article_id: 11,
+    created_at: 1694900000000
+  },
+  {
+    body: "The article highlights the importance of thinking beyond just functionality. APIs should also be intuitive and easy to navigate.",
+    votes: 11,
+    author: "cooljmessy",
+    article_id: 11,
+    created_at: 1694950000000
+  },
+  {
+    body: "It's great to see discussions about Node.js security gaining traction! Awareness is the first step in tackling vulnerabilities.",
+    votes: 15,
+    author: "jessjelly",
+    article_id: 12,
+    created_at: 1695000000000
+  },
+  {
+    body: "The dependency tree analogy is spot on! It's easy to overlook the potential risks lurking beneath the surface.",
+    votes: 12,
+    author: "happyamy2016",
+    article_id: 12,
+    created_at: 1695050000000
+  },
+  {
+    body: "Security should always be a priority in development. We need to stay vigilant against malicious actors in the Node ecosystem.",
+    votes: 18,
+    author: "grumpy19",
+    article_id: 12,
+    created_at: 1695100000000
+  },
+  {
+    body: "I've seen firsthand how easy it is to introduce vulnerabilities through dependencies. It's a constant battle!",
+    votes: 14,
+    author: "tickle122",
+    article_id: 12,
+    created_at: 1695150000000
+  },
+  {
+    body: "The discussion on bugs is crucial! Even small oversights can lead to major security issues.",
+    votes: 13,
+    author: "cooljmessy",
+    article_id: 12,
+    created_at: 1695200000000
+  },
+  {
+    body: "Node.js is powerful, but we need to be proactive about security. Thanks for shedding light on this important topic!",
+    votes: 11,
+    author: "weegembump",
+    article_id: 12,
+    created_at: 1695250000000
+  },
+  {
+    body: "Great insights! It's essential to educate developers about security best practices to mitigate risks.",
+    votes: 19,
+    author: "jessjelly",
+    article_id: 12,
+    created_at: 1695300000000
+  },
+  {
+    body: "I appreciate the focus on the human element of security. Developers must be aware of their role in protecting applications.",
+    votes: 17,
+    author: "happyamy2016",
+    article_id: 12,
+    created_at: 1695350000000
+  },
+  {
+    body: "We need more discussions like this in the community! Security is an ongoing process, not a one-time fix.",
+    votes: 16,
+    author: "grumpy19",
+    article_id: 12,
+    created_at: 1695400000000
+  },
+  {
+    body: "Understanding the full scope of dependencies is vital for any project. Thanks for highlighting this issue!",
+    votes: 15,
+    author: "cooljmessy",
+    article_id: 12,
+    created_at: 1695450000000
+  },
+  {
+    body: "Interesting perspective! Handwriting can reveal so much about a person's character.",
+    votes: 5,
+    author: "jessjelly",
+    article_id: 13,
+    created_at: 1695500000000
+  },
+  {
+    body: "Mourinho is such a fascinating figure in football. I wonder how much his handwriting reflects his coaching style!",
+    votes: 7,
+    author: "happyamy2016",
+    article_id: 13,
+    created_at: 1695550000000
+  },
+  {
+    body: "I never thought about handwriting analysis in football. This adds a unique angle to Mourinho's persona!",
+    votes: 4,
+    author: "grumpy19",
+    article_id: 13,
+    created_at: 1695600000000
+  },
+  {
+    body: "It's amazing how little details can tell us about a leader's mindset. Mourinho's confidence surely shows in his writing.",
+    votes: 6,
+    author: "tickle122",
+    article_id: 13,
+    created_at: 1695650000000
+  },
+  {
+    body: "Handwriting analysis is such a fun topic! I’d love to see more comparisons with other managers.",
+    votes: 3,
+    author: "cooljmessy",
+    article_id: 13,
+    created_at: 1695700000000
+  },
+  {
+    body: "Mourinho's charisma comes through in everything he does. His handwriting probably reflects that strong personality!",
+    votes: 8,
+    author: "weegembump",
+    article_id: 13,
+    created_at: 1695750000000
+  },
+  {
+    body: "This is such a creative way to analyze a manager! I’d be curious to see what other athletes' handwriting says.",
+    votes: 5,
+    author: "jessjelly",
+    article_id: 13,
+    created_at: 1695800000000
+  },
+  {
+    body: "The psychological aspect of handwriting is so intriguing! Mourinho's signature must have its own flair.",
+    votes: 4,
+    author: "happyamy2016",
+    article_id: 13,
+    created_at: 1695850000000
+  },
+  {
+    body: "This article adds a whole new layer to understanding Mourinho. I’d love to see more on this topic!",
+    votes: 6,
+    author: "grumpy19",
+    article_id: 13,
+    created_at: 1695900000000
+  },
+  {
+    body: "It's fascinating how personality traits can be reflected in something as simple as handwriting. Great read!",
+    votes: 7,
+    author: "tickle122",
+    article_id: 13,
+    created_at: 1695950000000
+  },
+  {
+    body: "It's crazy how quickly clubs are willing to make changes! Who do you think will be next to go?",
+    votes: 6,
     author: "grumpy19",
     article_id: 14,
-    created_at: 1601601120000,
+    created_at: 1696000000000
   },
   {
-    body: "Ut facilis laboriosam minus architecto. Ratione ea ad et cupiditate nisi ut. Est ex facilis facilis. Corrupti ut quaerat et voluptatum corporis possimus et rem. Quisquam eos et qui illo esse earum fuga. Atque omnis ullam.",
-    votes: 6,
-    author: "happyamy2016",
-    article_id: 19,
-    created_at: 1597346220000,
-  },
-  {
-    body: "Cumque aspernatur voluptas rerum officiis dignissimos. Quod est sunt at laborum soluta saepe consequatur. Maxime amet explicabo quam rem voluptatem sunt voluptatum quasi. Reiciendis reprehenderit animi iste saepe dicta deleniti laboriosam porro.",
-    votes: 6,
-    author: "jessjelly",
-    article_id: 32,
-    created_at: 1588302480000,
-  },
-  {
-    body: "Enim ea consectetur soluta. Voluptatem est inventore cumque quo quia itaque. Labore vel odit accusantium. Error molestias iusto nostrum enim mollitia eius sequi ea.",
-    votes: 12,
-    author: "jessjelly",
-    article_id: 29,
-    created_at: 1585707060000,
-  },
-  {
-    body: "Magni similique tempore a quia officiis ipsam ut non. Eum laborum dicta sint illo nihil quia maiores. Reiciendis sit voluptate sed quae iste temporibus.",
-    votes: -1,
-    author: "grumpy19",
-    article_id: 17,
-    created_at: 1596360120000,
-  },
-  {
-    body: "Eum sapiente aut. Doloremque optio a quis qui fuga et. Dolorem animi minima corporis alias molestiae ea ab dolorum. Sed nobis iste recusandae. Eos consequatur nemo sunt deserunt qui necessitatibus.",
+    body: "I can't believe how many managers have already lost their jobs this season. It seems like no one is safe!",
     votes: 7,
-    author: "happyamy2016",
-    article_id: 29,
-    created_at: 1579537260000,
-  },
-  {
-    body: "Rerum error nemo unde recusandae occaecati. Consectetur alias accusamus architecto dolores quo illum illum.",
-    votes: 16,
-    author: "weegembump",
-    article_id: 8,
-    created_at: 1581858480000,
-  },
-  {
-    body: "Blanditiis voluptatum non deleniti. Blanditiis commodi eius. Animi provident rerum. At debitis autem officia quo id incidunt.",
-    votes: 6,
     author: "tickle122",
-    article_id: 16,
-    created_at: 1580080620000,
-  },
-  {
-    body: "Voluptatem ipsam doloremque voluptate debitis voluptas nam non delectus rem. Et dicta assumenda dignissimos sed ea. Odit perspiciatis dicta consequatur aut facere in. Accusamus qui laudantium tenetur reprehenderit sed et velit iusto. Illo nihil voluptas rerum.",
-    votes: 11,
-    author: "grumpy19",
-    article_id: 3,
-    created_at: 1596715440000,
-  },
-  {
-    body: "Accusantium est officiis labore dolorem hic maiores quae quo. Et rerum sequi.",
-    votes: -3,
-    author: "cooljmessy",
-    article_id: 23,
-    created_at: 1579281180000,
-  },
-  {
-    body: "Eligendi placeat aspernatur omnis delectus maxime inventore at porro. Accusantium nobis totam fugiat debitis quia repellat quo qui voluptatem. Laboriosam nesciunt distinctio et aut itaque ipsa aut. Cum accusantium et et recusandae numquam quas et. Porro minima accusantium atque quo illo.",
-    votes: -4,
-    author: "tickle122",
-    article_id: 34,
-    created_at: 1589011860000,
-  },
-  {
-    body: "Neque dolor sint illum id consequuntur debitis qui nam eum. Nam adipisci similique consequatur officiis. Totam qui enim at iste dolorem ullam. Tenetur laudantium sed facilis aspernatur occaecati. Provident rerum quia consectetur et. Molestiae eligendi commodi.",
-    votes: 12,
-    author: "happyamy2016",
-    article_id: 33,
-    created_at: 1579166460000,
-  },
-  {
-    body: "Praesentium dolor doloribus sint. Quisquam molestiae dolorum asperiores animi omnis.",
-    votes: 3,
-    author: "weegembump",
-    article_id: 5,
-    created_at: 1599098760000,
-  },
-  {
-    body: "Unde vel aut sed eos excepturi doloremque molestias. Omnis consequatur accusamus veritatis cumque incidunt enim. Perferendis dicta ut animi voluptatem porro.",
-    votes: 0,
-    author: "weegembump",
-    article_id: 35,
-    created_at: 1578709080000,
-  },
-  {
-    body: "Voluptas consequatur voluptatem minima aut velit consequatur reprehenderit dignissimos. Voluptas iusto facere libero quos ut quibusdam aliquam rerum. Et pariatur ab in iusto. Neque odio sed quisquam.",
-    votes: 2,
-    author: "happyamy2016",
-    article_id: 29,
-    created_at: 1601086800000,
-  },
-  {
-    body: "Rerum asperiores et aut illum iste. Sunt pariatur voluptate at quas nostrum.",
-    votes: 20,
-    author: "grumpy19",
     article_id: 14,
-    created_at: 1579896660000,
+    created_at: 1696050000000
   },
   {
-    body: "Praesentium asperiores omnis porro facilis dignissimos sint exercitationem fugit. Error voluptas soluta veniam dicta amet iste. Deleniti assumenda id exercitationem accusantium. Ut sed eum est.",
-    votes: 18,
-    author: "cooljmessy",
-    article_id: 18,
-    created_at: 1582380720000,
-  },
-  {
-    body: "Fugit unde aut repellat qui ea quos adipisci ea. Voluptatibus dignissimos rem earum rerum facilis nihil illo veritatis dolores. Amet ipsam quia odio quo et non. Sunt asperiores tempore illum.",
-    votes: 1,
-    author: "cooljmessy",
-    article_id: 35,
-    created_at: 1592644920000,
-  },
-  {
-    body: "Rerum iusto nisi impedit sit odio. Aperiam est et eum sit qui sunt expedita quaerat distinctio. Nulla neque sint reprehenderit delectus. Omnis est reprehenderit. Ab non magnam. Reiciendis quo eveniet voluptates possimus ipsum repellendus dolores.",
-    votes: 19,
-    author: "cooljmessy",
-    article_id: 10,
-    created_at: 1601856360000,
-  },
-  {
-    body: "Nisi itaque ipsum qui minus occaecati quia impedit consequatur. Et unde assumenda eos eum ducimus perferendis.",
-    votes: 19,
-    author: "cooljmessy",
-    article_id: 21,
-    created_at: 1595708640000,
-  },
-  {
-    body: "Vitae laudantium molestiae neque ut dicta fuga similique. Sit nesciunt magni sit beatae. Porro recusandae aut exercitationem eligendi voluptas. Dolore eligendi inventore magni voluptatem quia ut ut.",
-    votes: -1,
-    author: "grumpy19",
-    article_id: 34,
-    created_at: 1602975900000,
-  },
-  {
-    body: "Quo voluptate quia commodi illum aliquam quibusdam et quia consequatur. Omnis eligendi consequatur est fugit est. Adipisci incidunt occaecati.",
-    votes: 2,
-    author: "jessjelly",
-    article_id: 15,
-    created_at: 1604577960000,
-  },
-  {
-    body: "Nam modi quia repellat et quia quasi quo fuga. Tempora et aut tempore dolores et officiis ipsum corrupti. Qui libero provident necessitatibus illo quaerat nobis rerum. Ea alias ex.",
-    votes: 3,
-    author: "grumpy19",
-    article_id: 27,
-    created_at: 1595466840000,
-  },
-  {
-    body: "Fuga sit accusantium sunt aliquam voluptates omnis facilis adipisci ad. Quaerat nostrum omnis officiis cumque placeat dolorem soluta. Quas pariatur ipsa ea quae totam sit porro veniam. Assumenda et id velit inventore dolores asperiores voluptas quo qui.",
-    votes: 19,
-    author: "jessjelly",
-    article_id: 30,
-    created_at: 1599337260000,
-  },
-  {
-    body: "Rerum veniam sequi quia. Qui aperiam eveniet. Modi occaecati quidem impedit sed distinctio ratione. Quos et dolores neque fugit omnis veritatis. Sed rerum maxime eum quia enim quis nam.",
-    votes: 4,
-    author: "cooljmessy",
-    article_id: 17,
-    created_at: 1594714560000,
-  },
-  {
-    body: "Maiores est adipisci cum quam deserunt voluptas natus est soluta. Sed alias est. Et perspiciatis animi quo in dolores quidem quia quae voluptatum. Et ea sint rerum inventore asperiores ut est.",
-    votes: 3,
-    author: "cooljmessy",
-    article_id: 6,
-    created_at: 1592719620000,
-  },
-  {
-    body: "Ad odio a assumenda ad ut. Quidem modi in enim tempora labore. Culpa reiciendis nulla est maxime. Magni rem voluptatem sunt. Distinctio reiciendis consequatur aut eaque natus cum. Dicta rerum eum nisi.",
-    votes: 18,
-    author: "jessjelly",
-    article_id: 34,
-    created_at: 1580062980000,
-  },
-  {
-    body: "Atque consequuntur eligendi culpa cumque dolor et qui sapiente et. Quia placeat sed blanditiis consequatur velit possimus. Quidem fuga odio enim error voluptates vitae. Laboriosam qui consequatur sit illo minima ducimus reprehenderit necessitatibus impedit. Explicabo ducimus maxime.",
-    votes: 18,
-    author: "cooljmessy",
-    article_id: 36,
-    created_at: 1597130460000,
-  },
-  {
-    body: "Nihil neque maiores voluptatem sit. Culpa incidunt ut quo id qui provident reprehenderit necessitatibus.",
-    votes: 19,
-    author: "cooljmessy",
-    article_id: 7,
-    created_at: 1591869900000,
-  },
-  {
-    body: "Aut sed sunt odio quas quas sequi odit excepturi. Eius nisi modi quo aliquid est vero. Iure quis nihil est dolore repellendus ratione dolores eum nulla. Molestiae similique veritatis voluptas quia illum et repudiandae a corrupti. Quod optio quos. Tempore sequi quam.",
-    votes: 15,
-    author: "weegembump",
-    article_id: 27,
-    created_at: 1600077660000,
-  },
-  {
-    body: "Nam qui vel neque aut. Quas quos nisi. Eum praesentium quasi commodi saepe assumenda sed vel. Nostrum qui magnam aut occaecati exercitationem aut voluptatibus.",
-    votes: 7,
-    author: "jessjelly",
-    article_id: 2,
-    created_at: 1588616460000,
-  },
-  {
-    body: "Quam officiis reprehenderit architecto omnis est facere inventore. Expedita est enim dolore debitis velit. Quo facilis accusantium error.",
-    votes: -1,
-    author: "happyamy2016",
-    article_id: 27,
-    created_at: 1599462120000,
-  },
-  {
-    body: "Eveniet ratione rerum. Corrupti vitae excepturi sit repudiandae iste dolor consectetur sit eum.",
-    votes: 18,
-    author: "weegembump",
-    article_id: 22,
-    created_at: 1592860980000,
-  },
-  {
-    body: "Nesciunt aliquid ex et architecto beatae fugit. Et delectus quam culpa rerum hic repellendus laudantium est. Non quasi omnis. Deserunt nisi voluptatem asperiores aspernatur mollitia qui. Molestiae sit voluptates et voluptas voluptas consequatur. Corrupti laboriosam consequatur est tenetur consequuntur id.",
-    votes: -5,
-    author: "happyamy2016",
-    article_id: 26,
-    created_at: 1584669660000,
-  },
-  {
-    body: "Sint consequatur qui inventore impedit nesciunt. Ad aut numquam vel blanditiis. Deleniti aliquid sunt quis necessitatibus esse. Sapiente enim minus aut illo sequi voluptatibus fugit et illum. Dolor voluptatem voluptatem rerum dicta accusamus illo. Dolorum et est suscipit veritatis sequi earum delectus atque suscipit.",
+    body: "David Moyes has had a tough time since leaving Everton. I wonder if he can turn things around at West Ham.",
     votes: 5,
-    author: "tickle122",
-    article_id: 31,
-    created_at: 1577949840000,
-  },
-  {
-    body: "Blanditiis reiciendis eos est voluptas veniam. Vero voluptatem ut. Et ipsum laudantium modi consectetur ipsa. Itaque ut asperiores provident rem earum necessitatibus quaerat. Harum ipsam ex et accusantium aut. Tempora quia voluptatem omnis odio.",
-    votes: 19,
-    author: "cooljmessy",
-    article_id: 32,
-    created_at: 1597921380000,
-  },
-  {
-    body: "Rerum id exercitationem dolores. Et et id iure qui. Alias tempora voluptate sit rerum. Repellendus corrupti ea et maxime sit dolores et ut voluptas.",
-    votes: 5,
-    author: "tickle122",
-    article_id: 23,
-    created_at: 1586862060000,
-  },
-  {
-    body: "Quia magni est eum. Excepturi dolore nobis adipisci temporibus laudantium officiis minus. Blanditiis eligendi dolorem.",
-    votes: 3,
-    author: "cooljmessy",
-    article_id: 7,
-    created_at: 1604675040000,
-  },
-  {
-    body: "Dolor et eos. Earum suscipit est quia aut et qui voluptate. Et dolore necessitatibus asperiores qui perferendis. Adipisci rerum quod commodi ut omnis qui. Officiis maxime cum maxime expedita officia quisquam.",
-    votes: 2,
-    author: "tickle122",
-    article_id: 3,
-    created_at: 1593759960000,
-  },
-  {
-    body: "Unde harum amet. Architecto ad deserunt necessitatibus dignissimos minus quis. Eaque qui nihil eius nisi non corrupti. Molestias dolore quas.",
-    votes: 8,
-    author: "tickle122",
-    article_id: 29,
-    created_at: 1600409220000,
-  },
-  {
-    body: "Placeat voluptatum consequatur ducimus et eum molestiae impedit eveniet. Recusandae rerum voluptas quia mollitia quam velit iusto. Eum eos similique minima necessitatibus nemo. Iure deleniti omnis enim animi iste delectus et consequuntur.",
-    votes: 19,
-    author: "grumpy19",
-    article_id: 5,
-    created_at: 1606150800000,
-  },
-  {
-    body: "Odit aut error. Occaecati et qui. Quam nam aut dolorem.",
-    votes: 10,
-    author: "jessjelly",
-    article_id: 3,
-    created_at: 1601734680000,
-  },
-  {
-    body: "Soluta autem fuga non alias. Odit eligendi voluptas reiciendis repudiandae reiciendis doloribus adipisci qui consequuntur. Et dignissimos unde optio. Recusandae aspernatur eius error. Eos autem et iusto sunt fuga ipsam omnis voluptatem rerum.",
-    votes: 6,
-    author: "jessjelly",
-    article_id: 4,
-    created_at: 1602505380000,
-  },
-  {
-    body: "Qui qui sit earum et laboriosam non. Nobis distinctio qui et sint perspiciatis qui eum. Doloremque animi quia tenetur harum distinctio et.",
-    votes: -2,
-    author: "weegembump",
-    article_id: 27,
-    created_at: 1598228760000,
-  },
-  {
-    body: "Nostrum quia sunt ad ea. Facilis aut alias adipisci voluptatibus explicabo aut incidunt repellendus qui.",
-    votes: 8,
-    author: "cooljmessy",
-    article_id: 21,
-    created_at: 1582546080000,
-  },
-  {
-    body: "Accusamus vel vero aut quaerat quo nihil saepe. Eius quam consequatur explicabo sed est dolor soluta. Corporis enim possimus quo tempore voluptatem id. Sit et modi id ad eum deserunt. Aut voluptatem eum dolor eius. Aperiam ut quo rerum maxime omnis molestiae ipsum quibusdam laboriosam.",
-    votes: 10,
-    author: "grumpy19",
-    article_id: 5,
-    created_at: 1588572900000,
-  },
-  {
-    body: "Doloremque ut reiciendis autem perferendis vel in tempore. Delectus quia illum deleniti fuga dolores dicta velit aut architecto.",
-    votes: -3,
-    author: "tickle122",
-    article_id: 9,
-    created_at: 1579277160000,
-  },
-  {
-    body: "Fuga hic sed. Minus expedita eos aut. Enim dolores iure consequatur et consequatur dolor autem. Itaque consequatur quia. Ullam officia cumque nihil officiis. Earum error iure sed non earum.",
-    votes: 14,
-    author: "jessjelly",
-    article_id: 34,
-    created_at: 1598868540000,
-  },
-  {
-    body: "Animi id fuga culpa voluptates sint qui. Nostrum deleniti optio quo quas eveniet excepturi voluptates voluptatem totam. Provident dolores nesciunt dignissimos quisquam laboriosam iusto aut recusandae est.",
-    votes: 18,
-    author: "grumpy19",
-    article_id: 2,
-    created_at: 1599707760000,
-  },
-  {
-    body: "Et deserunt unde quia atque aperiam provident. Ullam provident est ut perferendis aliquam ut blanditiis tenetur. Tenetur laudantium ea et mollitia sit dolores expedita ullam. Ut ad velit magni.",
-    votes: 4,
-    author: "cooljmessy",
-    article_id: 7,
-    created_at: 1584635040000,
-  },
-  {
-    body: "Dolores qui illo et minima et facilis sunt. Enim velit sunt ut quae est ut.",
-    votes: 4,
-    author: "cooljmessy",
-    article_id: 33,
-    created_at: 1583679960000,
-  },
-  {
-    body: "Qui recusandae nulla quod ut nulla eius ipsum est omnis. Totam laborum culpa suscipit magni adipisci optio est ea. In laudantium dolores eligendi doloribus. At recusandae quia et sapiente odit dolorem consequatur. Velit ut commodi in occaecati animi sint debitis sapiente eligendi.",
-    votes: 0,
-    author: "cooljmessy",
-    article_id: 19,
-    created_at: 1590160140000,
-  },
-  {
-    body: "Error nesciunt et aut ipsam. Dolorum doloribus pariatur.",
-    votes: 18,
-    author: "happyamy2016",
-    article_id: 27,
-    created_at: 1593702060000,
-  },
-  {
-    body: "Ea similique at itaque. Nostrum et temporibus est distinctio nobis pariatur qui. Molestias temporibus est cupiditate unde nulla distinctio. Ut nihil ad molestias consequatur autem culpa neque assumenda illum. Natus doloremque nostrum labore iusto sit.",
-    votes: 0,
-    author: "happyamy2016",
-    article_id: 26,
-    created_at: 1580605800000,
-  },
-  {
-    body: "Voluptatibus laudantium vel consequuntur explicabo voluptatem adipisci eligendi nihil magni. Dolore in molestias ullam sapiente et aperiam. Et aut est placeat porro dolor et modi reiciendis. Enim fuga exercitationem in. Dolore sint laudantium quos sint et aut possimus.",
-    votes: -5,
-    author: "happyamy2016",
-    article_id: 22,
-    created_at: 1591708200000,
-  },
-  {
-    body: "Veniam natus sed nostrum et aut repellendus. Dignissimos quia cum id odio repudiandae impedit aperiam sapiente. Harum sequi non nihil velit modi. Corporis consequatur enim suscipit eos dignissimos voluptas nobis eum.",
-    votes: -1,
-    author: "cooljmessy",
-    article_id: 35,
-    created_at: 1600905900000,
-  },
-  {
-    body: "Beatae non libero nostrum dolores. Minima est facere qui quia omnis enim autem sint.",
-    votes: 7,
-    author: "jessjelly",
-    article_id: 35,
-    created_at: 1606050420000,
-  },
-  {
-    body: "Repellendus eos consequatur atque autem voluptatem et neque facere quas. Illum quaerat numquam labore dolorem harum dolores veritatis. Animi ex dolorum amet. Atque quia quasi labore sed molestiae.",
-    votes: 18,
-    author: "weegembump",
-    article_id: 11,
-    created_at: 1585782060000,
-  },
-  {
-    body: "Et suscipit maxime sit sunt consequuntur consequatur fugiat molestias. Et quis enim vero.",
-    votes: 14,
-    author: "grumpy19",
-    article_id: 2,
-    created_at: 1601752920000,
-  },
-  {
-    body: "Beatae labore et voluptatem aut iure. Labore cum tempore eaque cum. Doloribus omnis neque nihil odio ipsum dolore voluptates.",
-    votes: 11,
-    author: "grumpy19",
-    article_id: 13,
-    created_at: 1587607800000,
-  },
-  {
-    body: "Qui aut nihil temporibus enim. Consequatur officiis quia. Sit vero eum.",
-    votes: 12,
-    author: "cooljmessy",
-    article_id: 24,
-    created_at: 1592182860000,
-  },
-  {
-    body: "Eaque vel unde ab voluptates sint. Doloribus in aut eaque sed laboriosam consequuntur voluptatem molestiae. Sed quibusdam similique aut consequatur reprehenderit omnis. Quasi et commodi nihil aut odio harum.",
-    votes: 19,
-    author: "happyamy2016",
-    article_id: 27,
-    created_at: 1605682980000,
-  },
-  {
-    body: "Dolores facere consequatur. Voluptatem sed debitis esse voluptatem error debitis laborum. Provident provident et et laboriosam qui sunt et temporibus ut. Totam ipsa dicta officia sit et itaque. Enim sit debitis inventore reprehenderit at et ducimus. Culpa qui et odio exercitationem.",
-    votes: 12,
-    author: "cooljmessy",
-    article_id: 23,
-    created_at: 1596614580000,
-  },
-  {
-    body: "Deleniti itaque et est unde autem. Labore illo commodi quaerat natus fugiat adipisci. Adipisci unde recusandae aliquam suscipit ipsum.",
-    votes: 19,
-    author: "grumpy19",
-    article_id: 3,
-    created_at: 1580894160000,
-  },
-  {
-    body: "Sit nihil natus ea nostrum laboriosam necessitatibus. Ab praesentium velit est aut incidunt. Accusamus ipsa et at aspernatur suscipit nihil. Alias dolorum odio deserunt modi. Aspernatur ipsam culpa sit suscipit quia laudantium tempore quaerat.",
-    votes: 7,
-    author: "grumpy19",
-    article_id: 35,
-    created_at: 1595539380000,
-  },
-  {
-    body: "Adipisci numquam eum maiores veniam qui praesentium. Veniam atque neque dolores. Voluptates doloremque eos corrupti. Vero minima nesciunt reprehenderit et eius unde a unde iusto. Architecto praesentium eum impedit. Ipsa officia ut ea sint autem nulla.",
-    votes: 6,
-    author: "happyamy2016",
-    article_id: 12,
-    created_at: 1600535460000,
-  },
-  {
-    body: "Atque voluptas quaerat odio quis. Maxime eligendi autem a consectetur dolores ea necessitatibus consequatur molestias. Autem voluptatem soluta ipsa et qui iure neque est. Qui architecto reiciendis id repudiandae omnis aspernatur veniam est nobis. Ducimus eveniet voluptatum enim et fuga officia omnis consectetur. Recusandae et sint quia dolor voluptatem sit autem id.",
-    votes: 13,
-    author: "weegembump",
-    article_id: 17,
-    created_at: 1594753440000,
-  },
-  {
-    body: "Est voluptas reprehenderit enim necessitatibus blanditiis quia consequatur. Soluta quae quia non veniam corrupti et. Asperiores culpa est ut quam ipsum molestias reiciendis sed molestiae. Ut odit in non odio molestias ab. Voluptates est inventore nihil sunt voluptatem dignissimos et debitis. Nihil et numquam.",
-    votes: -5,
-    author: "weegembump",
-    article_id: 30,
-    created_at: 1583213100000,
-  },
-  {
-    body: "Repudiandae eos eligendi beatae aliquid incidunt temporibus sunt iste dolorem. Dolor iusto ratione quo quia. Deserunt architecto accusamus. Tempore commodi similique rerum vero quia. Ab sit asperiores assumenda est.",
-    votes: 16,
-    author: "weegembump",
-    article_id: 16,
-    created_at: 1597469160000,
-  },
-  {
-    body: "Laudantium non corrupti maxime aut ea ullam incidunt autem aperiam. Dicta adipisci delectus officia ea earum accusamus et et. Molestiae sed quidem nulla soluta dolor ipsum. Debitis nam laudantium provident occaecati deserunt cumque.",
-    votes: 16,
-    author: "tickle122",
-    article_id: 15,
-    created_at: 1591964280000,
-  },
-  {
-    body: "Sit dolores similique temporibus omnis. Reiciendis animi similique. Tempore inventore aperiam. Labore dolorem sint molestiae assumenda ipsum.",
-    votes: -2,
-    author: "cooljmessy",
-    article_id: 34,
-    created_at: 1599350520000,
-  },
-  {
-    body: "Consequatur quia adipisci. Provident tenetur est non harum commodi et itaque aut voluptate. Assumenda labore sed est dolores cum in et et. Velit repudiandae aut et est facere laborum et qui et. Magnam est aliquam.",
-    votes: 5,
-    author: "cooljmessy",
-    article_id: 12,
-    created_at: 1592971380000,
-  },
-  {
-    body: "Est quia optio voluptate in omnis ut quasi. Ea ut sequi sit consectetur eligendi non error quae. Optio accusantium nesciunt. Consequuntur qui alias sed. Aliquam facilis placeat temporibus eaque est et beatae et.",
-    votes: 6,
-    author: "grumpy19",
-    article_id: 23,
-    created_at: 1591453560000,
-  },
-  {
-    body: "Rerum qui consequatur vel sunt debitis. Ea consequuntur eos ducimus quo vitae dolorum illum tempora eum. Recusandae consequatur dolorum quis.",
-    votes: 1,
-    author: "tickle122",
-    article_id: 26,
-    created_at: 1586916960000,
-  },
-  {
-    body: "Harum est in ut et odio sit quis dolore earum. Ad ratione velit consequatur.",
-    votes: 1,
-    author: "weegembump",
-    article_id: 22,
-    created_at: 1580875200000,
-  },
-  {
-    body: "Provident quo sed et ea. Autem cumque incidunt aut aut nostrum aut qui qui repudiandae.",
-    votes: 0,
-    author: "grumpy19",
-    article_id: 29,
-    created_at: 1590135480000,
-  },
-  {
-    body: "Sit harum est sunt non hic atque quis. Amet non est eum tempora id earum nam omnis. Minus pariatur pariatur doloribus deserunt vel. Est assumenda quo et quam perferendis possimus aliquid. Occaecati porro perferendis accusantium sed quo facere voluptates aliquid rerum. Ut eligendi id.",
-    votes: 9,
-    author: "tickle122",
-    article_id: 16,
-    created_at: 1601629740000,
-  },
-  {
-    body: "Aut sint ut. Voluptatem enim saepe quasi aut ut qui quasi neque quidem. At nihil quia minus eos harum est accusantium et.",
-    votes: -2,
-    author: "tickle122",
-    article_id: 16,
-    created_at: 1583075340000,
-  },
-  {
-    body: "Voluptatem voluptas tempore soluta et rerum quia sed quas ut. Non cumque perferendis voluptate vitae est quis sit enim dolor. Et esse qui est et.",
-    votes: -5,
-    author: "jessjelly",
-    article_id: 6,
-    created_at: 1597864500000,
-  },
-  {
-    body: "Eaque et officia maxime. Iusto provident a vitae. In dolorem numquam. Pariatur est laudantium laborum nostrum architecto assumenda ea maxime. Quia perferendis qui ducimus saepe et sunt cum dolore amet. Quibusdam aliquam nam illum consectetur aut porro.",
-    votes: 15,
-    author: "cooljmessy",
-    article_id: 12,
-    created_at: 1605431640000,
-  },
-  {
-    body: "Aut unde dolor debitis exercitationem atque necessitatibus. Rerum alias commodi sunt. Quasi ipsa iure omnis et rerum corrupti. Rerum voluptatem aliquid tempore doloremque et facere sapiente nam. Qui totam ipsum. Ipsa sed eum laborum nulla dolore consequatur aspernatur ea.",
-    votes: 6,
-    author: "jessjelly",
-    article_id: 34,
-    created_at: 1582935780000,
-  },
-  {
-    body: "Impedit iure ut est qui et qui sed. Nobis sint voluptatem asperiores. Ad sequi repellendus.",
-    votes: 14,
-    author: "jessjelly",
-    article_id: 18,
-    created_at: 1580656380000,
-  },
-  {
-    body: "Nisi culpa molestiae est molestias animi minus. Labore aut doloribus placeat et qui explicabo odio.",
-    votes: 19,
-    author: "tickle122",
-    article_id: 21,
-    created_at: 1600536180000,
-  },
-  {
-    body: "Vitae quo nobis illum aut vel iure. Ut non distinctio quia soluta odit quasi ut mollitia accusamus. Eum perferendis neque quos dignissimos expedita totam fugit autem. Quis exercitationem dolor molestiae ullam asperiores impedit architecto dolor.",
-    votes: 14,
-    author: "grumpy19",
-    article_id: 4,
-    created_at: 1592877600000,
-  },
-  {
-    body: "Qui at et qui pariatur saepe ea libero. Voluptate voluptatem qui est qui quasi et. Consequatur illo voluptatem ea autem vel vel. Perferendis iure ab voluptate asperiores odio odit dolores. Rem et nulla dolorem et dignissimos culpa. Voluptatibus nihil consequatur aspernatur debitis velit quaerat sequi praesentium.",
-    votes: 19,
-    author: "cooljmessy",
-    article_id: 28,
-    created_at: 1596463620000,
-  },
-  {
-    body: "Architecto nesciunt enim totam deleniti nobis enim eum consequatur. Ut nostrum voluptates excepturi minus ipsam dolorem nostrum.",
-    votes: 19,
-    author: "happyamy2016",
-    article_id: 16,
-    created_at: 1586070000000,
-  },
-  {
-    body: "Dolorum fugiat temporibus quia quisquam. Et id minima.",
-    votes: 12,
-    author: "cooljmessy",
-    article_id: 20,
-    created_at: 1596665040000,
-  },
-  {
-    body: "Ex beatae harum qui. Et minima qui. Molestiae quod commodi tenetur corporis id necessitatibus eum nobis. Ut dolorem eveniet. Ex dolor qui. Officia reprehenderit ducimus iure placeat.",
-    votes: 12,
-    author: "weegembump",
-    article_id: 2,
-    created_at: 1596633420000,
-  },
-  {
-    body: "Blanditiis aut a. Ipsum iusto quam quos veritatis repellendus nostrum. Sequi quis culpa.",
-    votes: 3,
-    author: "jessjelly",
-    article_id: 3,
-    created_at: 1582286880000,
-  },
-  {
-    body: "Asperiores dicta qui. Itaque id quibusdam ut est rem odit magni ratione.",
-    votes: 4,
-    author: "jessjelly",
-    article_id: 19,
-    created_at: 1578049200000,
-  },
-  {
-    body: "Sit dolore et et voluptatem consequatur. Nostrum quae accusamus repellendus quae esse eligendi quaerat incidunt omnis.",
-    votes: 11,
-    author: "cooljmessy",
-    article_id: 15,
-    created_at: 1584684360000,
-  },
-  {
-    body: "Voluptas in neque quasi. Rem esse odio deserunt minima voluptatem laboriosam consequatur aut aliquam. Rerum ipsa et voluptas velit eveniet doloribus.",
-    votes: 14,
-    author: "weegembump",
-    article_id: 20,
-    created_at: 1596417420000,
-  },
-  {
-    body: "Qui consequuntur id beatae ut vel a error. Vitae et et. Mollitia soluta neque quibusdam tempore quis quia eos autem magni. Voluptatibus numquam nostrum et enim officiis rerum. Optio quo harum dolore voluptatem sit temporibus rem voluptas rem.",
-    votes: 0,
-    author: "cooljmessy",
-    article_id: 33,
-    created_at: 1601544000000,
-  },
-  {
-    body: "Autem similique commodi et vel autem minima quos quam. Animi et dignissimos recusandae repellat officia excepturi sunt. Occaecati vel excepturi qui voluptatem et illo hic. Voluptas itaque et. Hic fugiat tempore soluta sequi nisi perspiciatis rerum perspiciatis. Corrupti accusantium ullam corporis facilis ea omnis enim.",
-    votes: 11,
-    author: "tickle122",
-    article_id: 18,
-    created_at: 1597997580000,
-  },
-  {
-    body: "Odio accusamus eius voluptatem voluptatem esse magni est in aperiam. Voluptatem quam sapiente omnis debitis ut molestiae. Eligendi qui ratione. Maiores occaecati voluptas voluptatem at repellat sint voluptatem. Ut voluptatem optio porro perspiciatis aut dicta quae qui. Minus odio suscipit tempora aspernatur sequi ut est.",
-    votes: -3,
-    author: "grumpy19",
-    article_id: 30,
-    created_at: 1587381900000,
-  },
-  {
-    body: "Autem magnam sequi quidem inventore dolorem sed dicta qui quis. Voluptatem sit pariatur esse similique nam corporis provident. Quo quam ducimus repudiandae voluptas. Officia ducimus quo praesentium ducimus est nesciunt molestias sequi.",
-    votes: 12,
-    author: "jessjelly",
-    article_id: 10,
-    created_at: 1591147560000,
-  },
-  {
-    body: "Fugiat aut ipsam ea commodi natus commodi officiis amet. Rerum quae error. Vel eum voluptates corrupti aperiam.",
-    votes: -1,
-    author: "jessjelly",
-    article_id: 3,
-    created_at: 1589958900000,
-  },
-  {
-    body: "Necessitatibus libero et et qui exercitationem nihil labore. Aut autem sed.",
-    votes: 5,
-    author: "happyamy2016",
-    article_id: 23,
-    created_at: 1592349900000,
-  },
-  {
-    body: "Quia numquam ut fuga. Laudantium perspiciatis distinctio rerum sunt itaque non ipsum. Nihil necessitatibus voluptatem. Reiciendis nobis quae quo et mollitia soluta. Voluptates deleniti soluta ducimus natus eos enim sunt. Totam et perferendis qui reiciendis.",
-    votes: -3,
-    author: "happyamy2016",
-    article_id: 16,
-    created_at: 1594041000000,
-  },
-  {
-    body: "Fugiat voluptatibus numquam aut aut sit quae magni qui. Ipsam sed reprehenderit aliquid quibusdam. Id ducimus quisquam modi sed repellendus quia omnis aliquam et. Qui blanditiis voluptate doloremque esse qui sint deserunt voluptas. Et rerum et rerum quia repudiandae vero omnis voluptas sit. Ipsam eos fugiat omnis rem quia sequi omnis reprehenderit minus.",
-    votes: -1,
-    author: "tickle122",
-    article_id: 11,
-    created_at: 1578597420000,
-  },
-  {
-    body: "Doloribus omnis numquam soluta. Eius officia molestias. Velit ex distinctio et sunt. Et non incidunt velit quam ullam accusantium natus sunt. Aut similique ullam eum impedit autem necessitatibus aut. Est accusamus quo beatae illo quaerat culpa perspiciatis.",
-    votes: 8,
-    author: "grumpy19",
-    article_id: 12,
-    created_at: 1596956400000,
-  },
-  {
-    body: "Voluptatum expedita et nobis non quisquam corrupti voluptas sed delectus. Sed dolorem itaque eius velit soluta quia deleniti. Dolorem rerum consequatur vitae. Ea cupiditate voluptate.",
-    votes: 5,
-    author: "weegembump",
-    article_id: 25,
-    created_at: 1599448020000,
-  },
-  {
-    body: "Ea cum vitae sunt. Rerum inventore voluptates dolores consequuntur recusandae esse quia velit at. Voluptatem sit voluptates temporibus. Et sunt harum ad sit ut aperiam. Omnis enim eos aspernatur. Maxime nam quasi error dolor et qui quaerat accusamus temporibus.",
-    votes: -3,
-    author: "cooljmessy",
-    article_id: 31,
-    created_at: 1585156080000,
-  },
-  {
-    body: "Aliquam delectus eligendi. Minima quam est ducimus non soluta nihil. Veritatis provident omnis dolor ipsa dolorem doloribus.",
-    votes: 4,
-    author: "cooljmessy",
-    article_id: 23,
-    created_at: 1595768820000,
-  },
-  {
-    body: "Sunt quos sit suscipit est veritatis molestias accusamus. Animi voluptatum et aliquam dolorum et molestiae culpa sed qui. Sapiente rerum tempore amet quia nesciunt.",
-    votes: 11,
-    author: "jessjelly",
-    article_id: 16,
-    created_at: 1578729600000,
-  },
-  {
-    body: "Voluptatem esse dolores alias harum. Voluptatem dolore dicta.",
-    votes: 3,
-    author: "tickle122",
-    article_id: 18,
-    created_at: 1584821820000,
-  },
-  {
-    body: "Et laboriosam aut. Ut natus possimus quia rerum autem culpa et officiis. Accusantium ut et et laudantium aspernatur inventore. Praesentium molestias odio.",
-    votes: 15,
-    author: "grumpy19",
-    article_id: 17,
-    created_at: 1597608180000,
-  },
-  {
-    body: "Molestiae ut esse a error necessitatibus doloribus eligendi nesciunt. Ea minus voluptatem quae maxime distinctio.",
-    votes: -3,
-    author: "cooljmessy",
-    article_id: 34,
-    created_at: 1598466240000,
-  },
-  {
-    body: "Consectetur ut tempore perferendis ex qui et. Ad sunt ipsa quisquam iusto consequuntur. Dolore et reiciendis maxime et laborum similique ullam velit. Hic unde quod sunt. Ut ut at repellendus.",
-    votes: 0,
-    author: "grumpy19",
-    article_id: 25,
-    created_at: 1601820000000,
-  },
-  {
-    body: "Voluptas accusantium eius earum aliquid. Earum et rerum. Expedita dolores ut autem fuga id accusamus et.",
-    votes: 14,
-    author: "weegembump",
-    article_id: 7,
-    created_at: 1605920940000,
-  },
-  {
-    body: "Veniam ad et dignissimos sunt consequuntur adipisci et explicabo voluptatem. Cupiditate repellat quae laboriosam expedita.",
-    votes: 9,
-    author: "grumpy19",
-    article_id: 9,
-    created_at: 1596658980000,
-  },
-  {
-    body: "Maxime beatae esse veniam cum nihil. Mollitia at ducimus aliquam. Doloribus sed est. Modi ut neque et velit expedita. Aliquid in assumenda.",
-    votes: -3,
-    author: "grumpy19",
-    article_id: 19,
-    created_at: 1598001360000,
-  },
-  {
-    body: "Similique ea aperiam incidunt numquam ratione dignissimos vero reiciendis voluptatem. Saepe quas soluta ut odit. Laboriosam et aspernatur et rerum mollitia optio. Est nisi consequatur veritatis aut occaecati soluta quae beatae. Eligendi debitis ratione temporibus aperiam.",
-    votes: -2,
-    author: "weegembump",
-    article_id: 35,
-    created_at: 1605867120000,
-  },
-  {
-    body: "Ratione ea amet ut minus repellendus. Sunt ut qui sit commodi et nihil. Minima incidunt quibusdam rem id voluptas. Voluptatem rem omnis voluptatem facilis ipsum libero sunt. Aperiam aut quia.",
-    votes: 19,
-    author: "happyamy2016",
-    article_id: 19,
-    created_at: 1605205200000,
-  },
-  {
-    body: "Iste laudantium explicabo nihil officia. Tempora voluptates amet exercitationem sed aut quo. Nostrum totam esse minus distinctio ipsum. Nisi debitis voluptatem rerum nisi qui.",
-    votes: -3,
-    author: "weegembump",
-    article_id: 12,
-    created_at: 1589448240000,
-  },
-  {
-    body: "Cumque facere nemo veritatis at odio iste rerum. Ad non dolorum aspernatur similique aut. Sed eum et distinctio voluptates mollitia cumque odit itaque. Maxime quibusdam omnis labore fugiat ad saepe. Vitae voluptatibus odio. Nemo voluptatem omnis minima nulla aut dolorem.",
-    votes: 5,
-    author: "cooljmessy",
-    article_id: 16,
-    created_at: 1605197820000,
-  },
-  {
-    body: "Facilis molestias consequatur aperiam debitis ut. Qui pariatur sit saepe. Perferendis officiis sunt qui.",
-    votes: 10,
     author: "cooljmessy",
     article_id: 14,
-    created_at: 1591851900000,
+    created_at: 1696100000000
   },
   {
-    body: "In quos et. Voluptatem ut at voluptatem earum consequuntur. Aliquid et accusantium. Facere non asperiores magnam quia exercitationem atque dignissimos voluptate enim.",
-    votes: 0,
-    author: "tickle122",
-    article_id: 9,
-    created_at: 1600427280000,
-  },
-  {
-    body: "Quos nobis distinctio veniam voluptas et ut id quos. Et atque facilis accusamus sapiente tempora vel. Itaque dolor recusandae dignissimos cupiditate labore quibusdam. Dolores eos vero molestiae cupiditate quis. Et fugit ea eos. Odit voluptates dolore sit fugit.",
-    votes: 5,
-    author: "jessjelly",
-    article_id: 24,
-    created_at: 1595344860000,
-  },
-  {
-    body: "Qui vero officia et delectus quibusdam. Eos qui inventore voluptas. Sed delectus assumenda velit. Nihil nostrum facilis beatae ut architecto sed.",
-    votes: -3,
-    author: "jessjelly",
-    article_id: 32,
-    created_at: 1583647920000,
-  },
-  {
-    body: "Adipisci ut dignissimos doloribus iure quis vel aut. Neque voluptatem occaecati qui autem officiis. Aperiam incidunt qui assumenda reprehenderit maxime repudiandae voluptas deleniti.",
-    votes: 18,
-    author: "jessjelly",
-    article_id: 6,
-    created_at: 1604204700000,
-  },
-  {
-    body: "Laborum ipsa molestiae dolore et ut suscipit. Quia odio quod harum consequatur. Ut illum natus saepe. Odit impedit non ipsa ex. Eveniet sapiente dolores et dolorem est.",
-    votes: 12,
-    author: "cooljmessy",
-    article_id: 17,
-    created_at: 1589761440000,
-  },
-  {
-    body: "Sed voluptas ut perspiciatis dolorem ipsam omnis laudantium nemo expedita. Ducimus sequi consequuntur ea vitae necessitatibus quis in. Cum autem aliquid autem non officia nihil molestiae. Quis est voluptatem rerum aliquam libero.",
-    votes: 7,
-    author: "tickle122",
-    article_id: 19,
-    created_at: 1578154740000,
-  },
-  {
-    body: "Et hic sint magnam error necessitatibus numquam molestias sequi. Ad id enim qui sit cum dolorem.",
-    votes: -5,
-    author: "weegembump",
-    article_id: 17,
-    created_at: 1581934260000,
-  },
-  {
-    body: "Omnis in magni temporibus dolor necessitatibus est reiciendis. Voluptate suscipit cumque earum. Quaerat fuga voluptates qui ut sed asperiores expedita quasi. Et corporis officia dignissimos maiores fugit deserunt quos qui qui. Explicabo eum sint dolorem quas dolorem doloremque quasi in vel.",
-    votes: 13,
-    author: "jessjelly",
-    article_id: 23,
-    created_at: 1583705520000,
-  },
-  {
-    body: "Quod asperiores aut. Rerum ipsa sed quas nobis qui recusandae neque. Est dolorem ipsam.",
-    votes: -4,
-    author: "jessjelly",
-    article_id: 4,
-    created_at: 1579573320000,
-  },
-  {
-    body: "Perferendis perspiciatis voluptates quia adipisci sequi voluptatem doloremque. Dignissimos quo quos. Placeat ipsum iste minima laudantium possimus voluptas in.",
-    votes: 14,
-    author: "cooljmessy",
-    article_id: 27,
-    created_at: 1592259240000,
-  },
-  {
-    body: "Consequatur inventore voluptatum hic qui magnam nulla rerum. Beatae sint sed qui iure in est. Quo quibusdam molestias autem animi repellendus at et. Voluptates maxime recusandae. Repudiandae qui nesciunt.",
-    votes: 11,
+    body: "Managerial changes seem to be a trend these days, but I think it often leads to more instability in the club.",
+    votes: 4,
     author: "happyamy2016",
-    article_id: 3,
-    created_at: 1596783900000,
+    article_id: 14,
+    created_at: 1696150000000
   },
   {
-    body: "Ullam distinctio voluptatem nostrum neque eos quam sunt dolore sed. Quibusdam velit fugit molestiae harum quia. Est deserunt quod est earum ipsum quibusdam dolorem et. Exercitationem culpa consequuntur ut labore possimus quia magni iure.",
-    votes: 1,
-    author: "tickle122",
-    article_id: 30,
-    created_at: 1597389360000,
-  },
-  {
-    body: "Optio earum praesentium expedita tempore atque ipsam qui. Optio aliquam consequuntur minus quasi repudiandae omnis tempore tenetur. Ratione non earum est voluptatem sint laboriosam est sint. Assumenda rerum rerum consectetur blanditiis aliquid magnam amet. Alias quod qui et. Voluptatem esse delectus dolor eligendi officia autem.",
-    votes: 19,
+    body: "It's always a gamble when a club changes managers. Sometimes it works out, and other times it doesn't.",
+    votes: 6,
     author: "jessjelly",
-    article_id: 31,
-    created_at: 1581203520000,
+    article_id: 14,
+    created_at: 1696200000000
   },
   {
-    body: "Nostrum perspiciatis ratione illum et officia nobis sint et. Dignissimos est sed officia exercitationem. Voluptas voluptate ipsam eius rem sunt est. Accusamus nulla nam est velit. Sapiente rerum est minima eligendi accusamus voluptatem sint optio.",
-    votes: -3,
+    body: "I feel for the managers who get sacked after just a few bad games. Football is such a results-driven business.",
+    votes: 8,
+    author: "weegembump",
+    article_id: 14,
+    created_at: 1696250000000
+  },
+  {
+    body: "It's interesting to see how some clubs stick with their managers through tough times while others don't.",
+    votes: 3,
+    author: "grumpy19",
+    article_id: 14,
+    created_at: 1696300000000
+  },
+  {
+    body: "Who do you think would be a good fit to replace Moyes if things don't improve? I have a few names in mind.",
+    votes: 5,
+    author: "cooljmessy",
+    article_id: 14,
+    created_at: 1696350000000
+  },
+  {
+    body: "Football management is tougher than it looks! You have to deal with so much pressure from fans and the board.",
+    votes: 4,
+    author: "tickle122",
+    article_id: 14,
+    created_at: 1696400000000
+  },
+  {
+    body: "I hope clubs start being more patient with managers. Sometimes it takes time to implement a new philosophy.",
+    votes: 6,
+    author: "jessjelly",
+    article_id: 14,
+    created_at: 1696450000000
+  },
+  {
+    body: "It's frustrating to see the same players being picked despite their past performances. Fresh talent is needed!",
+    votes: 7,
+    author: "grumpy19",
+    article_id: 15,
+    created_at: 1696000000000
+  },
+  {
+    body: "I agree with the sentiment about Southgate. He has a chance to do something different, but will he take it?",
+    votes: 6,
+    author: "tickle122",
+    article_id: 15,
+    created_at: 1696050000000
+  },
+  {
+    body: "Big Sam had his strengths, but his style isn't what we need for an evolving England team.",
+    votes: 5,
+    author: "cooljmessy",
+    article_id: 15,
+    created_at: 1696100000000
+  },
+  {
+    body: "The pressure on England managers is immense, but they need to be bold with their selections to make progress.",
+    votes: 4,
+    author: "happyamy2016",
+    article_id: 15,
+    created_at: 1696150000000
+  },
+  {
+    body: "It's all about mentality. If we keep choosing players who have failed before, we'll never move forward.",
+    votes: 8,
+    author: "jessjelly",
+    article_id: 15,
+    created_at: 1696200000000
+  },
+  {
+    body: "Southgate seems to be the right man for the job, but he must trust his instincts with the younger players.",
+    votes: 6,
+    author: "weegembump",
+    article_id: 15,
+    created_at: 1696250000000
+  },
+  {
+    body: "I hope the FA gives Southgate enough time to implement his vision. Change takes time.",
+    votes: 3,
+    author: "grumpy19",
+    article_id: 15,
+    created_at: 1696300000000
+  },
+  {
+    body: "It's time to stop relying on the so-called 'elite' players and start looking at the whole talent pool.",
+    votes: 5,
+    author: "cooljmessy",
+    article_id: 15,
+    created_at: 1696350000000
+  },
+  {
+    body: "It's interesting how England managers have struggled historically. We need to break that cycle.",
+    votes: 4,
+    author: "tickle122",
+    article_id: 15,
+    created_at: 1696400000000
+  },
+  {
+    body: "Hodgson had a tough task, but he made mistakes that were avoidable. Lessons need to be learned!",
+    votes: 6,
+    author: "jessjelly",
+    article_id: 15,
+    created_at: 1696450000000
+  },
+  {
+    body: "Barcelona's journey from its founding to its current status is fascinating. The club truly represents Catalan identity!",
+    votes: 9,
+    author: "happyamy2016",
+    article_id: 16,
+    created_at: 1696500000000
+  },
+  {
+    body: "The impact of politics on Barcelona's identity is so significant. It's more than just a football club.",
+    votes: 8,
+    author: "grumpy19",
+    article_id: 16,
+    created_at: 1696550000000
+  },
+  {
+    body: "I love how Barça has always embraced its Catalan roots, especially during tough times. True resilience!",
+    votes: 7,
+    author: "cooljmessy",
+    article_id: 16,
+    created_at: 1696600000000
+  },
+  {
+    body: "It's impressive how consistently successful the club has been since its founding. A real powerhouse!",
+    votes: 6,
+    author: "tickle122",
+    article_id: 16,
+    created_at: 1696650000000
+  },
+  {
+    body: "The sextuple achievement was monumental! It showcased Barcelona's dominance in world football.",
+    votes: 5,
     author: "weegembump",
     article_id: 16,
-    created_at: 1589134260000,
+    created_at: 1696700000000
   },
   {
-    body: "Beatae aut et est optio ut magni hic. Unde reprehenderit quam reiciendis laborum possimus distinctio veritatis. Nostrum corrupti minus voluptatem veritatis quis aspernatur totam. Atque nisi et labore repellat officia quia pariatur cumque.",
+    body: "Joan Gamper was a visionary. His commitment to football laid the groundwork for what Barça is today.",
     votes: 4,
     author: "jessjelly",
-    article_id: 24,
-    created_at: 1602904320000,
+    article_id: 16,
+    created_at: 1696750000000
   },
   {
-    body: "Velit ut aut quia saepe dicta. Omnis hic voluptates doloremque earum voluptatibus pariatur. Natus error commodi impedit ad enim aspernatur. Illo maxime laboriosam ipsam temporibus iusto quae laboriosam dolorem debitis.",
-    votes: 16,
+    body: "It's incredible to think that Barcelona has never been relegated from La Liga. A testament to their strength!",
+    votes: 6,
     author: "happyamy2016",
-    article_id: 30,
-    created_at: 1587752160000,
+    article_id: 16,
+    created_at: 1696800000000
   },
   {
-    body: "Deleniti mollitia est assumenda. Totam veniam velit similique nesciunt minima. Autem quibusdam harum voluptate. Et distinctio nemo quia. Beatae libero quaerat amet libero. Corrupti ducimus qui recusandae nobis sunt perspiciatis minima debitis et.",
-    votes: 2,
+    body: "The connection between FC Barcelona and Catalonia is something that makes them unique compared to other clubs.",
+    votes: 5,
+    author: "grumpy19",
+    article_id: 16,
+    created_at: 1696850000000
+  },
+  {
+    body: "The political history intertwined with the club adds so much depth to its narrative. It's not just about football.",
+    votes: 4,
+    author: "cooljmessy",
+    article_id: 16,
+    created_at: 1696900000000
+  },
+  {
+    body: "Looking forward to seeing how Barcelona continues to evolve while holding onto its rich history!",
+    votes: 5,
+    author: "tickle122",
+    article_id: 16,
+    created_at: 1696950000000
+  },
+  {
+    body: "This is such an interesting perspective! It's fascinating to see how managers' playing careers shape their coaching styles.",
+    votes: 7,
+    author: "tickle122",
+    article_id: 17,
+    created_at: 1697000000000
+  },
+  {
+    body: "I always thought managers were just tacticians, but knowing their playing background adds so much depth to their decisions.",
+    votes: 6,
+    author: "grumpy19",
+    article_id: 17,
+    created_at: 1697050000000
+  },
+  {
+    body: "I bet some of these managers were incredible players! Can't wait to see the rankings!",
+    votes: 8,
+    author: "happyamy2016",
+    article_id: 17,
+    created_at: 1697100000000
+  },
+  {
+    body: "I hope you included some stats on their playing careers! It would be great to see how they compare.",
+    votes: 5,
+    author: "weegembump",
+    article_id: 17,
+    created_at: 1697150000000
+  },
+  {
+    body: "This is a great topic! I think some managers surprise us with their playing history, like Pep Guardiola.",
+    votes: 6,
+    author: "cooljmessy",
+    article_id: 17,
+    created_at: 1697200000000
+  },
+  {
+    body: "I wonder if any current managers were top scorers in their day! That would be impressive!",
+    votes: 4,
+    author: "jessjelly",
+    article_id: 17,
+    created_at: 1697250000000
+  },
+  {
+    body: "The evolution of a player to a manager can be so interesting. Looking forward to the rankings!",
+    votes: 5,
+    author: "tickle122",
+    article_id: 17,
+    created_at: 1697300000000
+  },
+  {
+    body: "Can't wait to find out who ranks highest! Some managers have such rich playing histories.",
+    votes: 6,
+    author: "happyamy2016",
+    article_id: 17,
+    created_at: 1697350000000
+  },
+  {
+    body: "It will be fun to debate who was the best! I have my favorites in mind already!",
+    votes: 4,
+    author: "grumpy19",
+    article_id: 17,
+    created_at: 1697400000000
+  },
+  {
+    body: "I think it's crucial to recognize their playing days; it gives context to their coaching decisions!",
+    votes: 5,
+    author: "weegembump",
+    article_id: 17,
+    created_at: 1697450000000
+  },
+  {
+    body: "It's incredible how much stats have evolved in football! I love seeing how numbers can influence strategy.",
+    votes: 9,
+    author: "tickle122",
+    article_id: 18,
+    created_at: 1697000000000
+  },
+  {
+    body: "I had no idea so many people were behind the scenes tracking stats! It really shows how serious teams are about data.",
+    votes: 7,
+    author: "cooljmessy",
+    article_id: 18,
+    created_at: 1697050000000
+  },
+  {
+    body: "The way stats can highlight players who don't score goals is fascinating. It's all about the team's effort!",
+    votes: 8,
+    author: "happyamy2016",
+    article_id: 18,
+    created_at: 1697100000000
+  },
+  {
+    body: "Opta and Prozone are game changers in sports analytics! Can't wait to see what they come up with next.",
+    votes: 6,
+    author: "weegembump",
+    article_id: 18,
+    created_at: 1697150000000
+  },
+  {
+    body: "This makes me appreciate the game even more! Stats really add another layer of excitement to watching matches.",
+    votes: 5,
     author: "grumpy19",
     article_id: 18,
-    created_at: 1582002240000,
+    created_at: 1697200000000
   },
   {
-    body: "Aut esse incidunt laborum enim nam voluptas enim deleniti dolores. Neque voluptas voluptatem. Est quia itaque aut est laudantium dolor. Esse vitae eum iste ut mollitia officiis architecto quo autem. Accusamus quod maiores quia incidunt veniam. Rerum adipisci sed quasi labore neque sit rem quam.",
+    body: "I think teams using advanced stats is crucial now. It can really change how they approach the game.",
     votes: 4,
-    author: "happyamy2016",
-    article_id: 5,
-    created_at: 1581545220000,
-  },
-  {
-    body: "Alias quos temporibus. Non non facere hic eligendi totam placeat. Distinctio aliquid voluptates aut aperiam aut est inventore error tenetur. Totam et eos vel in quos asperiores vero cumque tempora. Eligendi nihil deleniti iusto laborum velit neque dolore.",
-    votes: 20,
-    author: "cooljmessy",
-    article_id: 6,
-    created_at: 1600391460000,
-  },
-  {
-    body: "Temporibus asperiores optio facilis vel. Dolorem itaque esse aut eaque maxime dignissimos quas dolor.",
-    votes: 8,
     author: "jessjelly",
-    article_id: 10,
-    created_at: 1603656480000,
+    article_id: 18,
+    created_at: 1697250000000
   },
   {
-    body: "A aliquam aut voluptas eius. Ducimus omnis molestias eum veniam nostrum laborum. Sunt error praesentium eos.",
-    votes: 14,
-    author: "happyamy2016",
-    article_id: 26,
-    created_at: 1602199140000,
-  },
-  {
-    body: "Cumque officia dolorum numquam debitis non. Doloremque fugiat maxime et a et impedit sunt.",
-    votes: 2,
-    author: "cooljmessy",
-    article_id: 9,
-    created_at: 1588820820000,
-  },
-  {
-    body: "Natus quaerat non harum quae ut et quia. Id aut reiciendis.",
-    votes: -3,
-    author: "grumpy19",
-    article_id: 36,
-    created_at: 1584058380000,
-  },
-  {
-    body: "Quaerat impedit totam unde sint recusandae aut ratione repudiandae libero. Ut corporis neque.",
-    votes: 7,
-    author: "jessjelly",
-    article_id: 12,
-    created_at: 1581877260000,
-  },
-  {
-    body: "Distinctio est distinctio voluptatibus sit. Eos consequatur et tempore eaque cum non libero.",
-    votes: 1,
-    author: "grumpy19",
-    article_id: 35,
-    created_at: 1605017340000,
-  },
-  {
-    body: "Nesciunt iusto sed illo explicabo. Molestias dolorem ut dignissimos est sint quia optio praesentium. Dignissimos non itaque. Hic necessitatibus minus modi laudantium iure voluptatibus. Et recusandae harum voluptates expedita deserunt deleniti et. Ratione minima ullam dignissimos aliquam.",
-    votes: 20,
-    author: "happyamy2016",
-    article_id: 25,
-    created_at: 1583258400000,
-  },
-  {
-    body: "Dolor rem saepe voluptas impedit et. Corrupti qui quod commodi. Quos blanditiis placeat.",
-    votes: -1,
-    author: "grumpy19",
-    article_id: 13,
-    created_at: 1589843100000,
-  },
-  {
-    body: "Quasi optio delectus eum aliquam numquam provident voluptatem eos numquam. Est iste quibusdam in. Qui architecto culpa tenetur modi.",
-    votes: 15,
+    body: "It's interesting that most of these stat trackers are young guys doing it as a side job. Makes you wonder about their passion for the game!",
+    votes: 5,
     author: "tickle122",
-    article_id: 16,
-    created_at: 1581448260000,
+    article_id: 18,
+    created_at: 1697300000000
   },
   {
-    body: "Corporis adipisci eum dignissimos inventore qui excepturi dolorum. Illum dicta eos ex. Dolor et ex vel et amet alias non eos sunt. Itaque dolor et est consectetur magni. Dignissimos quis ut quia architecto facere enim qui ducimus.",
-    votes: 2,
+    body: "I love that fans are getting more numbers, even if some prefer just enjoying the game. Stats can enhance the experience!",
+    votes: 6,
+    author: "happyamy2016",
+    article_id: 18,
+    created_at: 1697350000000
+  },
+  {
+    body: "This new wave of stats is revolutionizing how we view football. It's amazing to see the game evolve!",
+    votes: 5,
+    author: "cooljmessy",
+    article_id: 18,
+    created_at: 1697400000000
+  },
+  {
+    body: "Tracking every single touch and pass is incredible! It really shows how every little detail counts in football.",
+    votes: 4,
+    author: "weegembump",
+    article_id: 18,
+    created_at: 1697450000000
+  },
+  {
+    body: "It's no surprise that Manchester United leads the pack! They've got such a huge global fanbase.",
+    votes: 10,
+    author: "tickle122",
+    article_id: 19,
+    created_at: 1697000000000
+  },
+  {
+    body: "Arsenal and Chelsea are pretty close too! It shows how competitive the Premier League is, even on social media.",
+    votes: 8,
+    author: "cooljmessy",
+    article_id: 19,
+    created_at: 1697050000000
+  },
+  {
+    body: "It's interesting to see how social media influences the popularity of clubs nowadays. Those numbers are staggering!",
+    votes: 9,
     author: "happyamy2016",
     article_id: 19,
-    created_at: 1594008780000,
+    created_at: 1697100000000
   },
   {
-    body: "Et inventore voluptas sit aliquid nihil et qui maxime sed. Consectetur sit voluptatem corrupti modi harum quia quia. Eius rerum tempora et.",
-    votes: 2,
-    author: "tickle122",
-    article_id: 8,
-    created_at: 1593213180000,
+    body: "I wonder how many of those followers are actually active fans versus casual followers. Either way, it's impressive!",
+    votes: 7,
+    author: "weegembump",
+    article_id: 19,
+    created_at: 1697150000000
   },
   {
-    body: "Velit excepturi placeat qui. Sed et sint molestias ut temporibus. Odit nulla rerum vitae ut omnis asperiores molestias odio. Dolorem pariatur molestiae rerum sunt enim assumenda mollitia dicta est.",
-    votes: 11,
-    author: "cooljmessy",
-    article_id: 9,
-    created_at: 1584195960000,
+    body: "Instagram is such a great platform for clubs to connect with their fans. The behind-the-scenes content is always fun!",
+    votes: 6,
+    author: "jessjelly",
+    article_id: 19,
+    created_at: 1697200000000
   },
   {
-    body: "Distinctio laudantium consequatur exercitationem enim magni quod est commodi. Harum consequatur est maiores ipsum accusamus impedit perferendis nobis ipsam. Adipisci excepturi itaque maiores deserunt deserunt occaecati iste. Consectetur non nostrum ex voluptatem in laborum sed ut.",
-    votes: -3,
+    body: "These follower counts really show the reach of football clubs globally! It’s fascinating to see their influence.",
+    votes: 5,
     author: "grumpy19",
-    article_id: 16,
-    created_at: 1596377760000,
+    article_id: 19,
+    created_at: 1697250000000
   },
   {
-    body: "Expedita non veritatis dicta blanditiis ratione qui et. Corrupti sapiente accusantium molestiae vel nemo quia ullam. Ut distinctio aut autem fuga ullam et quod vero architecto. Sapiente voluptatem neque.",
+    body: "With 500m users on Instagram, it's amazing that one in three follow sports accounts! Sports really do connect people.",
+    votes: 4,
+    author: "tickle122",
+    article_id: 19,
+    created_at: 1697300000000
+  },
+  {
+    body: "I'd love to know which players are the most followed! They definitely contribute to their club's popularity.",
+    votes: 5,
+    author: "happyamy2016",
+    article_id: 19,
+    created_at: 1697350000000
+  },
+  {
+    body: "Social media has changed the way we experience football. Clubs can now engage with fans like never before!",
+    votes: 6,
+    author: "cooljmessy",
+    article_id: 19,
+    created_at: 1697400000000
+  },
+  {
+    body: "Manchester United's dominance on Instagram reflects their historical success. Can't wait to see how this evolves!",
+    votes: 4,
+    author: "weegembump",
+    article_id: 19,
+    created_at: 1697450000000
+  },
+  {
+    body: "Wow, I had no idea football dated back to ancient China! Really insightful piece.",
+    votes: 8,
+    author: "cooljmessy",
+    article_id: 20,
+    created_at: 1583875600000
+  },
+  {
+    body: "Tsu’ Chu sounds fascinating! Makes you think how different football would be if it kept some of those ancient rules.",
+    votes: 5,
+    author: "sportshistorybuff",
+    article_id: 20,
+    created_at: 1583876200000
+  },
+  {
+    body: "This article makes me appreciate modern football even more, knowing it has such deep roots. Great read!",
+    votes: 12,
+    author: "grumpy19",
+    article_id: 20,
+    created_at: 1583877000000
+  },
+  {
+    body: "I always thought football started in England! Thanks for the history lesson.",
+    votes: 9,
+    author: "jessjelly",
+    article_id: 20,
+    created_at: 1583877500000
+  },
+  {
+    body: "Imagine playing football with a leather ball filled with feathers and hair—crazy how the sport has evolved!",
+    votes: 7,
+    author: "weegembump",
+    article_id: 20,
+    created_at: 1583878200000
+  },
+  {
+    body: "Agility is such an underrated aspect of football! These drills will definitely help me improve.",
+    votes: 5,
+    author: "cooljmessy",
+    article_id: 21,
+    created_at: 1603710000000
+  },
+  {
+    body: "I’ve been using cones for agility training, but I’ll have to add ladders to my sessions now.",
     votes: 3,
     author: "tickle122",
-    article_id: 33,
-    created_at: 1598839740000,
-  },
-  {
-    body: "Cupiditate commodi delectus molestiae exercitationem iure eum error et. Et pariatur dolores assumenda explicabo ut ut rem. Magni molestiae veritatis illum.",
-    votes: 16,
-    author: "weegembump",
-    article_id: 33,
-    created_at: 1584788700000,
-  },
-  {
-    body: "Voluptatem in distinctio delectus. Inventore fuga quia nemo sint quisquam reiciendis provident. Porro animi nemo qui.",
-    votes: -1,
-    author: "tickle122",
     article_id: 21,
-    created_at: 1582219080000,
+    created_at: 1603710500000
   },
   {
-    body: "Aut fugiat eos distinctio culpa est est maxime. Maiores nihil quos velit minus beatae. Dolore eos tenetur voluptates nemo.",
-    votes: -5,
-    author: "cooljmessy",
-    article_id: 4,
-    created_at: 1597065300000,
-  },
-  {
-    body: "Non consequuntur est et fugit delectus id occaecati aut consequatur. Et totam qui. Vel tempore qui quam iusto adipisci voluptate repudiandae cum. Temporibus et illum.",
-    votes: 16,
-    author: "jessjelly",
-    article_id: 22,
-    created_at: 1602227820000,
-  },
-  {
-    body: "Rerum occaecati provident et reprehenderit. Possimus dignissimos quo. Alias ut aut at qui. Ut quasi incidunt porro. Accusantium omnis facilis.",
-    votes: -1,
-    author: "jessjelly",
-    article_id: 8,
-    created_at: 1605039360000,
-  },
-  {
-    body: "Est et repellendus iusto eveniet ut quaerat quos labore. Adipisci ducimus officia.",
-    votes: 8,
-    author: "happyamy2016",
-    article_id: 6,
-    created_at: 1580448060000,
-  },
-  {
-    body: "Est nihil saepe voluptatem nobis. Qui eaque sit quis labore ipsa harum aliquid aliquam. Odit consequatur provident omnis dolores quisquam sequi doloremque qui. Eveniet dolores necessitatibus qui consectetur tempora veritatis eligendi. Sequi deserunt atque nesciunt.",
-    votes: 0,
-    author: "tickle122",
-    article_id: 16,
-    created_at: 1598246220000,
-  },
-  {
-    body: "Delectus id consequatur voluptatem ad sapiente quia optio dolor. Dolorum est ullam vitae.",
-    votes: -5,
+    body: "MaxiNutrition’s guide on cones and ladders is top notch. Can't wait to try these out at training!",
+    votes: 4,
     author: "grumpy19",
-    article_id: 22,
-    created_at: 1603393200000,
+    article_id: 21,
+    created_at: 1603711000000
   },
   {
-    body: "Quia adipisci veritatis quia voluptate aperiam dolor. Consequatur ipsam doloremque. Et reiciendis et in ut necessitatibus et voluptatem. Et voluptatem ut. Officiis eos exercitationem sequi temporibus debitis nemo sit.",
-    votes: 14,
-    author: "grumpy19",
-    article_id: 25,
-    created_at: 1601550600000,
-  },
-  {
-    body: "Occaecati ut officiis temporibus et atque exercitationem quae velit est. Ut maiores illum quo eos et veritatis quisquam sunt voluptatibus. Aut eos vel. Explicabo repellendus culpa occaecati beatae odio magnam ex. Dolor tempore consequatur.",
-    votes: 12,
+    body: "Agility drills have definitely reduced my injury risk on the pitch. Great article!",
+    votes: 6,
     author: "jessjelly",
-    article_id: 26,
-    created_at: 1579334760000,
+    article_id: 21,
+    created_at: 1603711500000
   },
   {
-    body: "Modi praesentium consequuntur nobis. Velit tempore consequuntur necessitatibus. Ab cumque nihil quae. Voluptas quis qui. Qui et ut.",
-    votes: 17,
-    author: "cooljmessy",
-    article_id: 19,
-    created_at: 1591939200000,
-  },
-  {
-    body: "Velit molestiae reiciendis non accusamus voluptatem eligendi. Non aspernatur accusantium molestias natus reiciendis voluptas. Quibusdam quas id vel ratione.",
-    votes: 1,
-    author: "tickle122",
-    article_id: 31,
-    created_at: 1581120240000,
-  },
-  {
-    body: "Vero est explicabo quidem dolorem accusamus similique ea id. Expedita harum sunt a laboriosam et eveniet quis. Deleniti est corporis nulla est est consectetur omnis. Provident dolores doloribus aut quo magni quaerat recusandae voluptatem. Aut dolores in et id alias veniam autem dolores.",
-    votes: 0,
-    author: "happyamy2016",
-    article_id: 9,
-    created_at: 1579277340000,
-  },
-  {
-    body: "Rerum culpa facere minus exercitationem unde sit facilis. Ex sint neque et animi quia error sequi quibusdam tempora. Tempora temporibus et illo dolore praesentium. Non perspiciatis sit enim magnam nisi.",
-    votes: 18,
+    body: "Agility training has helped me stay balanced when changing direction fast. These drills are spot on!",
+    votes: 7,
     author: "weegembump",
     article_id: 21,
-    created_at: 1596230220000,
+    created_at: 1603712000000
   },
   {
-    body: "Dicta sequi harum est deserunt labore. Architecto dignissimos voluptatibus voluptas ratione. Rerum ut provident non et fugiat. Ea consequuntur placeat reiciendis pariatur illo pariatur laudantium. Rem aut blanditiis provident deserunt numquam quis sit itaque.",
-    votes: 0,
+    body: "Good insight into the importance of agility. More players should focus on this type of training.",
+    votes: 2,
+    author: "happyamy2016",
+    article_id: 21,
+    created_at: 1603712500000
+  },
+  {
+    body: "Ladder drills are amazing for footwork! Thanks for sharing this guide, it’s really helpful.",
+    votes: 4,
+    author: "cooljmessy",
+    article_id: 21,
+    created_at: 1603713000000
+  },
+  {
+    body: "I’ve always focused more on strength training, but this has convinced me to incorporate agility drills.",
+    votes: 5,
+    author: "tickle122",
+    article_id: 21,
+    created_at: 1603713500000
+  },
+  {
+    body: "Agility training can really make the difference on the pitch. Love the ladder drill recommendations!",
+    votes: 3,
     author: "grumpy19",
-    article_id: 16,
-    created_at: 1598142120000,
+    article_id: 21,
+    created_at: 1603714000000
   },
   {
-    body: "Dolorem facilis excepturi fugiat sint ut fugiat accusamus ex. Voluptatem possimus molestiae corrupti mollitia incidunt aut. Et corrupti sequi et omnis tempore nam sequi sed consectetur. Tenetur sed nulla nam similique numquam illo eius dolorum. Vel maiores et quos architecto sed.",
+    body: "These drills are great for preventing injuries too! Can’t wait to try them out with my team.",
+    votes: 6,
+    author: "jessjelly",
+    article_id: 21,
+    created_at: 1603714500000
+  },
+  {
+    body: "This metric could revolutionize how teams prepare for matches. Excited to see how it develops!",
+    votes: 6,
+    author: "grumpy19",
+    article_id: 22,
+    created_at: 1587130000000
+  },
+  {
+    body: "Turning subjective analysis into objective data is such a game-changer. Love the idea!",
     votes: 5,
     author: "jessjelly",
-    article_id: 36,
-    created_at: 1591801620000,
+    article_id: 22,
+    created_at: 1587130500000
   },
   {
-    body: "Repellat id vel. Ut illo ut voluptas expedita enim aperiam et cumque temporibus. Facilis non iste eos quia ut occaecati est. Soluta molestiae qui quo vel qui. Dolor labore fuga ex voluptatem ut sed similique voluptatem aspernatur. Magnam aperiam iure fuga aut nemo eius aut minima.",
-    votes: -5,
+    body: "I wonder how individual players will be measured for their pressing efforts. Interesting approach!",
+    votes: 4,
+    author: "tickle122",
+    article_id: 22,
+    created_at: 1587131000000
+  },
+  {
+    body: "High pressing has always been a bit of a mystery to quantify. This could really help clear things up.",
+    votes: 7,
+    author: "cooljmessy",
+    article_id: 22,
+    created_at: 1587131500000
+  },
+  {
+    body: "It’ll be great if we can eventually compare pressing intensity across different leagues!",
+    votes: 3,
+    author: "happyamy2016",
+    article_id: 22,
+    created_at: 1587132000000
+  },
+  {
+    body: "This is the kind of advanced metric we’ve been waiting for in football analytics. Can’t wait to see the results.",
+    votes: 8,
+    author: "weegembump",
+    article_id: 22,
+    created_at: 1587132500000
+  },
+  {
+    body: "It would be awesome to see how this metric plays out during big tournaments like the World Cup.",
+    votes: 2,
+    author: "tickle122",
+    article_id: 22,
+    created_at: 1587133000000
+  },
+  {
+    body: "If coaches can use this to refine tactics, it could give them a huge edge in preparation.",
+    votes: 6,
+    author: "grumpy19",
+    article_id: 22,
+    created_at: 1587133500000
+  },
+  {
+    body: "Quantifying pressing is going to give us so much more insight into defensive strategies. Great article!",
+    votes: 4,
+    author: "jessjelly",
+    article_id: 22,
+    created_at: 1587134000000
+  },
+  {
+    body: "I wonder how this metric will compare teams like Liverpool and City, who are known for their pressing.",
+    votes: 5,
+    author: "cooljmessy",
+    article_id: 22,
+    created_at: 1587134500000
+  },
+  {
+    body: "Sunday league football is where true passion for the game lies. You can really feel the community spirit!",
+    votes: 5,
+    author: "tickle122",
+    article_id: 23,
+    created_at: 1584888100000
+  },
+  {
+    body: "It’s not about the skill level, it’s about the love of football. Sunday league is a different vibe.",
+    votes: 4,
+    author: "grumpy19",
+    article_id: 23,
+    created_at: 1584888600000
+  },
+  {
+    body: "Playing Sunday league keeps me sane during the week. Best way to spend a weekend!",
+    votes: 6,
+    author: "cooljmessy",
+    article_id: 23,
+    created_at: 1584889100000
+  },
+  {
+    body: "Pub leagues can get intense too! It’s amazing how competitive some of these matches are.",
+    votes: 3,
+    author: "happyamy2016",
+    article_id: 23,
+    created_at: 1584889600000
+  },
+  {
+    body: "I love how Sunday league football gives everyone a chance to play, no matter their skill level.",
+    votes: 5,
+    author: "jessjelly",
+    article_id: 23,
+    created_at: 1584890100000
+  },
+  {
+    body: "Some of my best memories are from Sunday league matches. You never know what to expect!",
+    votes: 2,
+    author: "weegembump",
+    article_id: 23,
+    created_at: 1584890600000
+  },
+  {
+    body: "I had no idea Sunday leagues were so organised. Respect to the County Football Associations for keeping it running.",
+    votes: 4,
+    author: "tickle122",
+    article_id: 23,
+    created_at: 1584891100000
+  },
+  {
+    body: "The best part of Sunday league is how close-knit the teams are. You’re playing with mates every week.",
+    votes: 3,
+    author: "grumpy19",
+    article_id: 23,
+    created_at: 1584891600000
+  },
+  {
+    body: "Pub leagues are underrated! Some of the players could hold their own in higher leagues.",
+    votes: 5,
+    author: "cooljmessy",
+    article_id: 23,
+    created_at: 1584892100000
+  },
+  {
+    body: "Sunday league might not have the glitz, but it’s got heart. That’s what football’s all about.",
+    votes: 6,
+    author: "happyamy2016",
+    article_id: 23,
+    created_at: 1584892600000
+  },
+  {
+    body: "Di Matteo’s decision to trust Ashley Cole’s recommendation shows how important it is to listen to your team.",
+    votes: 5,
+    author: "tickle122",
+    article_id: 24,
+    created_at: 1594337040000
+  },
+  {
+    body: "Talent management isn’t just for business. Football is proof that trust and leadership go hand in hand.",
+    votes: 4,
+    author: "grumpy19",
+    article_id: 24,
+    created_at: 1594337640000
+  },
+  {
+    body: "Ryan Bertrand’s story is so inspiring! A manager who trusts his players can bring out their best.",
+    votes: 6,
+    author: "happyamy2016",
+    article_id: 24,
+    created_at: 1594338240000
+  },
+  {
+    body: "The parallels between football and business management are so interesting. It’s all about getting the best from people.",
+    votes: 3,
+    author: "cooljmessy",
+    article_id: 24,
+    created_at: 1594338840000
+  },
+  {
+    body: "I love how Di Matteo’s decision wasn’t just about tactics but about people management. That’s true leadership.",
+    votes: 5,
+    author: "weegembump",
+    article_id: 24,
+    created_at: 1594339440000
+  },
+  {
+    body: "This article shows how much football management is about more than just the game—it’s managing talent, too.",
+    votes: 4,
+    author: "jessjelly",
+    article_id: 24,
+    created_at: 1594340040000
+  },
+  {
+    body: "Football managers are under so much pressure. Managing egos and talent is no small feat!",
+    votes: 3,
+    author: "tickle122",
+    article_id: 24,
+    created_at: 1594340640000
+  },
+  {
+    body: "Trust between players and managers is such a crucial part of football. This article highlights that perfectly.",
+    votes: 5,
+    author: "grumpy19",
+    article_id: 24,
+    created_at: 1594341240000
+  },
+  {
+    body: "Di Matteo’s choice to listen to Cole and trust Bertrand was a bold move, but it worked. Great lesson in leadership.",
+    votes: 6,
+    author: "happyamy2016",
+    article_id: 24,
+    created_at: 1594341840000
+  },
+  {
+    body: "Football has so many management lessons. Trust, leadership, and handling talent are skills that apply everywhere.",
+    votes: 4,
+    author: "cooljmessy",
+    article_id: 24,
+    created_at: 1594342440000
+  },
+  {
+    body: "This soup sounds delicious! I love the idea of roasting the vegetables in honey.",
+    votes: 4,
+    author: "tickle122",
+    article_id: 25,
+    created_at: 1583961960000
+  },
+  {
+    body: "Garlic toast is the perfect pairing for this soup. Can't wait to try this recipe!",
+    votes: 5,
+    author: "grumpy19",
+    article_id: 25,
+    created_at: 1583962560000
+  },
+  {
+    body: "I’m a huge fan of sweet potato soup! The honey roast method sounds like a game-changer.",
+    votes: 6,
+    author: "happyamy2016",
+    article_id: 25,
+    created_at: 1583963160000
+  },
+  {
+    body: "This recipe is so easy yet looks so fancy. Perfect for a cozy dinner at home!",
+    votes: 3,
+    author: "cooljmessy",
+    article_id: 25,
+    created_at: 1583963760000
+  },
+  {
+    body: "I love soups that are creamy and flavorful. Can't wait to give this one a go!",
+    votes: 4,
+    author: "weegembump",
+    article_id: 25,
+    created_at: 1583964360000
+  },
+  {
+    body: "The addition of lemon is interesting! I bet it adds a nice zesty touch.",
+    votes: 5,
+    author: "jessjelly",
+    article_id: 25,
+    created_at: 1583964960000
+  },
+  {
+    body: "This sounds like a great fall recipe! Perfect for warming up on chilly days.",
+    votes: 3,
+    author: "tickle122",
+    article_id: 25,
+    created_at: 1583965560000
+  },
+  {
+    body: "Roasting the vegetables first is a brilliant idea! I can already taste the sweetness.",
+    votes: 4,
+    author: "grumpy19",
+    article_id: 25,
+    created_at: 1583966160000
+  },
+  {
+    body: "This soup seems so comforting! I love anything with butternut squash.",
+    votes: 6,
+    author: "happyamy2016",
+    article_id: 25,
+    created_at: 1583966760000
+  },
+  {
+    body: "I’m definitely trying this recipe this weekend! Looks so good.",
+    votes: 5,
+    author: "cooljmessy",
+    article_id: 25,
+    created_at: 1583967360000
+  },
+  {
+    body: "It's fascinating to think about how cooking has shaped our evolution as humans!",
+    votes: 4,
+    author: "tickle122",
+    article_id: 26,
+    created_at: 1586135400000
+  },
+  {
+    body: "I never knew cooking could date back so far! This really changes how we think about food.",
+    votes: 5,
+    author: "grumpy19",
+    article_id: 26,
+    created_at: 1586136000000
+  },
+  {
+    body: "Amazing to see how far we've come from those early campfires. Cooking is truly an art!",
+    votes: 6,
+    author: "happyamy2016",
+    article_id: 26,
+    created_at: 1586136600000
+  },
+  {
+    body: "This makes me appreciate cooking even more! It’s such a vital part of our culture.",
+    votes: 3,
+    author: "cooljmessy",
+    article_id: 26,
+    created_at: 1586137200000
+  },
+  {
+    body: "The evolution of cooking is so interesting! I love learning about our ancestors.",
+    votes: 4,
+    author: "weegembump",
+    article_id: 26,
+    created_at: 1586137800000
+  },
+  {
+    body: "I wonder how their cooking methods compared to ours today. What a significant change!",
+    votes: 5,
+    author: "jessjelly",
+    article_id: 26,
+    created_at: 1586138400000
+  },
+  {
+    body: "It's incredible to think that cooking has been around for a million years. What a legacy!",
+    votes: 4,
+    author: "tickle122",
+    article_id: 26,
+    created_at: 1586139000000
+  },
+  {
+    body: "This article really highlights the importance of cooking in our lives. Great read!",
+    votes: 6,
+    author: "grumpy19",
+    article_id: 26,
+    created_at: 1586139600000
+  },
+  {
+    body: "I love how cooking connects us to our past! It’s more than just preparing food.",
+    votes: 3,
+    author: "happyamy2016",
+    article_id: 26,
+    created_at: 1586140200000
+  },
+  {
+    body: "What a great reminder of how cooking has always been a fundamental part of being human!",
+    votes: 5,
+    author: "cooljmessy",
+    article_id: 26,
+    created_at: 1586140800000
+  },
+  {
+    body: "I love how Thanksgiving is not just about the food but also the drinks! Can't wait to try these cocktails.",
+    votes: 5,
+    author: "tickle122",
+    article_id: 27,
+    created_at: 1579908720000
+  },
+  {
+    body: "Thanksgiving drinks can really elevate the meal. Any recommendations for non-alcoholic options?",
+    votes: 4,
+    author: "happyamy2016",
+    article_id: 27,
+    created_at: 1579909320000
+  },
+  {
+    body: "These drink ideas sound amazing! I always struggle with what to serve alongside dinner.",
+    votes: 6,
+    author: "cooljmessy",
+    article_id: 27,
+    created_at: 1579909920000
+  },
+  {
+    body: "I can't wait to impress my guests with these festive cocktails! Great article!",
+    votes: 7,
+    author: "weegembump",
+    article_id: 27,
+    created_at: 1579910520000
+  },
+  {
+    body: "This makes me excited for Thanksgiving! Drinks are a huge part of the celebration!",
+    votes: 5,
+    author: "jessjelly",
+    article_id: 27,
+    created_at: 1579911120000
+  },
+  {
+    body: "I love the idea of pairing cocktails with the Thanksgiving feast. Perfect way to celebrate!",
+    votes: 4,
+    author: "grumpy19",
+    article_id: 27,
+    created_at: 1579911720000
+  },
+  {
+    body: "These drink ideas could really set the mood for a cozy Thanksgiving dinner. Thanks for sharing!",
+    votes: 5,
+    author: "tickle122",
+    article_id: 27,
+    created_at: 1579912320000
+  },
+  {
+    body: "What a great way to enhance the holiday! I’ll definitely be trying some of these recipes.",
+    votes: 6,
+    author: "happyamy2016",
+    article_id: 27,
+    created_at: 1579912920000
+  },
+  {
+    body: "I appreciate how you included cocktails in your Thanksgiving planning! Very helpful!",
+    votes: 3,
+    author: "cooljmessy",
+    article_id: 27,
+    created_at: 1579913520000
+  },
+  {
+    body: "Thanksgiving is all about sharing good food and drinks with loved ones. Cheers to that!",
+    votes: 4,
+    author: "jessjelly",
+    article_id: 27,
+    created_at: 1579914120000
+  },
+  {
+    body: "I never thought about how altitude affects cooking! This is such useful information for backpackers.",
+    votes: 5,
+    author: "tickle122",
+    article_id: 28,
+    created_at: 1578098040000
+  },
+  {
+    body: "Great article! I always struggled with boiling water at high altitudes. Any tips on adjusting cooking times?",
+    votes: 6,
+    author: "grumpy19",
+    article_id: 28,
+    created_at: 1578098640000
+  },
+  {
+    body: "This is exactly what I needed before my next hiking trip! Thank you for the insights!",
+    votes: 4,
+    author: "cooljmessy",
+    article_id: 28,
+    created_at: 1578099240000
+  },
+  {
+    body: "I love backpacking, but cooking has always been tricky at high altitudes. Excited to try these tips!",
+    votes: 5,
+    author: "weegembump",
+    article_id: 28,
+    created_at: 1578099840000
+  },
+  {
+    body: "Altitude really does change everything! I appreciate the advice on adjusting recipes for higher elevations.",
+    votes: 3,
+    author: "happyamy2016",
+    article_id: 28,
+    created_at: 1578100440000
+  },
+  {
+    body: "This article is super helpful! I can't wait to share these cooking tips with my hiking group.",
+    votes: 6,
+    author: "jessjelly",
+    article_id: 28,
+    created_at: 1578101040000
+  },
+  {
+    body: "I didn't realize that certain foods would cook differently at altitude. Thanks for sharing!",
+    votes: 4,
+    author: "grumpy19",
+    article_id: 28,
+    created_at: 1578101640000
+  },
+  {
+    body: "I always end up with undercooked meals while camping! Looking forward to trying these suggestions.",
+    votes: 5,
+    author: "tickle122",
+    article_id: 28,
+    created_at: 1578102240000
+  },
+  {
+    body: "Really informative article! Cooking at altitude is definitely a skill worth mastering.",
+    votes: 6,
+    author: "cooljmessy",
+    article_id: 28,
+    created_at: 1578102840000
+  },
+  {
+    body: "High altitude cooking can be challenging, but these tips will make it much easier! Thanks!",
+    votes: 4,
+    author: "jessjelly",
+    article_id: 28,
+    created_at: 1578103440000
+  },
+  {
+    body: "I had no idea the croissant originated in Austria! This article is so interesting.",
+    votes: 5,
+    author: "happyamy2016",
+    article_id: 29,
+    created_at: 1578342120000
+  },
+  {
+    body: "Julia Rothman’s books are fantastic! I love how informative yet engaging they are.",
+    votes: 6,
+    author: "grumpy19",
+    article_id: 29,
+    created_at: 1578342720000
+  },
+  {
+    body: "This is such a fun read! It makes me want to dive into the history of other foods.",
+    votes: 4,
+    author: "weegembump",
+    article_id: 29,
+    created_at: 1578343320000
+  },
+  {
+    body: "The idea of making textbooks more engaging is spot on! More visuals, please!",
+    votes: 3,
+    author: "cooljmessy",
+    article_id: 29,
+    created_at: 1578343920000
+  },
+  {
+    body: "I love learning about food history! It’s amazing how much we take for granted.",
+    votes: 5,
+    author: "jessjelly",
+    article_id: 29,
+    created_at: 1578344520000
+  },
+  {
+    body: "Fun fact about the croissant! I wonder what other surprising food facts are out there.",
+    votes: 6,
     author: "tickle122",
     article_id: 29,
-    created_at: 1584465960000,
+    created_at: 1578345120000
   },
   {
-    body: "Atque odio soluta ducimus placeat laborum voluptatem vel. Non possimus et. Explicabo voluptatem nam quibusdam et corrupti at quia.",
-    votes: 0,
+    body: "I need to check out Rothman’s Anatomy series! Sounds like a great way to learn.",
+    votes: 4,
     author: "happyamy2016",
-    article_id: 17,
-    created_at: 1584529200000,
+    article_id: 29,
+    created_at: 1578345720000
   },
   {
-    body: "Distinctio excepturi laboriosam eos aperiam quis amet eum animi minima. Officiis in quia. Est consequatur optio atque nostrum iusto impedit harum quod asperiores.",
-    votes: 17,
-    author: "tickle122",
-    article_id: 33,
-    created_at: 1603260300000,
-  },
-  {
-    body: "Ullam ut consequatur. Vel et harum sed quo. Aliquid rem consequatur est. Esse deleniti voluptatem temporibus. Deleniti maiores officiis mollitia omnis exercitationem dicta cum quia. Earum voluptates qui iusto ipsa magni id.",
-    votes: -5,
-    author: "weegembump",
-    article_id: 21,
-    created_at: 1595779440000,
-  },
-  {
-    body: "Quod inventore aut consequuntur rerum aperiam. Laborum nihil ut optio fugit.",
-    votes: -3,
-    author: "happyamy2016",
-    article_id: 35,
-    created_at: 1598361960000,
-  },
-  {
-    body: "Nulla similique ullam excepturi tempore. Voluptatem eum vel voluptatem dolores suscipit similique labore aliquam dolores. Est ex eum at voluptate repellat assumenda. Eos asperiores dolor aperiam.",
-    votes: -4,
-    author: "jessjelly",
-    article_id: 23,
-    created_at: 1595377380000,
-  },
-  {
-    body: "Voluptatem unde dolor id et. Voluptas vitae soluta. Rerum aperiam illum dolores ducimus optio et possimus dolorum quo.",
-    votes: 20,
-    author: "weegembump",
-    article_id: 12,
-    created_at: 1603156260000,
-  },
-  {
-    body: "Sed saepe voluptas aliquam similique. Debitis beatae reprehenderit dolore animi voluptatibus enim labore.",
-    votes: 1,
+    body: "Textbooks could definitely use a makeover! More infographics would make studying so much better.",
+    votes: 3,
     author: "grumpy19",
-    article_id: 4,
-    created_at: 1579108500000,
+    article_id: 29,
+    created_at: 1578346320000
   },
   {
-    body: "Reiciendis quo animi qui qui. Modi ipsam quas. Illo nihil quidem dolorem sapiente libero eum. Ea et molestiae aut magnam quo et rerum fugit eius. Porro dolorem id quasi. Illo asperiores qui sint.",
-    votes: 19,
-    author: "happyamy2016",
-    article_id: 23,
-    created_at: 1601697660000,
-  },
-  {
-    body: "Dolor architecto quaerat rerum dolore qui et sunt assumenda quas. Inventore vero eius odio ipsa repudiandae atque dignissimos. Consequuntur et praesentium qui ut soluta suscipit ut tempora. Ratione blanditiis aut molestiae molestiae ut. Corporis nam consequatur sapiente dicta quae repudiandae id ut sint. Reprehenderit omnis magnam.",
-    votes: 12,
-    author: "grumpy19",
-    article_id: 24,
-    created_at: 1599001500000,
-  },
-  {
-    body: "Qui magnam error sint ut laborum dicta labore deserunt non. Sit magnam voluptates. Ipsa enim voluptatem. Reprehenderit quod assumenda. Quidem fugiat consequatur in debitis ea sed quos corrupti. Dignissimos necessitatibus distinctio at doloremque enim molestias qui.",
-    votes: 8,
-    author: "tickle122",
-    article_id: 28,
-    created_at: 1587342180000,
-  },
-  {
-    body: "Facilis magni odit doloribus et illo ea dignissimos voluptate. Sit officia repudiandae eius suscipit velit fuga qui esse. Necessitatibus minus omnis minus ab.",
-    votes: 12,
-    author: "happyamy2016",
-    article_id: 7,
-    created_at: 1583996700000,
-  },
-  {
-    body: "Libero mollitia adipisci ut. Et ratione totam laboriosam nemo dolorem. Sed debitis aut rerum. Quia laborum voluptas ut voluptas ea dolores eum quidem. Nostrum est laborum praesentium ut.",
-    votes: 2,
-    author: "happyamy2016",
-    article_id: 35,
-    created_at: 1596234180000,
-  },
-  {
-    body: "Ratione tempore et natus incidunt quibusdam minima. Voluptatem quae quae eos reiciendis et quia saepe enim et. Esse sapiente totam ullam nam. Provident repellat velit enim excepturi asperiores qui nostrum similique dicta. Labore repellendus quae ut voluptas voluptatibus. Voluptatibus voluptatum sed nemo harum ad harum repellendus ad.",
-    votes: -4,
-    author: "happyamy2016",
-    article_id: 32,
-    created_at: 1578323820000,
-  },
-  {
-    body: "Ipsa voluptate eveniet dolore. Beatae nesciunt cupiditate. Consequatur ex corrupti facere est facilis eaque. Aliquam voluptas sed qui id. Voluptate accusamus veniam cumque nam sed.",
+    body: "I always enjoy articles that mix humor with history. Keep them coming!",
     votes: 5,
     author: "weegembump",
-    article_id: 17,
-    created_at: 1595341020000,
+    article_id: 29,
+    created_at: 1578346920000
   },
   {
-    body: "Tenetur impedit pariatur dolorum enim voluptate mollitia sunt eum exercitationem. Aut perspiciatis quas impedit. Quam et error.",
-    votes: 3,
+    body: "This article made my day! History doesn’t have to be boring, and this proves it.",
+    votes: 6,
     author: "jessjelly",
-    article_id: 10,
-    created_at: 1579878120000,
+    article_id: 29,
+    created_at: 1578347520000
   },
   {
-    body: "Ut accusamus enim vel voluptate quae temporibus labore neque a. Reprehenderit iste est eos velit fugit vel quod velit.",
-    votes: 19,
-    author: "cooljmessy",
-    article_id: 1,
-    created_at: 1587867240000,
+    body: "This sounds incredible! I can't wait to try this instead of regular mashed potatoes.",
+    votes: 5,
+    author: "grumpy19",
+    article_id: 30,
+    created_at: 1578774600000
   },
   {
-    body: "Voluptas sed qui nesciunt a non. Amet provident assumenda aut. Sunt et in. Eum velit nemo exercitationem veniam qui corporis qui blanditiis ut. Ullam architecto dolor iusto ratione. Officia quibusdam vero ut.",
-    votes: 8,
-    author: "tickle122",
-    article_id: 18,
-    created_at: 1590923580000,
-  },
-  {
-    body: "Maiores labore error debitis earum aliquid. Vel omnis a qui sint voluptatem aut. Sint ullam error velit.",
-    votes: 17,
-    author: "cooljmessy",
-    article_id: 26,
-    created_at: 1590260760000,
-  },
-  {
-    body: "Et quis in ut rerum minus. Quo cumque aut inventore ipsum amet velit tenetur illo. Unde et quis rem aut asperiores qui quaerat esse. Corporis aut velit sit doloribus est quia dolores.",
-    votes: 2,
-    author: "weegembump",
-    article_id: 19,
-    created_at: 1605273120000,
-  },
-  {
-    body: "Sunt omnis pariatur dignissimos quibusdam dolore ut non velit autem. Omnis voluptatibus qui aut sunt ut unde. Ut eaque excepturi numquam quis occaecati. Repellat esse voluptas velit eveniet ut pariatur natus. Velit voluptas nostrum quia dignissimos quisquam incidunt.",
-    votes: -3,
-    author: "jessjelly",
-    article_id: 28,
-    created_at: 1598986800000,
-  },
-  {
-    body: "Reiciendis molestias ut possimus enim voluptatem cumque nam possimus rem. Quod sequi porro et velit dolor ut cupiditate perferendis. Cum omnis omnis sit quia maiores quos qui. Consequuntur error distinctio dolores.",
-    votes: 0,
-    author: "jessjelly",
-    article_id: 22,
-    created_at: 1592788320000,
-  },
-  {
-    body: "Nihil est deleniti voluptas et soluta. Ea iure error aperiam facere reprehenderit autem corrupti. Reprehenderit labore accusamus esse magni voluptatibus esse minus. Repellat veritatis illum natus. Aut aut dolor omnis est magni sint. Ipsum architecto exercitationem numquam consequatur sit.",
-    votes: 0,
-    author: "cooljmessy",
-    article_id: 13,
-    created_at: 1599152940000,
-  },
-  {
-    body: "Quidem impedit molestiae culpa ut omnis id aliquid. Blanditiis eius commodi tempora. Est facere veniam voluptate voluptas et. Saepe porro similique. In autem unde sint sed voluptas tempore.",
-    votes: 9,
-    author: "cooljmessy",
-    article_id: 21,
-    created_at: 1603584000000,
-  },
-  {
-    body: "Fugit tenetur et. Consequatur aliquam molestiae voluptas iure perspiciatis et possimus in maiores. Sint et laudantium blanditiis. Illo et sapiente consequatur ducimus est.",
-    votes: 1,
-    author: "weegembump",
-    article_id: 22,
-    created_at: 1587442980000,
-  },
-  {
-    body: "Ratione enim est maiores modi eveniet vero provident culpa. Labore facere fugit voluptatem suscipit culpa alias fuga ut. Sapiente porro et. Sunt incidunt aut et enim quia accusamus delectus porro temporibus.",
-    votes: 7,
-    author: "cooljmessy",
-    article_id: 23,
-    created_at: 1590880260000,
-  },
-  {
-    body: "Ab impedit reprehenderit. Eligendi a asperiores. Vel ut modi inventore molestiae cum delectus et. Reiciendis excepturi eveniet.",
-    votes: 19,
+    body: "Twice-baked butternut squash? Count me in! I love innovative takes on Thanksgiving sides.",
+    votes: 6,
     author: "happyamy2016",
     article_id: 30,
-    created_at: 1582164960000,
+    created_at: 1578775200000
   },
   {
-    body: "Harum veritatis neque nisi. Quos minima quasi enim praesentium ea voluptatum quae. Voluptatum quos repudiandae sed ipsum dolor hic quo nemo.",
-    votes: 10,
-    author: "cooljmessy",
-    article_id: 8,
-    created_at: 1591041780000,
-  },
-  {
-    body: "Et non quia sunt dolorem vero sint optio perspiciatis. Assumenda dolor est aut cum amet assumenda autem. Iusto earum vero animi nihil error non placeat.",
-    votes: 13,
+    body: "I’m always looking for new veggie dishes for Thanksgiving. This is going on my menu!",
+    votes: 4,
     author: "tickle122",
-    article_id: 11,
-    created_at: 1584194520000,
+    article_id: 30,
+    created_at: 1578775800000
   },
   {
-    body: "Sit vitae ut labore doloribus consequatur quam. Perferendis odit provident officia debitis laboriosam aut odio quo. Iusto aperiam dolorum ex commodi animi dignissimos. Qui sint cupiditate ut labore temporibus excepturi.",
-    votes: 14,
-    author: "grumpy19",
-    article_id: 27,
-    created_at: 1590375780000,
-  },
-  {
-    body: "Quia nemo est. Maiores animi architecto ad nihil sapiente. Odio in maxime nam assumenda tempora et nisi. Impedit quidem cum neque libero sequi et et impedit. Dignissimos ut molestiae laborum rerum error distinctio quasi hic consectetur. Odio vel qui necessitatibus perspiciatis ipsum quod excepturi saepe.",
-    votes: -1,
+    body: "This sounds delicious! I love the idea of making vegetables the star of the show.",
+    votes: 5,
     author: "jessjelly",
-    article_id: 22,
-    created_at: 1580527320000,
+    article_id: 30,
+    created_at: 1578776400000
   },
-];
+  {
+    body: "I'm drooling just reading this! Butternut squash is my favorite fall veggie.",
+    votes: 6,
+    author: "weegembump",
+    article_id: 30,
+    created_at: 1578777000000
+  },
+  {
+    body: "What a fun way to elevate Thanksgiving sides! I need to impress my family this year.",
+    votes: 3,
+    author: "cooljmessy",
+    article_id: 30,
+    created_at: 1578777600000
+  },
+  {
+    body: "Love that this dish is both sweet and savory! Can't wait to taste this combo.",
+    votes: 4,
+    author: "grumpy19",
+    article_id: 30,
+    created_at: 1578778200000
+  },
+  {
+    body: "I never thought about stuffing squash like that! It sounds like a perfect blend of flavors.",
+    votes: 5,
+    author: "happyamy2016",
+    article_id: 30,
+    created_at: 1578778800000
+  },
+  {
+    body: "I’m definitely going to make this for my Thanksgiving dinner! Thanks for the idea.",
+    votes: 6,
+    author: "tickle122",
+    article_id: 30,
+    created_at: 1578779400000
+  },
+  {
+    body: "This could totally steal the show from the turkey! Can’t wait to try it.",
+    votes: 7,
+    author: "jessjelly",
+    article_id: 30,
+    created_at: 1578780000000
+  },
+  {
+    body: "Love the idea of chicken paprikash! It’s such a cozy dish for fall.",
+    votes: 5,
+    author: "happyamy2016",
+    article_id: 31,
+    created_at: 1591673400000
+  },
+  {
+    body: "Great suggestions! I’m always looking for meal ideas for the week.",
+    votes: 4,
+    author: "grumpy19",
+    article_id: 31,
+    created_at: 1591674000000
+  },
+  {
+    body: "Apple cake for dessert? Yes, please! I’ll definitely be making that.",
+    votes: 6,
+    author: "jessjelly",
+    article_id: 31,
+    created_at: 1591674600000
+  },
+  {
+    body: "I agree about getting outside for lunch! It makes such a difference.",
+    votes: 3,
+    author: "tickle122",
+    article_id: 31,
+    created_at: 1591675200000
+  },
+  {
+    body: "Buttery egg noodles sound perfect! Can't wait to try this meal.",
+    votes: 5,
+    author: "weegembump",
+    article_id: 31,
+    created_at: 1591675800000
+  },
+  {
+    body: "I love that you included the importance of getting outside. So true!",
+    votes: 2,
+    author: "cooljmessy",
+    article_id: 31,
+    created_at: 1591676400000
+  },
+  {
+    body: "This week’s plan sounds delicious! I’m adding these dishes to my list.",
+    votes: 4,
+    author: "grumpy19",
+    article_id: 31,
+    created_at: 1591677000000
+  },
+  {
+    body: "I’ve never made chicken paprikash before! I’ll have to give it a try.",
+    votes: 5,
+    author: "happyamy2016",
+    article_id: 31,
+    created_at: 1591677600000
+  },
+  {
+    body: "Sounds like a perfect cozy week of meals! Thanks for the inspiration.",
+    votes: 6,
+    author: "jessjelly",
+    article_id: 31,
+    created_at: 1591678200000
+  },
+  {
+    body: "I appreciate the reminder to take breaks and enjoy the outdoors. Very important!",
+    votes: 3,
+    author: "tickle122",
+    article_id: 31,
+    created_at: 1591678800000
+  },
+  {
+    body: "It's frustrating to see these scandals happening. Trust is so important in halal food.",
+    votes: 7,
+    author: "happyamy2016",
+    article_id: 32,
+    created_at: 1592515200000
+  },
+  {
+    body: "I've always loved trying Uighur kebabs! They really know how to flavor their food.",
+    votes: 5,
+    author: "jessjelly",
+    article_id: 32,
+    created_at: 1592515800000
+  },
+  {
+    body: "The halal food scene in China is fascinating! I wish I could explore it more.",
+    votes: 4,
+    author: "grumpy19",
+    article_id: 32,
+    created_at: 1592516400000
+  },
+  {
+    body: "It’s sad that these incidents undermine the hard work of so many halal producers.",
+    votes: 6,
+    author: "tickle122",
+    article_id: 32,
+    created_at: 1592517000000
+  },
+  {
+    body: "I can’t believe they found pork sausages in a halal bakery! That’s outrageous.",
+    votes: 8,
+    author: "weegembump",
+    article_id: 32,
+    created_at: 1592517600000
+  },
+  {
+    body: "The regulations for halal food are so important. I hope more transparency is introduced.",
+    votes: 3,
+    author: "cooljmessy",
+    article_id: 32,
+    created_at: 1592518200000
+  },
+  {
+    body: "Kudos to the Muslims in China for preserving their culinary traditions amidst challenges!",
+    votes: 5,
+    author: "happyamy2016",
+    article_id: 32,
+    created_at: 1592518800000
+  },
+  {
+    body: "It's disheartening to hear about the mistrust of halal products. We need stricter checks.",
+    votes: 4,
+    author: "jessjelly",
+    article_id: 32,
+    created_at: 1592519400000
+  },
+  {
+    body: "The battle against misleading food labeling is something we all face, not just Muslims.",
+    votes: 2,
+    author: "tickle122",
+    article_id: 32,
+    created_at: 1592520000000
+  },
+  {
+    body: "I wonder how the government is addressing these scandals. There needs to be accountability.",
+    votes: 6,
+    author: "grumpy19",
+    article_id: 32,
+    created_at: 1592520600000
+  },
+  {
+    body: "It's shocking how often seafood is mislabeled. I can't believe one in five fish sold is fraudulent!",
+    votes: 7,
+    author: "jessjelly",
+    article_id: 33,
+    created_at: 1600278000000
+  },
+  {
+    body: "This is such an important issue! Consumers deserve to know what they're really eating.",
+    votes: 8,
+    author: "tickle122",
+    article_id: 33,
+    created_at: 1600278600000
+  },
+  {
+    body: "I never thought about seafood fraud until now. It makes me wary of ordering fish at restaurants.",
+    votes: 6,
+    author: "grumpy19",
+    article_id: 33,
+    created_at: 1600279200000
+  },
+  {
+    body: "The fact that some restaurants are serving cheaper fish as more expensive ones is disgraceful.",
+    votes: 9,
+    author: "happyamy2016",
+    article_id: 33,
+    created_at: 1600279800000
+  },
+  {
+    body: "It's unbelievable that they even create fake species names! We need better regulations.",
+    votes: 4,
+    author: "weegembump",
+    article_id: 33,
+    created_at: 1600280400000
+  },
+  {
+    body: "I wonder how much this seafood fraud is affecting sustainability efforts. It's really concerning.",
+    votes: 5,
+    author: "tickle122",
+    article_id: 33,
+    created_at: 1600281000000
+  },
+  {
+    body: "I always thought catfish was a cheaper option. It's sad to see it being substituted dishonestly.",
+    votes: 3,
+    author: "grumpy19",
+    article_id: 33,
+    created_at: 1600281600000
+  },
+  {
+    body: "I'm going to start asking where the fish comes from when I eat out. Knowledge is power!",
+    votes: 2,
+    author: "happyamy2016",
+    article_id: 33,
+    created_at: 1600282200000
+  },
+  {
+    body: "This article really opened my eyes! We should all be more conscious about our seafood choices.",
+    votes: 6,
+    author: "jessjelly",
+    article_id: 33,
+    created_at: 1600282800000
+  },
+  {
+    body: "I can't believe that 'vulture' catfish was sold as a different species. That's just wrong!",
+    votes: 5,
+    author: "weegembump",
+    article_id: 33,
+    created_at: 1600283400000
+  },
+  {
+    body: "It's about time MSG got the recognition it deserves! It's a game changer in so many dishes.",
+    votes: 10,
+    author: "tickle122",
+    article_id: 34,
+    created_at: 1606044300000
+  },
+  {
+    body: "I love how chefs are embracing umami. MSG can really elevate flavors when used correctly!",
+    votes: 8,
+    author: "jessjelly",
+    article_id: 34,
+    created_at: 1606044900000
+  },
+  {
+    body: "MSG has been demonized for so long. I'm glad to see a shift in how people view it!",
+    votes: 7,
+    author: "happyamy2016",
+    article_id: 34,
+    created_at: 1606045500000
+  },
+  {
+    body: "Umami is such an important flavor profile! I can't imagine my favorite dishes without it.",
+    votes: 9,
+    author: "grumpy19",
+    article_id: 34,
+    created_at: 1606046100000
+  },
+  {
+    body: "It's fascinating how our perception of food can change over time. MSG is back in style!",
+    votes: 6,
+    author: "weegembump",
+    article_id: 34,
+    created_at: 1606046700000
+  },
+  {
+    body: "I'm all for using ingredients that enhance flavor. Bring on the umami!",
+    votes: 5,
+    author: "tickle122",
+    article_id: 34,
+    created_at: 1606047300000
+  },
+  {
+    body: "I used to avoid MSG, but now I'm curious to try dishes that showcase it. Any recommendations?",
+    votes: 4,
+    author: "jessjelly",
+    article_id: 34,
+    created_at: 1606047900000
+  },
+  {
+    body: "This article is a great reminder that we shouldn't fear ingredients without understanding them first.",
+    votes: 3,
+    author: "happyamy2016",
+    article_id: 34,
+    created_at: 1606048500000
+  },
+  {
+    body: "MSG has been a staple in many cuisines for ages. Glad to see it gaining popularity again!",
+    votes: 2,
+    author: "grumpy19",
+    article_id: 34,
+    created_at: 1606049100000
+  },
+  {
+    body: "Umami really does make a difference! It's interesting to see chefs rediscovering it.",
+    votes: 5,
+    author: "weegembump",
+    article_id: 34,
+    created_at: 1606049700000
+  },
+  {
+    body: "Love the idea of a Paleolithic diet! It's interesting to see how we can change our eating habits.",
+    votes: 8,
+    author: "jessjelly",
+    article_id: 35,
+    created_at: 1590478500000
+  },
+  {
+    body: "Fried eggs and sausage sound like a great start to the day! I might try this for my family too.",
+    votes: 7,
+    author: "grumpy19",
+    article_id: 35,
+    created_at: 1590479100000
+  },
+  {
+    body: "It's fascinating to see kids embrace a new diet. I wonder how they feel about the changes.",
+    votes: 6,
+    author: "happyamy2016",
+    article_id: 35,
+    created_at: 1590479700000
+  },
+  {
+    body: "The comparison to Passover is a fun touch! I appreciate how you're making it a family experience.",
+    votes: 5,
+    author: "weegembump",
+    article_id: 35,
+    created_at: 1590480300000
+  },
+  {
+    body: "I've been curious about trying a Paleolithic diet. Your approach seems practical and fun!",
+    votes: 4,
+    author: "tickle122",
+    article_id: 35,
+    created_at: 1590480900000
+  },
+  {
+    body: "This article is a great reminder that we can introduce changes to our diet without making it a chore.",
+    votes: 3,
+    author: "cooljmessy",
+    article_id: 35,
+    created_at: 1590481500000
+  },
+  {
+    body: "I love how you frame dietary changes as a holiday! It makes it feel special.",
+    votes: 2,
+    author: "jessjelly",
+    article_id: 35,
+    created_at: 1590482100000
+  },
+  {
+    body: "I'm intrigued by the idea of restricting certain foods. Did your kids enjoy the new meals?",
+    votes: 2,
+    author: "grumpy19",
+    article_id: 35,
+    created_at: 1590482700000
+  },
+  {
+    body: "It's always interesting to see how children adapt to new food rules. Your story is inspiring!",
+    votes: 3,
+    author: "happyamy2016",
+    article_id: 35,
+    created_at: 1590483300000
+  },
+  {
+    body: "I can't wait to hear more about your family's experience on this diet. Keep us updated!",
+    votes: 1,
+    author: "tickle122",
+    article_id: 35,
+    created_at: 1590483900000
+  },
+  {
+    body: "This is fascinating! I never thought lab-grown meat would become a reality so soon.",
+    votes: 10,
+    author: "happyamy2016",
+    article_id: 36,
+    created_at: 1583791260000
+  },
+  {
+    body: "I'm curious about the taste of cultured meat. Is it really comparable to the real thing?",
+    votes: 8,
+    author: "jessjelly",
+    article_id: 36,
+    created_at: 1583791860000
+  },
+  {
+    body: "The idea of lab-grown meat is both exciting and a bit unsettling. I’m not sure how I feel about it yet.",
+    votes: 7,
+    author: "grumpy19",
+    article_id: 36,
+    created_at: 1583792460000
+  },
+  {
+    body: "This could change the food industry dramatically. I hope it’s as sustainable as it sounds!",
+    votes: 5,
+    author: "tickle122",
+    article_id: 36,
+    created_at: 1583793060000
+  },
+  {
+    body: "I’m intrigued by the potential of cultured meat. It might help reduce animal cruelty.",
+    votes: 4,
+    author: "weegembump",
+    article_id: 36,
+    created_at: 1583793660000
+  },
+  {
+    body: "It’s incredible how far food technology has come. I can't wait to see how this develops!",
+    votes: 3,
+    author: "cooljmessy",
+    article_id: 36,
+    created_at: 1583794260000
+  },
+  {
+    body: "The cost of €250,000 for a burger is crazy! I wonder how long until it's affordable for everyone.",
+    votes: 2,
+    author: "happyamy2016",
+    article_id: 36,
+    created_at: 1583794860000
+  },
+  {
+    body: "This could be a game changer for those who love meat but want to eat ethically. Very interesting!",
+    votes: 3,
+    author: "jessjelly",
+    article_id: 36,
+    created_at: 1583795460000
+  },
+  {
+    body: "I love how innovation in food can lead to more sustainable practices. Let’s hope it catches on!",
+    votes: 1,
+    author: "grumpy19",
+    article_id: 36,
+    created_at: 1583796060000
+  },
+  {
+    body: "I can’t believe we’re at this point! The future of food is truly fascinating.",
+    votes: 2,
+    author: "tickle122",
+    article_id: 36,
+    created_at: 1583796660000
+  },
+  {
+    body: "What a beautifully written tribute! Ten Hag truly deserves this recognition for his work.",
+    votes: 10,
+    author: "happyamy2016",
+    article_id: 37,
+    created_at: 1584890500000
+  },
+  {
+    body: "I love the way you captured his journey from player to manager. He’s really transformed Ajax!",
+    votes: 9,
+    author: "jessjelly",
+    article_id: 37,
+    created_at: 1584891100000
+  },
+  {
+    body: "Ten Hag’s tactics have been revolutionary! It’s exciting to see how he’s reshaping modern football.",
+    votes: 8,
+    author: "grumpy19",
+    article_id: 37,
+    created_at: 1584891700000
+  },
+  {
+    body: "This poem really brings out the passion of football. Ten Hag is indeed a visionary coach.",
+    votes: 7,
+    author: "tickle122",
+    article_id: 37,
+    created_at: 1584892300000
+  },
+  {
+    body: "Ajax’s style of play under Ten Hag is mesmerizing! It’s like watching a well-choreographed dance.",
+    votes: 5,
+    author: "weegembump",
+    article_id: 37,
+    created_at: 1584892900000
+  },
+  {
+    body: "The way you described his impact on the players is spot on! He really brings out the best in them.",
+    votes: 6,
+    author: "cooljmessy",
+    article_id: 37,
+    created_at: 1584893500000
+  },
+  {
+    body: "I can’t wait to see what he does next in Europe! His teams always play with such heart.",
+    votes: 4,
+    author: "happyamy2016",
+    article_id: 37,
+    created_at: 1584894100000
+  },
+  {
+    body: "This captures the essence of what it means to be a great manager. Well done!",
+    votes: 3,
+    author: "jessjelly",
+    article_id: 37,
+    created_at: 1584894700000
+  },
+  {
+    body: "Ten Hag is truly a master tactician. Ajax is lucky to have him leading the charge!",
+    votes: 2,
+    author: "grumpy19",
+    article_id: 37,
+    created_at: 1584895300000
+  },
+  {
+    body: "Great article! I love how you emphasized the team’s journey and Ten Hag's influence.",
+    votes: 2,
+    author: "tickle122",
+    article_id: 37,
+    created_at: 1584895900000
+  }
+
+
+]

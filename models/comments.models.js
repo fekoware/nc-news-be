@@ -9,6 +9,8 @@ const deleteComment = (comment_id) => {
 };
 
 const incVotes = (vote, comment_id) => {
+
+  console.log(vote, comment_id, "inside comment model")
   return db
     .query(
       `
@@ -18,6 +20,7 @@ const incVotes = (vote, comment_id) => {
       [vote, comment_id]
     )
     .then((result) => {
+      console.log("inside result for commment model")
       if (result.rows.length === 0) {
         return Promise.reject({ message: "Bad Request", status: 400 });
       }
