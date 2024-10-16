@@ -1340,7 +1340,7 @@ module.exports = [
   {
     body: "Tsu’ Chu sounds fascinating! Makes you think how different football would be if it kept some of those ancient rules.",
     votes: 5,
-    author: "sportshistorybuff",
+    author: "grumpy19",
     article_id: 20,
     created_at: 1583876200000
   },
