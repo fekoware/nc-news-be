@@ -7,7 +7,7 @@ const fetchUsers = () => {
       return result.rows;
     })
     .catch((err) => {
-      next(err);
+      console.log(err);
     });
 };
 
