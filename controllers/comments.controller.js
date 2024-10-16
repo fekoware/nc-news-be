@@ -18,7 +18,7 @@ const updateVotes = (req, res, next) => {
     const {comment_id} = req.params
 
     incVotes(inc_votes, comment_id).then((comment) => {
-        console.log(comment)
+        console.log(comment, "inside controller")
         res.status(200).send(comment)
     }).catch((err) => {
         next(err)
