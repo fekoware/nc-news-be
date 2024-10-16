@@ -298,7 +298,7 @@ describe("GET", () => {
 
 describe("POST", () => {
   describe("/api/articles/:article_id/comments", () => {
-    it.only("201: inserts new comment into db and returns comment to client", () => {
+    it("201: inserts new comment into db and returns comment to client", () => {
       const newComment = {
         username: "icellusedkars",
         body: "testing api posting",
@@ -459,7 +459,7 @@ describe("PATCH", () => {
         .send(vote)
         .expect(200)
         .then((result) => {
-          expect(result.body.votes).toBe(1);
+          expect(result.body.votes).toBe(15);
         });
     });
     // error test for when invalid comment number is given
